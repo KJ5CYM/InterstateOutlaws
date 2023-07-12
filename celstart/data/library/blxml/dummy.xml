@@ -1,0 +1,10 @@
+<library>
+  <addon plugin="cel.addons.xmlscripts">
+    <script name="dummy">
+      <event name="init">
+        <print value="'Initializing dummy...'" />
+      </event>
+    </script>
+</addon>
+</library>
+

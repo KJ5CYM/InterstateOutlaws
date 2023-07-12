@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+      <shader><file>/shader/stat_dyn_reflect.xml</file></shader>
+  </shaders>
+  <textures>
+    <texture name="trekkerglass.png">
+      <file>textures/trekkerglass.png</file>
+    </texture>
+    <texture name="trekkertires.png">
+      <file>textures/trekkertires.png</file>
+    </texture>
+    <texture name="top.jpg">
+      <file>textures/top.jpg</file>
+    </texture>
+    <texture name="frontback.jpg">
+      <file>textures/frontback.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="Translucent_Glastrekkerglass.png">
+      <texture>trekkerglass.png</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="Layer0.001trekkertires.png">
+      <texture>trekkertires.png</texture>
+    </material>
+    <material name="FrontColortop.jpg">
+      <texture>top.jpg</texture>
+    </material>
+    <material name="Layer0top.jpg">
+      <texture>top.jpg</texture>
+    </material>
+    <material name="frontback.jpg">
+      <texture>frontback.jpg</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genTrekkerRight</library>
+  <library>factories/genTrekkerFront</library>
+  <library>factories/genTrekkerLeft</library>
+  <library>factories/genTrekkerWheel</library>
+  <library>factories/genTrekkerRear</library>
+  <library>factories/genTrekkerBody</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="Trekker-Engine">
+      <position y="0.714893" x="-0.0399135" z="-1.01793"/>
+      <xvector y="-4.20411e-06" x="-1" z="4.11669e-06"/>
+      <yvector y="9.41749e-07" x="4.11668e-06" z="1"/>
+      <zvector y="1" x="4.11668e-06" z="-1.38682e-06"/>
+    </node>
+    <node name="Trekker-Exhaust1">
+      <position y="0.303425" x="-0.380127" z="1.50367"/>
+      <xvector y="-4.20411e-06" x="1" z="-3.96569e-06"/>
+      <yvector y="-9.07183e-06" x="-3.96573e-06" z="-1"/>
+      <zvector y="1" x="-4.11673e-06" z="-9.22281e-06"/>
+    </node>
+    <node name="Trekker-Rear1">
+      <position y="0.48113" x="0.259151" z="1.25285"/>
+      <xvector y="-4.20411e-06" x="1" z="-3.96569e-06"/>
+      <yvector y="-9.07183e-06" x="-3.96573e-06" z="-1"/>
+      <zvector y="1" x="-4.11673e-06" z="-9.22281e-06"/>
+    </node>
+    <node name="Trekker-Side1">
+      <position y="0.712788" x="0.544304" z="0.876415"/>
+      <xvector y="-0.323114" x="-0.94636" z="2.85045e-06"/>
+      <yvector y="-4.13667e-08" x="3.02614e-06" z="1"/>
+      <zvector y="0.94636" x="0.323114" z="-1.01009e-06"/>
+    </node>
+    <node name="Trekker-Side2">
+      <position y="0.719879" x="-0.626979" z="0.876414"/>
+      <xvector y="0.41581" x="-0.909451" z="5.12442e-06"/>
+      <yvector y="3.32111e-06" x="7.15307e-06" z="1"/>
+      <zvector y="0.909451" x="-0.41581" z="-1.29792e-06"/>
+    </node>
+    <node name="Trekker-Roof1">
+      <position y="1.13347" x="0.259146" z="-0.0835225"/>
+      <xvector y="-4.20411e-06" x="-1" z="4.11669e-06"/>
+      <yvector y="9.41749e-07" x="4.11668e-06" z="1"/>
+      <zvector y="1" x="4.11668e-06" z="-1.38682e-06"/>
+    </node>
+    <node name="Trekker-Front1">
+      <position y="0.742991" x="0.304319" z="-1.13735"/>
+      <xvector y="-4.20411e-06" x="-1" z="4.11669e-06"/>
+      <yvector y="9.41749e-07" x="4.11668e-06" z="1"/>
+      <zvector y="1" x="4.11668e-06" z="-1.38682e-06"/>
+    </node>
+  </sector>
+  <sequences/>
+</world>

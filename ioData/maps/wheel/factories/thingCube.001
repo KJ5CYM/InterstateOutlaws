@@ -1,0 +1,171 @@
+<library>
+    <meshfact name="thingCube.001">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>wall2-2.png</material>
+            <v x="-81.5" y="-0.5" z="48.5" />
+            <v x="-81.5" y="-0.5" z="48" />
+            <v x="-84.5" y="-0.5" z="48" />
+            <v x="-84.5" y="-0.5" z="48.5" />
+            <v x="-92" y="21" z="48.5" />
+            <v x="-92" y="21" z="48" />
+            <v x="-95" y="21" z="48" />
+            <v x="-95" y="21" z="48.5" />
+            <v x="-95" y="21" z="48.5" />
+            <v x="-95" y="21" z="42" />
+            <v x="-95" y="21" z="42" />
+            <v x="-95" y="21" z="41.5" />
+            <v x="-92" y="21" z="41.5" />
+            <v x="-92" y="21" z="42" />
+            <v x="-84.5" y="-0.5" z="42" />
+            <v x="-84.5" y="-0.5" z="41.5" />
+            <v x="-81.5" y="-0.5" z="41.5" />
+            <v x="-81.5" y="-0.5" z="42" />
+            <p name="0">
+                <v>3</v>
+                <v>2</v>
+                <v>1</v>
+                <v>0</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.5625" v="0.9375" />
+                    <uv idx="1" u="-0.1875" v="0.9375" />
+                    <uv idx="0" u="-0.1875" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>5</v>
+                <v>6</v>
+                <v>8</v>
+                <v>4</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="-0.0625" v="0.8125" />
+                    <uv idx="1" u="-0.0625" v="0.9375" />
+                    <uv idx="0" u="0.6875" v="0.9375" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>1</v>
+                <v>5</v>
+                <v>4</v>
+                <v>0</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.5625" v="-4.5625" />
+                    <uv idx="1" u="0.4375" v="-4.5625" />
+                    <uv idx="0" u="0.4375" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>2</v>
+                <v>6</v>
+                <v>5</v>
+                <v>1</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="-2.0625" v="-4.5625" />
+                    <uv idx="1" u="-2.8125" v="-4.5625" />
+                    <uv idx="0" u="-0.1875" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>3</v>
+                <v>7</v>
+                <v>6</v>
+                <v>2</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.6875" v="-4.5625" />
+                    <uv idx="1" u="0.8125" v="-4.5625" />
+                    <uv idx="0" u="0.8125" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>8</v>
+                <v>3</v>
+                <v>0</v>
+                <v>4</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="3.3125" v="6.0625" />
+                    <uv idx="1" u="2.5625" v="6.0625" />
+                    <uv idx="0" u="-0.0625" v="0.6875" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>17</v>
+                <v>13</v>
+                <v>9</v>
+                <v>14</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="-2.0625" v="-4.5625" />
+                    <uv idx="1" u="-1.3125" v="-4.5625" />
+                    <uv idx="0" u="1.3125" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>14</v>
+                <v>10</v>
+                <v>11</v>
+                <v>15</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.5625" v="-4.5625" />
+                    <uv idx="1" u="0.6875" v="-4.5625" />
+                    <uv idx="0" u="0.6875" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="8">
+                <v>15</v>
+                <v>11</v>
+                <v>12</v>
+                <v>16</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="-2.0625" v="-4.5625" />
+                    <uv idx="1" u="-2.8125" v="-4.5625" />
+                    <uv idx="0" u="-0.1875" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="9">
+                <v>16</v>
+                <v>12</v>
+                <v>13</v>
+                <v>17</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.6875" v="-4.5625" />
+                    <uv idx="1" u="0.5625" v="-4.5625" />
+                    <uv idx="0" u="0.5625" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="10">
+                <v>12</v>
+                <v>11</v>
+                <v>9</v>
+                <v>13</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="-0.0625" v="0.6875" />
+                    <uv idx="1" u="-0.0625" v="0.8125" />
+                    <uv idx="0" u="0.6875" v="0.8125" />
+                </texmap>
+            </p>
+            <p name="11">
+                <v>16</v>
+                <v>17</v>
+                <v>14</v>
+                <v>15</v>
+                <material>wall2-2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.5625" v="0.6875" />
+                    <uv idx="1" u="1.3125" v="0.6875" />
+                    <uv idx="0" u="1.3125" v="0.8125" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

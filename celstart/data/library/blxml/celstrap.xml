@@ -1,0 +1,142 @@
+<world>
+  <!-- Main entrance to run generic xml worlds by using:
+       ./bootstrap cel.behaviourlayer.xml bootstrap load <filename> celstrap.xml
+       imposes the following requirements on the map:
+        It looks for a player called camera,
+	file called level.xml must exist and define the zones
+        behaviour.xml must exist and behaviours should be referenced here.
+  -->
+  <!-- Plugin Aliases -->
+  <plugins>
+    <plugin name="xmlbehaviour"> cel.addons.xmlscripts </plugin>
+    <plugin name="entity"> cel.addons.celentity </plugin>
+    <plugin name="entitytpl"> cel.addons.celentitytpl </plugin>
+  </plugins>
+
+  <!-- Allowed Property Classes -->
+  <addon plugin="xmlbehaviour">
+    <pcfactory> cel.pcfactory.movable </pcfactory>
+    <pcfactory> cel.pcfactory.linmove </pcfactory>
+    <pcfactory> cel.pcfactory.actormove </pcfactory>
+    <pcfactory> cel.pcfactory.solid </pcfactory>
+    <pcfactory> cel.pcfactory.colldet </pcfactory>
+    <pcfactory> cel.pcfactory.movableconst_cd </pcfactory>
+    <pcfactory> cel.pcfactory.gravity </pcfactory>
+    <pcfactory> cel.pcfactory.region </pcfactory>
+    <pcfactory> cel.pcfactory.defaultcamera </pcfactory>
+    <pcfactory> cel.pcfactory.tooltip </pcfactory>
+    <pcfactory> cel.pcfactory.timer </pcfactory>
+    <pcfactory> cel.pcfactory.inventory </pcfactory>
+    <pcfactory> cel.pcfactory.characteristics </pcfactory>
+    <pcfactory> cel.pcfactory.mesh </pcfactory>
+    <pcfactory> cel.pcfactory.meshselect </pcfactory>
+    <pcfactory> cel.pcfactory.pccommandinput </pcfactory>
+    <pcfactory> cel.pcfactory.graph </pcfactory>
+    <pcfactory> cel.pcfactory.link </pcfactory>
+    <pcfactory> cel.pcfactory.node </pcfactory>
+    <pcfactory> cel.pcfactory.navgraphrules </pcfactory>
+    <pcfactory> cel.pcfactory.navgraphrulesfps </pcfactory>
+    <pcfactory> cel.pcfactory.zonemanager </pcfactory>
+    <pcfactory> cel.pcfactory.properties </pcfactory>
+    <pcfactory> cel.pcfactory.quest </pcfactory>
+    <pcfactory> cel.pcfactory.trigger </pcfactory>
+    <pcfactory> cel.pcfactory.billboard </pcfactory>
+    <pcfactory> cel.pcfactory.hover </pcfactory>
+    <pcfactory> cel.pcfactory.craft </pcfactory>
+    <pcfactory> cel.pcfactory.mechsys </pcfactory>
+    <pcfactory> cel.pcfactory.mechobject </pcfactory>
+    <pcfactory> cel.pcfactory.soundsource </pcfactory>
+    <pcfactory> cel.pcfactory.soundlistener </pcfactory>
+  </addon>
+
+  <!-- This should be a library that holds references to all behaviours
+  using <library> nodes. -->
+  <library>behaviour.xml</library>
+
+  <!-- Level Manager Behaviour -->
+  <addon plugin="xmlbehaviour">
+    <script name="B2CS_levelmgr">
+      <event name="init">
+        <print value="'Start initializing game...'" />
+        <createpropclass name="pczonemanager"/>
+      </event>
+
+      <event name="quit">
+      </event>
+
+      <event name="point_player">
+        <action propclass="pc(pczonemanager)" id="actid(PointMesh)">
+          <par id="parid(entity)" value="@arg_player" />
+          <par id="parid(region)" value="@arg_region" />
+          <par id="parid(start)" value="@arg_camera" />
+        </action>
+      </event>
+
+      <event name="level_start">
+        <print value="@arg_path" />
+        <print value="@arg_file" />
+        <action propclass="pc(pczonemanager)" id="actid(Load)">
+          <par id="parid(file)" value="@arg_file" />
+        </action>
+      </event>
+
+      <event name="level_exit">
+        <quit/>
+      </event>
+    </script>
+
+  </addon>
+
+  <!-- Dummy Behaviour -->
+  <addon plugin="xmlbehaviour">
+    <script name="B2CS_dummy">
+      <event name="init">
+          <createpropclass name="pcdefaultcamera"/>
+      </event>
+      <event name="enter_world">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetZoneManager)">
+          <par id="parid(entity)" value="@arg_levelmgr" />
+          <par id="parid(region)" value="@arg_region" />
+          <par id="parid(start)" value="@arg_camera" />
+	</action>
+      </event>
+    </script>
+  </addon>
+ 
+  <!-- Main Behaviour -->
+  <addon plugin="xmlbehaviour">
+    <script name="be_main">
+      <event name="init">
+	<!-- Create Level Manager Entity -->
+      	<createentity name="B2CS_levelmgr" behaviour="B2CS_levelmgr"/>
+	<!-- Create Dummy -->
+      	<createentity name="B2CS_dummy" behaviour="B2CS_dummy"/>
+	<!-- Load Level -->
+        <call entity="ent(B2CS_levelmgr)" event="level_start">
+          <par id="parid(arg_path)" value="'.'" />
+          <par id="parid(arg_file)" value="'level.xml'" />
+        </call>
+	<!-- Point Dummy so map gets loaded -->
+        <call entity="ent(B2CS_dummy)" event="enter_world">
+          <par id="parid(arg_region)" value="'main'" />
+          <par id="parid(arg_levelmgr)" value="'B2CS_levelmgr'" />
+          <par id="parid(arg_camera)" value="'Camera'" />
+        </call>
+	<!-- Point Player -->
+        <call entity="ent(B2CS_levelmgr)" event="point_player">
+          <par id="parid(arg_region)" value="'main'" />
+          <par id="parid(arg_player)" value="'camera'" />
+          <par id="parid(arg_camera)" value="''" />
+        </call>
+	<!-- Destroy Dummy -->
+	<destroyentity name="B2CS_dummy" />
+      </event>
+    </script>
+  </addon>
+
+  <!-- Main Entity -->
+  <addon plugin="entity" entityname="en_main">
+    <behaviour name="be_main"/>
+  </addon>
+
+</world>

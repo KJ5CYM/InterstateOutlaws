@@ -1,0 +1,89 @@
+<library>
+    <meshfact name="thingCube">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>rockwall1.jpeg</material>
+            <v x="-29.5" y="-0.5" z="8.25" />
+            <v x="-29.5" y="-0.5" z="3.25" />
+            <v x="-60.5" y="-0.5" z="3.25" />
+            <v x="-60.5" y="-0.5" z="8.25" />
+            <v x="-29.5" y="2" z="8.25" />
+            <v x="-29.5" y="2" z="3.25" />
+            <v x="-60.5" y="2" z="3.25" />
+            <v x="-60.5" y="2" z="8.25" />
+            <p name="0">
+                <v>3</v>
+                <v>2</v>
+                <v>1</v>
+                <v>0</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="3.09375" v="0.514648" />
+                    <uv idx="1" u="-4.65625" v="0.514648" />
+                    <uv idx="0" u="-4.65625" v="0.327148" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>5</v>
+                <v>6</v>
+                <v>7</v>
+                <v>4</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="-4.65625" v="0.327148" />
+                    <uv idx="1" u="-4.65625" v="0.85293" />
+                    <uv idx="0" u="3.09375" v="0.85293" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>1</v>
+                <v>5</v>
+                <v>4</v>
+                <v>0</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="3.15625" v="0.0458984" />
+                    <uv idx="1" u="2.78125" v="0.0458984" />
+                    <uv idx="0" u="2.78125" v="0.358398" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>2</v>
+                <v>6</v>
+                <v>5</v>
+                <v>1</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="3.09375" v="0.0458984" />
+                    <uv idx="1" u="-4.65625" v="0.0458984" />
+                    <uv idx="0" u="-4.65625" v="0.358398" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>3</v>
+                <v>7</v>
+                <v>6</v>
+                <v>2</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="3.28125" v="0.0458984" />
+                    <uv idx="1" u="3.65625" v="0.0458984" />
+                    <uv idx="0" u="3.65625" v="0.358398" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>7</v>
+                <v>3</v>
+                <v>0</v>
+                <v>4</v>
+                <material>rockwall1.jpeg</material>
+                <texmap>
+                    <uv idx="2" u="3.09375" v="0.608398" />
+                    <uv idx="1" u="-4.65625" v="0.608398" />
+                    <uv idx="0" u="-4.65625" v="0.295898" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

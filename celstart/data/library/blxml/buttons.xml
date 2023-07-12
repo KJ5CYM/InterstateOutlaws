@@ -1,0 +1,620 @@
+<library>
+  <addon plugin="cel.addons.xmlscripts">
+    <pcfactory>cel.pcfactory.billboard</pcfactory>
+    <pcfactory>cel.pcfactory.properties</pcfactory>
+    <pcfactory>cel.pcfactory.timer</pcfactory>
+    <pcfactory>cel.pcfactory.pccommandinput</pcfactory>
+
+    <!-- Superscript used by the tools below -->
+    <script name="celButtonTools">
+      <event name="init">
+	<if eval="!ent(celButtonTools)">
+	  <createentity name="celButtonTools" />
+	  <createpropclass entity="celButtonTools" name="pcproperties" />
+	  <var entity="celButtonTools" name="modal" value="false" />
+	</if>
+      </event>
+    </script>
+
+    <!-- **********************************************************************
+      -  A button.
+      -  This script can be used for a button. There are two ways to use this:
+      -    1. Subclass this script so you can override 'celButtonSelect'.
+      -    2. Create an entity with this script and use SetMessageTarget() to
+      -       control where the above message will go too.
+      -  In both cases you call Construct() to setup the button.
+      -  ********************************************************************** -->
+    <script name="celButton">
+      <superscript name="celButtonTools" />
+
+      <event name="init">
+	<super />
+	<var name="message_target" value="ent()" />
+	<var name="focused" value="false" />
+	<var name="ontarget" value="false" />
+	<var name="color" value="rgb(0,0,0)" />
+	<var name="selectcolor" value="rgb(1,1,1)" />
+	<var name="textoffset" value="[0,0]" />
+	<var name="selecttextoffset" value="[0,0]" />
+	<var name="modal_allowed" value="false" />
+      </event>
+
+      <!--
+        - Construct the button.
+	- Parameters:
+	-    @x: x location
+	-    @y: y location
+	-    @w: width
+	-    @h: height
+	-    @mat: material used for the button
+	-    @matpress: material used for the button when pressed in
+	-->
+      <event name="Construct">
+	<var name="mat" value="@mat" />
+	<var name="matpress" value="@matpress" />
+	<createpropclass name="pcbillboard" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(name)" value="button+entname()" />
+	<property id="propid(materialname)" value="?mat" />
+	<property id="propid(movable)" value="false" />
+	<property id="propid(clickable)" value="true" />
+	<property id="propid(restack)" value="false" />
+	<property id="propid(sendmove)" value="true" />
+	<property id="propid(x)" value="@x" />
+	<property id="propid(y)" value="@y" />
+	<property id="propid(width)" value="@w" />
+	<property id="propid(height)" value="@h" />
+
+	<createpropclass name="pccommandinput" />
+	<default propclass="pc(pccommandinput)" />
+	<expr eval="Bind{trigger=MouseButton0,command=unselect}" />
+      </event>
+
+      <event name="recalc_textoffset">
+	<default propclass="pc(pcbillboard)" />
+	<lvar name="w" value="GetTextWidth{}" />
+	<lvar name="h" value="GetTextHeight{}" />
+	<lvar name="dx" value="(property(propid(width))-#w)/2" />
+	<lvar name="dy" value="(property(propid(height))-#h)/2" />
+	<var name="textoffset" value="[#dx,#dy]" />
+	<var name="selecttextoffset" value="[#dx+768,#dy+768]" />
+	<property id="propid(text_offset)" value="?textoffset" />
+      </event>
+
+      <!--
+        - Call this if this button should work in modal mode too.
+	-->
+      <event name="SetModalAllowed">
+	<var name="modal_allowed" value="true" />
+      </event>
+
+      <!--
+        - Set optional text for this button.
+	- Parameters:
+	-    @text: text to use.
+	-->
+      <event name="SetText">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text)" value="@text" />
+	<call event="recalc_textoffset" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Set optional font for this button.
+	- Parameters:
+	-    @font: font to use.
+	-    @size: size.
+	-->
+      <event name="SetTextFont">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_font_size)" value="@size" />
+	<property id="propid(text_font)" value="@font" />
+	<call event="recalc_textoffset" />
+      </event>
+
+      <!--
+        - Set normal text color and text selection color
+	- Default is black text and white selection color.
+	- Parameters:
+	-   @color: normal color
+	-   @selectcolor: selected color
+	-->
+      <event name="SetColor">
+	<var name="color" value="@color" />
+	<var name="selectcolor" value="@selectcolor" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Set the message target for receiving celButtonSelect
+	- messages.
+	- Parameters:
+	-    @target: target entity or name
+	- The message will get the following parameters:
+	-    @entity: entity causing the message (i.e. this button)
+	-->
+      <event name="SetMessageTarget">
+	<var name="message_target" value="@target" />
+      </event>
+
+      <!--
+        - Default message handler. Does nothing. Override
+	- to use.
+	-->
+      <event name="celButtonSelect">
+      </event>
+
+      <event name="pcbillboard_select">
+	<if eval="?celButtonTools.modal && !?modal_allowed">
+	  <stop/>
+	</if>
+	<if eval="@button!=0"> <stop/> </if>
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialnamefast)" value="?matpress" />
+	<property id="propid(text_fg_color)" value="?selectcolor" />
+	<property id="propid(text_offset)" value="?selecttextoffset" />
+	<var name="focused" value="true" />
+	<var name="ontarget" value="true" />
+      </event>
+
+      <event name="pccommandinput_unselect0">
+	<lvar name="t" value="?ontarget" />
+	<var name="focused" value="false" />
+	<var name="ontarget" value="false" />
+	<if eval="!#t"> <stop /> </if>
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialnamefast)" value="?mat" />
+	<property id="propid(text_fg_color)" value="?color" />
+	<property id="propid(text_offset)" value="?textoffset" />
+	<expr eval="(?message_target)::celButtonSelect(entity=ent())" />
+      </event>
+
+      <event name="pcbillboard_move">
+	<if eval="!?focused"> <stop /> </if>
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialnamefast)" value="?matpress" />
+	<property id="propid(text_fg_color)" value="?selectcolor" />
+	<property id="propid(text_offset)" value="?selecttextoffset" />
+	<var name="ontarget" value="true" />
+      </event>
+
+      <event name="pcbillboard_moveaway">
+	<if eval="!?focused"> <stop /> </if>
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialnamefast)" value="?mat" />
+	<property id="propid(text_fg_color)" value="?color" />
+	<property id="propid(text_offset)" value="?textoffset" />
+	<var name="ontarget" value="false" />
+      </event>
+    </script>
+
+    <!-- **********************************************************************
+      -  A label.
+      -  This script can be used for a label.
+      -  Call Construct() to setup the label.
+      -  ********************************************************************** -->
+    <script name="celLabel">
+      <superscript name="celButtonTools" />
+
+      <event name="init">
+	<super />
+	<var name="color" value="rgb(1,1,1)" />
+	<var name="textoffset" value="[0,0]" />
+      </event>
+
+      <!--
+        - Construct the label.
+	- Parameters:
+	-    @x: x location
+	-    @y: y location
+	-    @w: width
+	-    @h: height
+	-->
+      <event name="Construct">
+	<createpropclass name="pcbillboard" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(name)" value="label+entname()" />
+	<property id="propid(movable)" value="false" />
+	<property id="propid(clickable)" value="true" />
+	<property id="propid(restack)" value="false" />
+	<property id="propid(sendmove)" value="true" />
+	<property id="propid(x)" value="@x" />
+	<property id="propid(y)" value="@y" />
+	<property id="propid(width)" value="@w" />
+	<property id="propid(height)" value="@h" />
+      </event>
+
+      <event name="recalc_textoffset">
+	<default propclass="pc(pcbillboard)" />
+	<lvar name="w" value="GetTextWidth{}" />
+	<lvar name="h" value="GetTextHeight{}" />
+	<lvar name="dx" value="(property(propid(width))-#w)/2" />
+	<lvar name="dy" value="(property(propid(height))-#h)/2" />
+	<var name="textoffset" value="[#dx,#dy]" />
+	<property id="propid(text_offset)" value="?textoffset" />
+      </event>
+
+      <!--
+        - Set optional material for this label.
+	- Parameters:
+	-    @mat: material used for the label
+	-->
+      <event name="SetMaterial">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialname)" value="@mat" />
+      </event>
+
+
+      <!--
+        - Set optional text for this label.
+	- Parameters:
+	-    @text: text to use.
+	-->
+      <event name="SetText">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text)" value="@text" />
+	<call event="recalc_textoffset" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Set optional font for this label.
+	- Parameters:
+	-    @font: font to use.
+	-    @size: size.
+	-->
+      <event name="SetTextFont">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_font_size)" value="@size" />
+	<property id="propid(text_font)" value="@font" />
+	<call event="recalc_textoffset" />
+      </event>
+
+      <!--
+        - Set normal text color.
+	- Default is white text.
+	- Parameters:
+	-   @color: color
+	-->
+      <event name="SetColor">
+	<var name="color" value="@color" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+    </script>
+
+    <!-- **********************************************************************
+      -  A text input field.
+      -  This script can be used for text input.
+      -  Call Construct() to setup the text input field.
+      -  ********************************************************************** -->
+    <script name="celTextInput">
+      <superscript name="celButtonTools" />
+
+      <event name="init">
+	<super />
+	<var name="message_target" value="ent()" />
+	<var name="color" value="rgb(1,1,1)" />
+	<var name="textoffset" value="[0,0]" />
+	<var name="active" value="false" />
+	<var name="text" value="''" />
+
+
+	<createpropclass name="pccommandinput" />
+	<default propclass="pc(pccommandinput)" />
+	<property id="propid(cooked)" value="true" />
+	<property id="propid(sendtrigger)" value="true" />
+	<expr eval="Bind{trigger=key,command=handlekey}" />
+      </event>
+
+      <!--
+        - Construct the text input field.
+	- Parameters:
+	-    @x: x location
+	-    @y: y location
+	-    @w: width
+	-    @h: height
+	-->
+      <event name="Construct">
+	<createpropclass name="pcbillboard" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(name)" value="label+entname()" />
+	<property id="propid(movable)" value="false" />
+	<property id="propid(clickable)" value="true" />
+	<property id="propid(restack)" value="false" />
+	<property id="propid(sendmove)" value="true" />
+	<property id="propid(x)" value="@x" />
+	<property id="propid(y)" value="@y" />
+	<property id="propid(width)" value="@w" />
+	<property id="propid(height)" value="@h" />
+      </event>
+
+      <event name="recalc_textoffset">
+	<default propclass="pc(pcbillboard)" />
+	<lvar name="h" value="GetTextHeight{}" />
+	<lvar name="dx" value="100" />
+	<lvar name="dy" value="(property(propid(height))-#h)/2" />
+	<var name="textoffset" value="[#dx,#dy]" />
+	<property id="propid(text_offset)" value="?textoffset" />
+      </event>
+
+      <!--
+        - Set optional material for this text input field.
+	- Parameters:
+	-    @mat: material used for the text input field
+	-->
+      <event name="SetMaterial">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(materialname)" value="@mat" />
+      </event>
+
+
+      <!--
+        - Set optional starting text for this text input field.
+	- Parameters:
+	-    @text: text to use.
+	-->
+      <event name="SetText">
+	<default propclass="pc(pcbillboard)" />
+	<var name="text" value="@text" />
+	<property id="propid(text)" value="?text+'_'" />
+	<call event="recalc_textoffset" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Get the text that is currently in the field.
+        -->
+      <event name="GetText">
+	<return value="?text" />
+      </event>
+
+      <!--
+        - Set optional font for this text input field.
+	- Parameters:
+	-    @font: font to use.
+	-    @size: size.
+	-->
+      <event name="SetTextFont">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_font_size)" value="@size" />
+	<property id="propid(text_font)" value="@font" />
+	<call event="recalc_textoffset" />
+      </event>
+
+      <!--
+        - Set normal text color.
+	- Default is white text.
+	- Parameters:
+	-   @color: color
+	-->
+      <event name="SetColor">
+	<var name="color" value="@color" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Activate this text input.
+        -->
+      <event name="Activate">
+      	<var name="active" value="true" />
+      </event>
+
+      <!--
+        - Deactivate this text input.
+        -->
+      <event name="Deactivate">
+      	<var name="active" value="false" />
+      </event>
+
+      <!--
+        - Handle key.
+        -->
+      <event name="pccommandinput_handlekey1">
+        <if eval="!?active"> <stop /> </if>
+	<lvar name="t" value="@trigger" />
+	<default propclass="pc(pcbillboard)" />
+	<if eval="strlen(#t)==1">
+	    <var name="text" value="?text+#t" />
+	    <property id="propid(text)" value="?text+'_'" />
+	    <expr eval="(?message_target)::celTextInputNewText(entity=ent(),text=?text)" />
+	    <stop />
+	</if>
+	<if eval="#t==Back">
+	    <lvar name="l" value="strlen(?text)" />
+	    <if eval="#l>0">
+	    	<var name="text" value="strsub(?text,0,strlen(?text)-1)" />
+	        <property id="propid(text)" value="?text+'_'" />
+	        <expr eval="(?message_target)::celTextInputNewText(entity=ent(),text=?text)" />
+	    </if>
+	    <stop />
+	</if>
+	<if eval="#t==Enter">
+	    <call event="Deactivate" />
+	    <expr eval="(?message_target)::celTextInput(entity=ent(),text=?text)" />
+	    <stop />
+	</if>
+      </event>
+
+      <!--
+        - Set the message target for receiving celTextInput
+	- messages.
+	- Parameters:
+	-    @target: target entity or name
+	- The message will get the following parameters:
+	-    @entity: entity causing the message (i.e. this textfield)
+	-->
+      <event name="SetMessageTarget">
+	<var name="message_target" value="@target" />
+      </event>
+
+    </script>
+
+    <!-- **********************************************************************
+      -  A yes/no dialog.
+      -  This script can be used for a yes/no dialog. There are two ways to use this:
+      -    1. Subclass this script so you can override 'celDialogYes' and
+      -       'celDialogNo'.
+      -    2. Create an entity with this script and use SetMessageTarget() to
+      -       control where the above messages will go too.
+      -  In both cases you call Construct() to setup the dialog.
+      -  If the 'yes' text is empty then only one button is shown.
+      -  ********************************************************************** -->
+    <script name="celYesNoDialog">
+      <superscript name="celButtonTools" />
+
+      <event name="init">
+	<super />
+	<var name="message_target" value="ent()" />
+	<var name="color" value="rgb(0,0,0)" />
+      </event>
+
+      <!--
+        - Construct the dialog. This dialog will fail to construct if there
+	- is another modality active.
+	- Parameters:
+	-    @yes: positive text (can be empty).
+	-    @no: negative text.
+	-    @mat: material used for the buttons.
+	-    @matpress: material used for the buttons when pressed in.
+	-    @matbg: material used for the dialog background.
+	-    @x: x location
+	-    @y: y location
+	-    @w: width
+	-    @h: height
+	-    @bw: button width
+	-    @bh: button height
+	-->
+      <event name="Construct">
+	<var name="butheight" value="@bh" />
+	<if eval="?celButtonTools.modal"> <stop /> </if>
+	<var entity="celButtonTools" name="modal" value="true" />
+	<createpropclass name="pcbillboard" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(name)" value="celDialog+entname()" />
+	<property id="propid(materialname)" value="@matbg" />
+	<property id="propid(movable)" value="false" />
+	<property id="propid(clickable)" value="false" />
+	<property id="propid(restack)" value="false" />
+	<property id="propid(sendmove)" value="false" />
+	<property id="propid(x)" value="@x" />
+	<property id="propid(y)" value="@y" />
+	<property id="propid(width)" value="@w" />
+	<property id="propid(height)" value="@h" />
+
+	<if eval="@yes">
+	  <lvar name="e" value="dialog+entname()+_yes" />
+	  <createentity name="#e" behaviour="celButton" />
+	  <expr eval="(#e)::Construct(x=@x+10000,y=@y+@bh*2,w=@bw,h=@bh,mat=@mat,matpress=@matpress)" />
+	  <expr eval="(#e)::SetText(text=@yes)" />
+	  <expr eval="(#e)::SetMessageTarget(target=ent())" />
+	  <expr eval="(#e)::SetModalAllowed()" />
+	  <var entity="#e" name="action" value="yes" />
+	</if>
+
+	<lvar name="e" value="dialog+entname()+_no" />
+	<createentity name="#e" behaviour="celButton" />
+	<expr eval="(#e)::Construct(x=@x+@w-@bw-10000,y=@y+@bh*2,w=@bw,h=@bh,mat=@mat,matpress=@matpress)" />
+	<expr eval="(#e)::SetText(text=@no)" />
+	<expr eval="(#e)::SetMessageTarget(target=ent())" />
+	<expr eval="(#e)::SetModalAllowed()" />
+	<var entity="#e" name="action" value="no" />
+      </event>
+
+      <!--
+        - Set optional text for this dialog.
+	- Parameters:
+	-    @text: text to use.
+	-->
+      <event name="SetText">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text)" value="@text" />
+	<property id="propid(text_offset)" value="[10000,?butheight]" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Set optional font for this button.
+	- Parameters:
+	-    @font: font to use.
+	-    @size: size.
+	-->
+      <event name="SetTextFont">
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_font_size)" value="@size" />
+	<property id="propid(text_font)" value="@font" />
+	<lvar name="e" value="dialog+entname()+_yes" />
+	<if eval="ent(#e)">
+	  <expr eval="(#e)::SetTextFont(font=@font,size=@size)" />
+	</if>
+	<lvar name="e" value="dialog+entname()+_no" />
+	<expr eval="(#e)::SetTextFont(font=@font,size=@size)" />
+      </event>
+
+      <!--
+        - Set normal text color.
+	- Default is black text.
+	- Parameters:
+	-   @color: color
+	-->
+      <event name="SetColor">
+	<var name="color" value="@color" />
+	<default propclass="pc(pcbillboard)" />
+	<property id="propid(text_fg_color)" value="?color" />
+      </event>
+
+      <!--
+        - Set the message target for receiving celDialogYes
+        - and celDialogNo messages.
+	- Parameters:
+	-    @target: target entity or name
+	- The message will get the following parameters:
+	-    @entity: entity causing the message (i.e. this dialog)
+	-->
+      <event name="SetMessageTarget">
+	<var name="message_target" value="@target" />
+      </event>
+
+      <!--
+        - Close this dialog and destroy the entity.
+	-->
+      <event name="Close">
+	<var entity="celButtonTools" name="modal" value="false" />
+	<lvar name="e" value="dialog+entname()+_yes" />
+	<if eval="ent(#e)">
+	  <destroyentity name="#e" />
+	</if>
+	<lvar name="e" value="dialog+entname()+_no" />
+	<destroyentity name="#e" />
+	<destroyentity name="entname()" />
+      </event>
+
+      <!--
+        - Default message handler. Does nothing. Override
+	- to use.
+	-->
+      <event name="celDialogYes">
+      </event>
+
+      <!--
+        - Default message handler. Does nothing. Override
+	- to use.
+	-->
+      <event name="celDialogNo">
+      </event>
+
+      <event name="celButtonSelect">
+	<if eval="?@entity.action=='yes'">
+	  <expr eval="(?message_target)::celDialogYes(entity=ent())" />
+	  <stop />
+	</if>
+	<expr eval="(?message_target)::celDialogNo(entity=ent())" />
+      </event>
+    </script>
+
+  </addon>
+</library>
+

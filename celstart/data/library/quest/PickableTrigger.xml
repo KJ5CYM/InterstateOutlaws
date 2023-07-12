@@ -1,0 +1,21 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for an object that can be picked up on approach.
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+     <quest name="PickableTrigger">
+    	<default name="monitor" value="camera"/>
+    	<state name="onground">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" />
+		<reward type="inventory" entity="$monitor" child_entity="$this" />
+		<reward type="newstate" state="ininventory!" />
+	    </trigger>
+	</state>
+    	<state name="ininventory">
+	</state>
+</quest>
+</addon>
+</library>
+
+

@@ -1,0 +1,53 @@
+<library>
+    <shaders>
+        <shader><file>/outlaws/ioData/scripts/particle_basic2.xml</file></shader>
+    </shaders>
+    <textures>
+        <texture name='smoke.png'>
+            <file>/outlaws/textures/smoke.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name='smoke.png'>
+            <texture>smoke.png</texture>
+            <shader type="standard">particle_basic2</shader>
+        </material>
+</materials> 
+<meshfact name="weaponFire">
+    <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+    <priority>alpha</priority>
+    <ztest/>
+    <params>
+      <mixmode>
+        <add/>
+      </mixmode>
+      <material>smoke.png</material>
+      <particlesize x="0.15" y="0.15" />
+      <sortmode>dot</sortmode>
+      <transformmode>localemitter</transformmode>
+      <emitter type="sphere">
+        <duration>99999999.0</duration>
+        <emissionrate>50</emissionrate>
+        <mass min="1" max="3" />
+        <radius>2.0</radius>
+        <uniformvelocity>yes</uniformvelocity>
+        <initialvelocity x="0" y="1" z="0" />
+        <initialttl min="0.5" max="0.75" />
+      </emitter>
+      <effector type="force">
+          <randomacceleration>10</randomacceleration>
+      </effector>
+      <effector type="lincolor">
+        <color red="1.00" green="0.35" blue="0.00" alpha="0" time="1.5" />
+        <color red="1.00" green="0.22" blue="0.00" alpha=".1" time="1.3125" />
+        <color red="1.00" green="0.3" blue="0.20" alpha=".3" time="1.125" />
+        <color red="0.50" green="0.30" blue="0.20" alpha=".8" time="0.9375" />
+        <color red="0.50" green="0.30" blue="0.20" alpha=".9" time="0.75" />
+        <color red="0.50" green="0.30" blue="0.20" alpha=".97" time="0.5625" />
+        <color red="0.50" green="0.30" blue="0.20" alpha="1" time="0.375" />
+        <color red="0.00" green="0.00" blue="0.00" alpha="1" time="0.1875" />
+        <color red="0.00" green="0.00" blue="0.00" alpha="1" time="0" />
+      </effector>
+    </params>
+  </meshfact>
+</library>

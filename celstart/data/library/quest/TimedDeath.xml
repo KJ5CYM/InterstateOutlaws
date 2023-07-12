@@ -1,0 +1,20 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+  Quest to die. The entity will die after some time.
+  Parameters:
+	$timeout: time this entity will live.
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+   <quest name="TimedDeath">
+    <default name="timeout" value="10000"/>
+    <state name="init">
+        <trigger type="timeout">
+            <fireon timeout="$timeout" />
+	    <reward type="destroyentity" entity="$this" />
+        </trigger>
+    </state>
+</quest>
+</addon>
+</library>
+
+

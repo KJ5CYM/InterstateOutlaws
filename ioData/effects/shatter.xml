@@ -1,0 +1,45 @@
+<library>
+    <shaders>
+        <shader><file>/outlaws/ioData/scripts/particle_basic2.xml</file></shader>
+    </shaders>
+    <textures>
+        <texture name='dot.png'>
+            <file>/outlaws/textures/dot.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name='dot.png'>
+            <texture>dot.png</texture>
+            <shader type="standard">particle_basic2</shader>
+        </material>
+</materials> 
+<meshfact name="windowShatter">
+    <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+    <priority>alpha</priority>
+    <ztest/>
+    <params>
+      <mixmode>
+        <add/>
+      </mixmode>
+      <material>dot.png</material>
+      <particlesize x="0.1" y="0.1" />
+      <sortmode>dot</sortmode>
+      <transformmode>local</transformmode>
+      <emitter type="sphere">
+        <duration>0.25</duration>
+        <emissionrate>50</emissionrate>
+        <mass min="1" max="5" />
+        <radius>0.1</radius>
+        <uniformvelocity>yes</uniformvelocity>
+        <initialvelocity x="0" y="3" z="0" />
+        <initialttl min="1" max="1.5" />
+      </emitter>
+      <effector type="force">
+        <acceleration x="0.0" y="-9.8" z="0" />
+      </effector>
+      <effector type="force">
+        <randomacceleration>20.0</randomacceleration>
+      </effector>
+    </params>
+  </meshfact>
+</library>

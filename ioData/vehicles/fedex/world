@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders/>
+  <textures>
+    <texture name="fedexwheel.jpg">
+      <file>textures/fedexwheel.jpg</file>
+    </texture>
+    <texture name="fedexglass.jpg">
+      <file>textures/fedexglass.jpg</file>
+    </texture>
+    <texture name="fedexbumpers.jpg">
+      <file>textures/fedexbumpers.jpg</file>
+    </texture>
+    <texture name="fedexmirrors.jpg">
+      <file>textures/fedexmirrors.jpg</file>
+    </texture>
+    <texture name="fedexbody.jpg">
+      <file>textures/fedexbody.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="Color_F16fedexwheel.jpg">
+      <texture>fedexwheel.jpg</texture>
+    </material>
+    <material name="Translucent_Glass_Blufedexglass.jpg">
+      <texture>fedexglass.jpg</texture>
+    </material>
+    <material name="Color_006fedexbumpers.jpg">
+      <texture>fedexbumpers.jpg</texture>
+    </material>
+    <material name="Color_A01fedexbumpers.jpg">
+      <texture>fedexbumpers.jpg</texture>
+    </material>
+    <material name="Color_B02fedexbumpers.jpg">
+      <texture>fedexbumpers.jpg</texture>
+    </material>
+    <material name="fedexmirrors.jpg">
+      <texture>fedexmirrors.jpg</texture>
+    </material>
+    <material name="fedexbody.jpg">
+      <texture>fedexbody.jpg</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genFedexWheel</library>
+  <library>factories/genFedexFront</library>
+  <library>factories/genFedexRight</library>
+  <library>factories/genFedexLeft</library>
+  <library>factories/genFedexBody</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="Fedex-Engine">
+      <position y="0.634947" x="0.0119045" z="-1.0685"/>
+      <xvector y="8.74228e-08" x="-4.7803e-06" z="1"/>
+      <yvector y="-4.30346e-06" x="1" z="4.7803e-06"/>
+      <zvector y="1" x="3.97762e-06" z="1.74864e-07"/>
+    </node>
+    <node name="Fedex-Exhaust1">
+      <position y="0.0387929" x="-0.359707" z="1.7374"/>
+      <xvector y="-8.66252e-07" x="1" z="-1.81993e-06"/>
+      <yvector y="-1.00255e-05" x="-1.81993e-06" z="-1"/>
+      <zvector y="1" x="-7.78851e-07" z="-1.02957e-05"/>
+    </node>
+    <node name="Fedex-Rear1">
+      <position y="1.18659" x="0.320994" z="1.11122"/>
+      <xvector y="-8.66252e-07" x="1" z="-1.81993e-06"/>
+      <yvector y="-1.00255e-05" x="-1.81993e-06" z="-1"/>
+      <zvector y="1" x="-7.78851e-07" z="-1.02957e-05"/>
+    </node>
+    <node name="Fedex-Side1">
+      <position y="0.861034" x="0.542976" z="1.11407"/>
+      <xvector y="-0.683467" x="-0.729981" z="6.32347e-07"/>
+      <yvector y="2.57871e-06" x="-1.54814e-06" z="1"/>
+      <zvector y="0.729981" x="0.683467" z="-4.18414e-06"/>
+    </node>
+    <node name="Fedex-Side2">
+      <position y="0.861034" x="-0.542216" z="1.11407"/>
+      <xvector y="0.372741" x="-0.927935" z="2.57372e-06"/>
+      <yvector y="4.93727e-06" x="4.75685e-06" z="1"/>
+      <zvector y="0.927935" x="-0.372742" z="-4.23203e-06"/>
+    </node>
+    <node name="Fedex-Front1">
+      <position y="0.550274" x="0.542974" z="-0.890493"/>
+      <xvector y="-0.683467" x="-0.729981" z="6.32347e-07"/>
+      <yvector y="2.57871e-06" x="-1.54814e-06" z="1"/>
+      <zvector y="0.729981" x="0.683467" z="-4.18414e-06"/>
+    </node>
+    <node name="Fedex-Roof1">
+      <position y="1.18659" x="0.320994" z="-0.205795"/>
+      <xvector y="-6.27833e-07" x="-1" z="2.20934e-06"/>
+      <yvector y="4.27961e-06" x="2.20934e-06" z="1"/>
+      <zvector y="1" x="7.78821e-07" z="-4.48624e-06"/>
+    </node>
+    <node name="Fedex-Roof2">
+      <position y="1.1855" x="-0.379439" z="-0.205795"/>
+      <xvector y="-6.27833e-07" x="-1" z="2.20934e-06"/>
+      <yvector y="4.27961e-06" x="2.20934e-06" z="1"/>
+      <zvector y="1" x="7.78821e-07" z="-4.48624e-06"/>
+    </node>
+  </sector>
+  <sequences/>
+</world>

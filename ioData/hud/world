@@ -1,0 +1,292 @@
+<world>
+    <textures>
+        <texture name="hud_back">
+            <file>textures/hud_back.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="speedo">
+            <file>textures/speedo.png</file>
+            <keepimage/>
+            <class>nocompress</class>
+        </texture>
+        <texture name="needle">
+            <file>textures/needle.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="wheel-op">
+            <file>textures/wheel-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="wheel-light">
+            <file>textures/wheel-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="wheel-severe">
+            <file>textures/wheel-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="wheel-critical">
+            <file>textures/wheel-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="wheel-fail">
+            <file>textures/wheel-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-front-op">
+            <file>textures/armour-front-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-front-light">
+            <file>textures/armour-front-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-front-severe">
+            <file>textures/armour-front-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-front-critical">
+            <file>textures/armour-front-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-front-fail">
+            <file>textures/armour-front-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-bar-op">
+            <file>textures/armour-bar-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-bar-light">
+            <file>textures/armour-bar-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-bar-severe">
+            <file>textures/armour-bar-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-bar-critical">
+            <file>textures/armour-bar-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-bar-fail">
+            <file>textures/armour-bar-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-side-op">
+            <file>textures/armour-side-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-side-light">
+            <file>textures/armour-side-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-side-severe">
+            <file>textures/armour-side-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-side-critical">
+            <file>textures/armour-side-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-side-fail">
+            <file>textures/armour-side-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-rear-op">
+            <file>textures/armour-rear-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-rear-light">
+            <file>textures/armour-rear-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-rear-severe">
+            <file>textures/armour-rear-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-rear-critical">
+            <file>textures/armour-rear-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="armour-rear-fail">
+            <file>textures/armour-rear-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-front-op">
+            <file>textures/sus-front-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-front-light">
+            <file>textures/sus-front-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-front-severe">
+            <file>textures/sus-front-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-front-critical">
+            <file>textures/sus-front-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-front-fail">
+            <file>textures/sus-front-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-rear-op">
+            <file>textures/sus-rear-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-rear-light">
+            <file>textures/sus-rear-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-rear-severe">
+            <file>textures/sus-rear-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-rear-critical">
+            <file>textures/sus-rear-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-rear-fail">
+            <file>textures/sus-rear-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-left-op">
+            <file>textures/sus-left-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-left-light">
+            <file>textures/sus-left-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-left-severe">
+            <file>textures/sus-left-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-left-critical">
+            <file>textures/sus-left-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-left-fail">
+            <file>textures/sus-left-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-right-op">
+            <file>textures/sus-right-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-right-light">
+            <file>textures/sus-right-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-right-severe">
+            <file>textures/sus-right-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-right-critical">
+            <file>textures/sus-right-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="sus-right-fail">
+            <file>textures/sus-right-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="pt-op">
+            <file>textures/pt-op.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="pt-light">
+            <file>textures/pt-light.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="pt-severe">
+            <file>textures/pt-severe.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="pt-critical">
+            <file>textures/pt-critical.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="pt-fail">
+            <file>textures/pt-fail.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="gear-r">
+            <file>textures/gear-r.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="gear-n">
+            <file>textures/gear-n.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="gear-d">
+            <file>textures/gear-d.png</file>
+            <keepimage/>
+        </texture>
+        <texture name="networkbad">
+            <file>textures/networkbad.png</file>
+            <keepimage/>
+        </texture>
+    </textures>
+    <materials>
+        <material name="hud_back"><texture>hud_back</texture></material>
+        <material name="speedo"><texture>speedo</texture></material>
+        <material name="needle"><texture>needle</texture></material>
+        <material name="wheel-op"><texture>wheel-op</texture></material>
+        <material name="wheel-light"><texture>wheel-light</texture></material>
+        <material name="wheel-severe"><texture>wheel-severe</texture></material>
+        <material name="wheel-critical"><texture>wheel-critical</texture></material>
+        <material name="wheel-fail"><texture>wheel-fail</texture></material>
+        <material name="armour-front-op"><texture>armour-front-op</texture></material>
+        <material name="armour-front-light"><texture>armour-front-light</texture></material>
+        <material name="armour-front-severe"><texture>armour-front-severe</texture></material>
+        <material name="armour-front-critical"><texture>armour-front-critical</texture></material>
+        <material name="armour-front-fail"><texture>armour-front-fail</texture></material>
+        <material name="armour-side-op"><texture>armour-side-op</texture></material>
+        <material name="armour-side-light"><texture>armour-side-light</texture></material>
+        <material name="armour-side-severe"><texture>armour-side-severe</texture></material>
+        <material name="armour-side-critical"><texture>armour-side-critical</texture></material>
+        <material name="armour-side-fail"><texture>armour-side-fail</texture></material>
+        <material name="armour-bar-op"><texture>armour-bar-op</texture></material>
+        <material name="armour-bar-light"><texture>armour-bar-light</texture></material>
+        <material name="armour-bar-severe"><texture>armour-bar-severe</texture></material>
+        <material name="armour-bar-critical"><texture>armour-bar-critical</texture></material>
+        <material name="armour-bar-fail"><texture>armour-bar-fail</texture></material>
+        <material name="armour-rear-op"><texture>armour-rear-op</texture></material>
+        <material name="armour-rear-light"><texture>armour-rear-light</texture></material>
+        <material name="armour-rear-severe"><texture>armour-rear-severe</texture></material>
+        <material name="armour-rear-critical"><texture>armour-rear-critical</texture></material>
+        <material name="armour-rear-fail"><texture>armour-rear-fail</texture></material>
+        <material name="sus-front-op"><texture>sus-front-op</texture></material>
+        <material name="sus-front-light"><texture>sus-front-light</texture></material>
+        <material name="sus-front-severe"><texture>sus-front-severe</texture></material>
+        <material name="sus-front-critical"><texture>sus-front-critical</texture></material>
+        <material name="sus-front-fail"><texture>sus-front-fail</texture></material>
+        <material name="sus-rear-op"><texture>sus-rear-op</texture></material>
+        <material name="sus-rear-light"><texture>sus-rear-light</texture></material>
+        <material name="sus-rear-severe"><texture>sus-rear-severe</texture></material>
+        <material name="sus-rear-critical"><texture>sus-rear-critical</texture></material>
+        <material name="sus-rear-fail"><texture>sus-rear-fail</texture></material>
+        <material name="sus-left-op"><texture>sus-left-op</texture></material>
+        <material name="sus-left-light"><texture>sus-left-light</texture></material>
+        <material name="sus-left-severe"><texture>sus-left-severe</texture></material>
+        <material name="sus-left-critical"><texture>sus-left-critical</texture></material>
+        <material name="sus-left-fail"><texture>sus-left-fail</texture></material>
+        <material name="sus-right-op"><texture>sus-right-op</texture></material>
+        <material name="sus-right-light"><texture>sus-right-light</texture></material>
+        <material name="sus-right-severe"><texture>sus-right-severe</texture></material>
+        <material name="sus-right-critical"><texture>sus-right-critical</texture></material>
+        <material name="sus-right-fail"><texture>sus-right-fail</texture></material>
+        <material name="pt-op"><texture>pt-op</texture></material>
+        <material name="pt-light"><texture>pt-light</texture></material>
+        <material name="pt-severe"><texture>pt-severe</texture></material>
+        <material name="pt-critical"><texture>pt-critical</texture></material>
+        <material name="pt-fail"><texture>pt-fail</texture></material>
+        <material name="gear-r"><texture>gear-r</texture></material>
+        <material name="gear-n"><texture>gear-n</texture></material>
+        <material name="gear-d"><texture>gear-d</texture></material>
+        <material name="networkbad"><texture>networkbad</texture></material>
+    </materials>
+</world>

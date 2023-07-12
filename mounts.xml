@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level name="game_mounts_level">
+<mount vfs="/outlaws/ioData" real="$.$/ioData$/" />
+<mount vfs="/outlaws/fonts" real="$.$/ioData/fonts$/" />
+<mount vfs="/outlaws/maps" real="$.$/ioData/maps$/" />
+<mount vfs="/outlaws/vehicles" real="$.$/ioData/vehicles$/" />
+<mount vfs="/outlaws/weapons" real="$.$/ioData/weapons$/" />
+<mount vfs="/outlaws/menus" real="$.$/ioData/menus$/" />
+<mount vfs="/outlaws/hud" real="$.$/ioData/hud$/" />
+<mount vfs="/outlaws/entities" real="$.$/ioData/entities$/" />
+<mount vfs="/outlaws/effects" real="$.$/ioData/effects$/" />
+<mount vfs="/outlaws/textures" real="$.$/ioData/textures$/" />
+</level>

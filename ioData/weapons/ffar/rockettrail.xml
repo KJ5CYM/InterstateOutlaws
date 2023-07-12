@@ -1,0 +1,41 @@
+<library>
+    <shaders>
+        <shader><file>/outlaws/ioData/scripts/particle_basic_dark.xml</file></shader>
+    </shaders>
+    <textures>
+        <texture name='smoke-normed'>
+            <file>/outlaws/textures/smoke-normed.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name='smoke-normed-dark.png'>
+            <texture>smoke-normed</texture>
+            <shader type="standard">particle_basic_dark</shader>
+        </material>
+</materials>
+<meshfact name="rocketTrail">
+    <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+    <priority>alpha</priority>
+    <ztest/>
+    <params>
+      <mixmode>
+        <alpha/>
+      </mixmode>
+      <material>smoke-normed-dark.png</material>
+      <particlesize x="0.125" y="0.125" />
+      <sortmode>dot</sortmode>
+      <transformmode>localemitter</transformmode>
+      <emitter type="sphere">
+        <emissionrate>250</emissionrate>
+        <mass min="1" max="5" />
+        <radius>0.1</radius>
+        <uniformvelocity>no</uniformvelocity>
+        <initialvelocity x="0.1" y="0.1" z="0.1" />
+        <initialttl min="0.75" max="1.5" />
+      </emitter>
+      <effector type="lincolor">
+        <color red="0.3" green="0.3" blue="0.3" alpha="0.20" time="0.0" />
+      </effector>
+    </params>
+  </meshfact>
+</library>

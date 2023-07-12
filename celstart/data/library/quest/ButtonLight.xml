@@ -1,0 +1,30 @@
+ <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a light that can go on and off. This quest is supposed to be
+      used together with the Button quest.
+      To be used with a button that activates a sequence.
+      Parameters:
+	 $onred: red color for when light is on.
+	 $ongreen: green color for when light is on.
+	 $onblue: blue color for when light is on.
+	 $duration: duration for the on/off movement.
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+   <quest name="ButtonLight">
+    <default name="duration" value="500"/>
+	<state name="none">
+	</state>
+	<sequence name="light_on">
+	    <op type="light" duration="$duration" entity="$this">
+		<abscolor red="$onred" green="$ongreen" blue="$onblue" />
+	    </op>
+	</sequence>
+    	<sequence name="light_off" duration="$duration">
+	    <op type="light" entity="$this">
+		<abscolor red="0" green="0" blue="0" />
+	    </op>
+    </sequence>
+  </addon>
+</library>
+
+</quest>

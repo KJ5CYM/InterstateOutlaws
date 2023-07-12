@@ -1,0 +1,1803 @@
+<library>
+    <meshfact name="thingtownroad">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>gravel_cyc.jpg</material>
+            <v x="230" y="10" z="-260" />
+            <v x="230" y="10" z="-270" />
+            <v x="220" y="10" z="-270" />
+            <v x="220" y="10" z="-260" />
+            <v x="240" y="10" z="-270" />
+            <v x="240" y="10" z="-260" />
+            <v x="250" y="10" z="-260" />
+            <v x="250" y="10" z="-270" />
+            <v x="260" y="10" z="-270" />
+            <v x="260" y="10" z="-260" />
+            <v x="270" y="10" z="-260" />
+            <v x="270" y="10" z="-270" />
+            <v x="280" y="10" z="-270" />
+            <v x="280" y="10" z="-260" />
+            <v x="290" y="10" z="-260" />
+            <v x="290" y="10" z="-270" />
+            <v x="280" y="10" z="-280" />
+            <v x="290" y="10" z="-280" />
+            <v x="290" y="10" z="-290" />
+            <v x="280" y="10" z="-290" />
+            <v x="280" y="10" z="-300" />
+            <v x="290" y="10" z="-300" />
+            <v x="290" y="10" z="-310" />
+            <v x="280" y="10" z="-310" />
+            <v x="280" y="10" z="-250" />
+            <v x="290" y="10" z="-250" />
+            <v x="290" y="10" z="-240" />
+            <v x="280" y="10" z="-240" />
+            <v x="280" y="10" z="-230" />
+            <v x="290" y="10" z="-230" />
+            <v x="290" y="10" z="-220" />
+            <v x="280" y="10" z="-220" />
+            <v x="280" y="10" z="-210" />
+            <v x="290" y="10" z="-210" />
+            <v x="300" y="10" z="-210" />
+            <v x="300" y="10" z="-220" />
+            <v x="290" y="10" z="-200" />
+            <v x="300" y="10" z="-200" />
+            <v x="300" y="10" z="-190" />
+            <v x="290" y="10" z="-190" />
+            <v x="290" y="10" z="-180" />
+            <v x="300" y="10" z="-180" />
+            <v x="310" y="10" z="-200" />
+            <v x="310" y="10" z="-210" />
+            <v x="310" y="10" z="-220" />
+            <v x="320" y="10" z="-210" />
+            <v x="320" y="10" z="-220" />
+            <v x="310" y="10" z="-230" />
+            <v x="320" y="10" z="-230" />
+            <v x="320" y="10" z="-240" />
+            <v x="310" y="10" z="-240" />
+            <v x="310" y="10" z="-250" />
+            <v x="320" y="10" z="-250" />
+            <v x="320" y="10" z="-260" />
+            <v x="310" y="10" z="-260" />
+            <v x="310" y="10" z="-270" />
+            <v x="320" y="10" z="-270" />
+            <v x="300" y="10" z="-270" />
+            <v x="300" y="10" z="-260" />
+            <v x="320" y="10" z="-280" />
+            <v x="310" y="10" z="-280" />
+            <v x="310" y="10" z="-290" />
+            <v x="320" y="10" z="-290" />
+            <v x="320" y="10" z="-300" />
+            <v x="310" y="10" z="-300" />
+            <v x="330" y="10" z="-300" />
+            <v x="330" y="10" z="-290" />
+            <v x="340" y="10" z="-290" />
+            <v x="340" y="10" z="-300" />
+            <v x="350" y="10" z="-300" />
+            <v x="350" y="10" z="-290" />
+            <v x="350" y="10" z="-280" />
+            <v x="340" y="10" z="-280" />
+            <v x="340" y="10" z="-270" />
+            <v x="350" y="10" z="-270" />
+            <v x="350" y="10" z="-260" />
+            <v x="340" y="10" z="-260" />
+            <v x="330" y="10" z="-260" />
+            <v x="330" y="10" z="-270" />
+            <v x="360" y="10" z="-270" />
+            <v x="360" y="10" z="-260" />
+            <v x="370" y="10" z="-260" />
+            <v x="370" y="10" z="-270" />
+            <v x="340" y="10" z="-250" />
+            <v x="350" y="10" z="-250" />
+            <v x="350" y="10" z="-240" />
+            <v x="340" y="10" z="-240" />
+            <v x="340" y="10" z="-230" />
+            <v x="350" y="10" z="-230" />
+            <v x="350" y="10" z="-220" />
+            <v x="340" y="10" z="-220" />
+            <v x="340" y="10" z="-210" />
+            <v x="350" y="10" z="-210" />
+            <v x="350" y="10" z="-200" />
+            <v x="340" y="10" z="-200" />
+            <v x="340" y="10" z="-190" />
+            <v x="350" y="10" z="-190" />
+            <v x="350" y="10" z="-180" />
+            <v x="340" y="10" z="-180" />
+            <v x="350" y="10" z="-170" />
+            <v x="340" y="10" z="-170" />
+            <v x="340" y="10" z="-160" />
+            <v x="350" y="10" z="-160" />
+            <v x="350" y="10" z="-150" />
+            <v x="340" y="10" z="-150" />
+            <v x="360" y="10" z="-160" />
+            <v x="360" y="10" z="-150" />
+            <v x="370" y="10" z="-160" />
+            <v x="370" y="10" z="-150" />
+            <v x="380" y="10" z="-150" />
+            <v x="380" y="10" z="-160" />
+            <v x="390" y="10" z="-150" />
+            <v x="390" y="10" z="-160" />
+            <v x="390" y="10" z="-170" />
+            <v x="380" y="10" z="-170" />
+            <v x="390" y="10" z="-180" />
+            <v x="380" y="10" z="-180" />
+            <v x="400" y="10" z="-170" />
+            <v x="400" y="10" z="-180" />
+            <v x="410" y="10" z="-170" />
+            <v x="410" y="10" z="-180" />
+            <v x="410" y="10" z="-190" />
+            <v x="400" y="10" z="-190" />
+            <v x="400" y="10" z="-200" />
+            <v x="410" y="10" z="-200" />
+            <v x="410" y="10" z="-210" />
+            <v x="400" y="10" z="-210" />
+            <v x="400" y="10" z="-220" />
+            <v x="410" y="10" z="-220" />
+            <v x="400" y="10" z="-230" />
+            <v x="410" y="10" z="-230" />
+            <v x="390" y="10" z="-220" />
+            <v x="390" y="10" z="-230" />
+            <v x="380" y="10" z="-220" />
+            <v x="380" y="10" z="-230" />
+            <v x="380" y="10" z="-240" />
+            <v x="390" y="10" z="-240" />
+            <v x="390" y="10" z="-250" />
+            <v x="380" y="10" z="-250" />
+            <v x="390" y="10" z="-260" />
+            <v x="380" y="10" z="-260" />
+            <v x="380" y="10" z="-270" />
+            <v x="390" y="10" z="-270" />
+            <v x="400" y="10" z="-270" />
+            <v x="400" y="10" z="-260" />
+            <v x="410" y="10" z="-260" />
+            <v x="410" y="10" z="-270" />
+            <v x="420" y="10" z="-260" />
+            <v x="420" y="10" z="-270" />
+            <v x="430" y="10" z="-270" />
+            <v x="430" y="10" z="-260" />
+            <v x="440" y="10" z="-270" />
+            <v x="440" y="10" z="-260" />
+            <v x="450" y="10" z="-270" />
+            <v x="450" y="10" z="-260" />
+            <v x="460" y="10" z="-260" />
+            <v x="460" y="10" z="-270" />
+            <v x="470" y="10" z="-270" />
+            <v x="470" y="10" z="-260" />
+            <v x="480" y="10" z="-260" />
+            <v x="480" y="10" z="-270" />
+            <v x="480" y="10" z="-250" />
+            <v x="470" y="10" z="-250" />
+            <v x="480" y="10" z="-240" />
+            <v x="470" y="10" z="-240" />
+            <v x="480" y="10" z="-230" />
+            <v x="470" y="10" z="-230" />
+            <v x="480" y="10" z="-220" />
+            <v x="470" y="10" z="-220" />
+            <v x="480" y="10" z="-210" />
+            <v x="470" y="10" z="-210" />
+            <v x="470" y="10" z="-200" />
+            <v x="480" y="10" z="-200" />
+            <v x="480" y="10" z="-190" />
+            <v x="470" y="10" z="-190" />
+            <v x="470" y="10" z="-180" />
+            <v x="480" y="10" z="-180" />
+            <v x="480" y="10" z="-170" />
+            <v x="470" y="10" z="-170" />
+            <v x="470" y="10" z="-160" />
+            <v x="480" y="10" z="-160" />
+            <v x="460" y="10" z="-170" />
+            <v x="460" y="10" z="-160" />
+            <v x="450" y="10" z="-160" />
+            <v x="450" y="10" z="-170" />
+            <v x="440" y="10" z="-170" />
+            <v x="440" y="10" z="-160" />
+            <v x="450" y="10" z="-180" />
+            <v x="440" y="10" z="-180" />
+            <v x="440" y="10" z="-190" />
+            <v x="450" y="10" z="-190" />
+            <v x="440" y="10" z="-200" />
+            <v x="450" y="10" z="-200" />
+            <v x="440" y="10" z="-210" />
+            <v x="450" y="10" z="-210" />
+            <v x="450" y="10" z="-220" />
+            <v x="440" y="10" z="-220" />
+            <v x="440" y="10" z="-230" />
+            <v x="450" y="10" z="-230" />
+            <v x="430" y="10" z="-230" />
+            <v x="430" y="10" z="-220" />
+            <v x="420" y="10" z="-220" />
+            <v x="420" y="10" z="-230" />
+            <v x="430" y="10" z="-240" />
+            <v x="420" y="10" z="-240" />
+            <v x="420" y="10" z="-250" />
+            <v x="430" y="10" z="-250" />
+            <v x="420" y="10" z="-280" />
+            <v x="430" y="10" z="-280" />
+            <v x="420" y="10" z="-290" />
+            <v x="430" y="10" z="-290" />
+            <v x="420" y="10" z="-300" />
+            <v x="430" y="10" z="-300" />
+            <v x="430" y="10" z="-310" />
+            <v x="420" y="10" z="-310" />
+            <v x="440" y="10" z="-300" />
+            <v x="440" y="10" z="-310" />
+            <v x="450" y="10" z="-300" />
+            <v x="450" y="10" z="-310" />
+            <v x="460" y="10" z="-300" />
+            <v x="460" y="10" z="-310" />
+            <v x="470" y="10" z="-300" />
+            <v x="470" y="10" z="-310" />
+            <v x="480" y="10" z="-300" />
+            <v x="480" y="10" z="-310" />
+            <v x="480" y="10" z="-290" />
+            <v x="470" y="10" z="-290" />
+            <v x="470" y="10" z="-280" />
+            <v x="480" y="10" z="-280" />
+            <v x="410" y="10" z="-310" />
+            <v x="410" y="10" z="-300" />
+            <v x="400" y="10" z="-310" />
+            <v x="400" y="10" z="-300" />
+            <v x="390" y="10" z="-300" />
+            <v x="390" y="10" z="-310" />
+            <v x="380" y="10" z="-300" />
+            <v x="380" y="10" z="-310" />
+            <v x="370" y="10" z="-300" />
+            <v x="370" y="10" z="-310" />
+            <v x="370" y="10" z="-290" />
+            <v x="380" y="10" z="-290" />
+            <v x="380" y="10" z="-280" />
+            <v x="370" y="10" z="-280" />
+            <v x="390" y="10" z="-290" />
+            <v x="390" y="10" z="-280" />
+            <p name="0">
+                <v>1</v>
+                <v>2</v>
+                <v>3</v>
+                <v>0</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>4</v>
+                <v>1</v>
+                <v>0</v>
+                <v>5</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>5</v>
+                <v>6</v>
+                <v>7</v>
+                <v>4</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>6</v>
+                <v>9</v>
+                <v>8</v>
+                <v>7</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>9</v>
+                <v>10</v>
+                <v>11</v>
+                <v>8</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>10</v>
+                <v>13</v>
+                <v>12</v>
+                <v>11</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>13</v>
+                <v>14</v>
+                <v>15</v>
+                <v>12</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>12</v>
+                <v>15</v>
+                <v>17</v>
+                <v>16</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="8">
+                <v>16</v>
+                <v>17</v>
+                <v>18</v>
+                <v>19</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="9">
+                <v>19</v>
+                <v>18</v>
+                <v>21</v>
+                <v>20</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="10">
+                <v>20</v>
+                <v>21</v>
+                <v>22</v>
+                <v>23</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="11">
+                <v>24</v>
+                <v>25</v>
+                <v>14</v>
+                <v>13</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="12">
+                <v>27</v>
+                <v>26</v>
+                <v>25</v>
+                <v>24</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="13">
+                <v>28</v>
+                <v>29</v>
+                <v>26</v>
+                <v>27</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="14">
+                <v>31</v>
+                <v>30</v>
+                <v>29</v>
+                <v>28</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="15">
+                <v>32</v>
+                <v>33</v>
+                <v>30</v>
+                <v>31</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="16">
+                <v>33</v>
+                <v>34</v>
+                <v>35</v>
+                <v>30</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="17">
+                <v>36</v>
+                <v>37</v>
+                <v>34</v>
+                <v>33</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="18">
+                <v>39</v>
+                <v>38</v>
+                <v>37</v>
+                <v>36</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="19">
+                <v>40</v>
+                <v>41</v>
+                <v>38</v>
+                <v>39</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="20">
+                <v>37</v>
+                <v>42</v>
+                <v>43</v>
+                <v>34</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="21">
+                <v>34</v>
+                <v>43</v>
+                <v>44</v>
+                <v>35</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="22">
+                <v>43</v>
+                <v>45</v>
+                <v>46</v>
+                <v>44</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="23">
+                <v>44</v>
+                <v>46</v>
+                <v>48</v>
+                <v>47</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="24">
+                <v>47</v>
+                <v>48</v>
+                <v>49</v>
+                <v>50</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="25">
+                <v>50</v>
+                <v>49</v>
+                <v>52</v>
+                <v>51</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="26">
+                <v>51</v>
+                <v>52</v>
+                <v>53</v>
+                <v>54</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="27">
+                <v>54</v>
+                <v>53</v>
+                <v>56</v>
+                <v>55</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="28">
+                <v>58</v>
+                <v>54</v>
+                <v>55</v>
+                <v>57</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="29">
+                <v>14</v>
+                <v>58</v>
+                <v>57</v>
+                <v>15</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="30">
+                <v>55</v>
+                <v>56</v>
+                <v>59</v>
+                <v>60</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="31">
+                <v>60</v>
+                <v>59</v>
+                <v>62</v>
+                <v>61</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="32">
+                <v>61</v>
+                <v>62</v>
+                <v>63</v>
+                <v>64</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="33">
+                <v>62</v>
+                <v>66</v>
+                <v>65</v>
+                <v>63</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="34">
+                <v>66</v>
+                <v>67</v>
+                <v>68</v>
+                <v>65</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="35">
+                <v>67</v>
+                <v>70</v>
+                <v>69</v>
+                <v>68</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="36">
+                <v>72</v>
+                <v>71</v>
+                <v>70</v>
+                <v>67</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="37">
+                <v>73</v>
+                <v>74</v>
+                <v>71</v>
+                <v>72</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="38">
+                <v>76</v>
+                <v>75</v>
+                <v>74</v>
+                <v>73</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="39">
+                <v>77</v>
+                <v>76</v>
+                <v>73</v>
+                <v>78</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="40">
+                <v>53</v>
+                <v>77</v>
+                <v>78</v>
+                <v>56</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="41">
+                <v>75</v>
+                <v>80</v>
+                <v>79</v>
+                <v>74</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="42">
+                <v>80</v>
+                <v>81</v>
+                <v>82</v>
+                <v>79</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="43">
+                <v>83</v>
+                <v>84</v>
+                <v>75</v>
+                <v>76</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="44">
+                <v>86</v>
+                <v>85</v>
+                <v>84</v>
+                <v>83</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="45">
+                <v>87</v>
+                <v>88</v>
+                <v>85</v>
+                <v>86</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="46">
+                <v>90</v>
+                <v>89</v>
+                <v>88</v>
+                <v>87</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="47">
+                <v>91</v>
+                <v>92</v>
+                <v>89</v>
+                <v>90</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="48">
+                <v>94</v>
+                <v>93</v>
+                <v>92</v>
+                <v>91</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="49">
+                <v>95</v>
+                <v>96</v>
+                <v>93</v>
+                <v>94</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="50">
+                <v>98</v>
+                <v>97</v>
+                <v>96</v>
+                <v>95</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="51">
+                <v>100</v>
+                <v>99</v>
+                <v>97</v>
+                <v>98</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="52">
+                <v>101</v>
+                <v>102</v>
+                <v>99</v>
+                <v>100</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="53">
+                <v>104</v>
+                <v>103</v>
+                <v>102</v>
+                <v>101</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="54">
+                <v>106</v>
+                <v>105</v>
+                <v>102</v>
+                <v>103</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="55">
+                <v>108</v>
+                <v>107</v>
+                <v>105</v>
+                <v>106</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="56">
+                <v>109</v>
+                <v>110</v>
+                <v>107</v>
+                <v>108</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="57">
+                <v>111</v>
+                <v>112</v>
+                <v>110</v>
+                <v>109</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="58">
+                <v>113</v>
+                <v>114</v>
+                <v>110</v>
+                <v>112</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="59">
+                <v>115</v>
+                <v>116</v>
+                <v>114</v>
+                <v>113</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="60">
+                <v>117</v>
+                <v>118</v>
+                <v>115</v>
+                <v>113</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="61">
+                <v>119</v>
+                <v>120</v>
+                <v>118</v>
+                <v>117</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="62">
+                <v>120</v>
+                <v>121</v>
+                <v>122</v>
+                <v>118</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="63">
+                <v>124</v>
+                <v>123</v>
+                <v>122</v>
+                <v>121</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="64">
+                <v>124</v>
+                <v>125</v>
+                <v>126</v>
+                <v>123</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="65">
+                <v>125</v>
+                <v>128</v>
+                <v>127</v>
+                <v>126</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="66">
+                <v>128</v>
+                <v>130</v>
+                <v>129</v>
+                <v>127</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="67">
+                <v>129</v>
+                <v>132</v>
+                <v>131</v>
+                <v>127</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="68">
+                <v>132</v>
+                <v>134</v>
+                <v>133</v>
+                <v>131</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="69">
+                <v>132</v>
+                <v>136</v>
+                <v>135</v>
+                <v>134</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="70">
+                <v>136</v>
+                <v>137</v>
+                <v>138</v>
+                <v>135</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="71">
+                <v>137</v>
+                <v>139</v>
+                <v>140</v>
+                <v>138</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="72">
+                <v>139</v>
+                <v>142</v>
+                <v>141</v>
+                <v>140</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="73">
+                <v>141</v>
+                <v>82</v>
+                <v>81</v>
+                <v>140</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="74">
+                <v>139</v>
+                <v>144</v>
+                <v>143</v>
+                <v>142</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="75">
+                <v>144</v>
+                <v>145</v>
+                <v>146</v>
+                <v>143</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="76">
+                <v>145</v>
+                <v>147</v>
+                <v>148</v>
+                <v>146</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="77">
+                <v>147</v>
+                <v>150</v>
+                <v>149</v>
+                <v>148</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="78">
+                <v>150</v>
+                <v>152</v>
+                <v>151</v>
+                <v>149</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="79">
+                <v>152</v>
+                <v>154</v>
+                <v>153</v>
+                <v>151</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="80">
+                <v>154</v>
+                <v>155</v>
+                <v>156</v>
+                <v>153</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="81">
+                <v>155</v>
+                <v>158</v>
+                <v>157</v>
+                <v>156</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="82">
+                <v>158</v>
+                <v>159</v>
+                <v>160</v>
+                <v>157</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="83">
+                <v>158</v>
+                <v>162</v>
+                <v>161</v>
+                <v>159</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="84">
+                <v>162</v>
+                <v>164</v>
+                <v>163</v>
+                <v>161</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="85">
+                <v>164</v>
+                <v>166</v>
+                <v>165</v>
+                <v>163</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="86">
+                <v>166</v>
+                <v>168</v>
+                <v>167</v>
+                <v>165</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="87">
+                <v>168</v>
+                <v>170</v>
+                <v>169</v>
+                <v>167</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="88">
+                <v>170</v>
+                <v>171</v>
+                <v>172</v>
+                <v>169</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="89">
+                <v>171</v>
+                <v>174</v>
+                <v>173</v>
+                <v>172</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="90">
+                <v>174</v>
+                <v>175</v>
+                <v>176</v>
+                <v>173</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="91">
+                <v>175</v>
+                <v>178</v>
+                <v>177</v>
+                <v>176</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="92">
+                <v>178</v>
+                <v>179</v>
+                <v>180</v>
+                <v>177</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="93">
+                <v>178</v>
+                <v>181</v>
+                <v>182</v>
+                <v>179</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="94">
+                <v>181</v>
+                <v>184</v>
+                <v>183</v>
+                <v>182</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="95">
+                <v>184</v>
+                <v>185</v>
+                <v>186</v>
+                <v>183</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="96">
+                <v>184</v>
+                <v>187</v>
+                <v>188</v>
+                <v>185</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="97">
+                <v>187</v>
+                <v>190</v>
+                <v>189</v>
+                <v>188</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="98">
+                <v>190</v>
+                <v>192</v>
+                <v>191</v>
+                <v>189</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="99">
+                <v>192</v>
+                <v>194</v>
+                <v>193</v>
+                <v>191</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="100">
+                <v>194</v>
+                <v>195</v>
+                <v>196</v>
+                <v>193</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="101">
+                <v>195</v>
+                <v>198</v>
+                <v>197</v>
+                <v>196</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="102">
+                <v>197</v>
+                <v>199</v>
+                <v>200</v>
+                <v>196</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="103">
+                <v>199</v>
+                <v>202</v>
+                <v>201</v>
+                <v>200</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="104">
+                <v>202</v>
+                <v>130</v>
+                <v>128</v>
+                <v>201</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="105">
+                <v>199</v>
+                <v>203</v>
+                <v>204</v>
+                <v>202</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="106">
+                <v>203</v>
+                <v>206</v>
+                <v>205</v>
+                <v>204</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="107">
+                <v>206</v>
+                <v>150</v>
+                <v>147</v>
+                <v>205</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="108">
+                <v>149</v>
+                <v>208</v>
+                <v>207</v>
+                <v>148</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="109">
+                <v>208</v>
+                <v>210</v>
+                <v>209</v>
+                <v>207</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="110">
+                <v>210</v>
+                <v>212</v>
+                <v>211</v>
+                <v>209</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="111">
+                <v>212</v>
+                <v>213</v>
+                <v>214</v>
+                <v>211</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="112">
+                <v>212</v>
+                <v>215</v>
+                <v>216</v>
+                <v>213</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="113">
+                <v>215</v>
+                <v>217</v>
+                <v>218</v>
+                <v>216</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="114">
+                <v>217</v>
+                <v>219</v>
+                <v>220</v>
+                <v>218</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="115">
+                <v>219</v>
+                <v>221</v>
+                <v>222</v>
+                <v>220</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="116">
+                <v>221</v>
+                <v>223</v>
+                <v>224</v>
+                <v>222</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="117">
+                <v>221</v>
+                <v>226</v>
+                <v>225</v>
+                <v>223</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="118">
+                <v>226</v>
+                <v>227</v>
+                <v>228</v>
+                <v>225</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="119">
+                <v>227</v>
+                <v>157</v>
+                <v>160</v>
+                <v>228</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="120">
+                <v>214</v>
+                <v>229</v>
+                <v>230</v>
+                <v>211</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="121">
+                <v>229</v>
+                <v>231</v>
+                <v>232</v>
+                <v>230</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="122">
+                <v>231</v>
+                <v>234</v>
+                <v>233</v>
+                <v>232</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="123">
+                <v>234</v>
+                <v>236</v>
+                <v>235</v>
+                <v>233</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="124">
+                <v>236</v>
+                <v>238</v>
+                <v>237</v>
+                <v>235</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="125">
+                <v>237</v>
+                <v>239</v>
+                <v>240</v>
+                <v>235</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="126">
+                <v>239</v>
+                <v>242</v>
+                <v>241</v>
+                <v>240</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="127">
+                <v>241</v>
+                <v>244</v>
+                <v>243</v>
+                <v>240</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="128">
+                <v>241</v>
+                <v>141</v>
+                <v>142</v>
+                <v>244</v>
+                <material>gravel_cyc.jpg</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <smooth />
+        </params>
+    </meshfact>
+</library>

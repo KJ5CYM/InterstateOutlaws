@@ -1,0 +1,19 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a trigger that plays a sound when triggered
+      No Parameters
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+   <quest name="PlaySoundTrigger">
+    <state name="idle">
+        <trigger type="trigger">
+            <fireon entity="$this" />
+	    <reward type="action" id="Unpause" entity="$this" pc="pcsoundsource" />
+	    <reward type="newstate" state="idle" />
+	</trigger>
+    </state>
+</quest>
+</addon>
+</library>
+
+

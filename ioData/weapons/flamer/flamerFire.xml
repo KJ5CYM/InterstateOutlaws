@@ -1,0 +1,44 @@
+<library>
+    <shaders>
+        <shader><file>/outlaws/ioData/scripts/particle_basic2.xml</file></shader>
+    </shaders>
+    <textures>
+        <texture name='smoke.png'>
+            <file>/outlaws/textures/smoke.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name='smoke.png'>
+            <texture>smoke.png</texture>
+            <shader type="standard">particle_basic2</shader>
+        </material>
+</materials>
+<meshfact name="flamerFire">
+    <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+    <priority>alpha</priority>
+    <ztest/>
+    <params>
+      <mixmode>
+        <add/>
+      </mixmode>
+      <material>smoke.png</material>
+      <particlesize x="0.3" y="0.3" />
+      <sortmode>dot</sortmode>
+      <transformmode>local</transformmode>
+      <emitter type="sphere">
+        <emissionrate>30</emissionrate>
+        <mass min="1" max="5" />
+        <radius>0.3</radius>
+        <uniformvelocity />
+        <initialvelocity x="0" y="0" z="-4" />
+        <initialttl min="1" max="1.5" />
+      </emitter>
+      <effector type="force">
+	      <randomacceleration>3</randomacceleration>
+      </effector>
+      <effector type="lincolor">
+        <color red="1.00" green="0.60" blue="0.20" alpha="1" time="0" />
+      </effector>
+    </params>
+  </meshfact>
+</library>

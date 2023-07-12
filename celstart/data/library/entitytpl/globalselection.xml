@@ -1,0 +1,26 @@
+<!-- ooooooooooooooooooooooooooooooooooooooooooooooooo
+	Template for an global entity that will set all objects draggable,
+     ooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+<addon plugin="cel.addons.celentitytpl" entityname="globalselectionentity" >
+    <propclass name="pcmeshselect">
+        <action name="SetCamera">
+	    <par name="entity" string="camera" />
+	</action>
+        <action name="SetMouseButtons">
+	    <par name="buttons" long="1" />
+	</action>
+        <action name="SetDragPlaneNormal">
+	    <par name="normal" vector="0,1,0" />
+	    <par name="camera" bool="false" />
+	</action>
+	<property name="global" bool="true" />
+	<property name="follow" bool="false" />
+	<property name="followalways" bool="true" />
+	<property name="drag" bool="true" />
+	<property name="sendmove" bool="true" />
+    </propclass>
+</addon>
+
+</library>
+

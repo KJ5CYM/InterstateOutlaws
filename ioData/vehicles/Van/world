@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="null">crystalspace.mesh.loader.null</plugin>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+      <shader><file>/shader/stat_dyn_reflect.xml</file></shader>
+  </shaders>
+  <textures>
+    <texture name='blank-reflect-mask.png'>
+      <file>/outlaws/textures/blank-reflect-mask.png</file>
+    </texture>
+    <texture name='desert-reflect.jpg'>
+      <file>/outlaws/textures/desert-reflect.jpg</file>
+    </texture>
+    <texture name="vanbody-damage.jpg">
+      <file>textures/vanbody-damage.jpg</file>
+    </texture>
+    <texture name="bumpers.jpg">
+      <file>textures/bumpers.jpg</file>
+    </texture>
+    <texture name="vanbody.jpg">
+      <file>textures/vanbody.jpg</file>
+    </texture>
+    <texture name="details1.jpg">
+      <file>textures/details1.jpg</file>
+    </texture>
+    <texture name="windows.jpg">
+      <file>textures/windows.jpg</file>
+    </texture>
+    <texture name="shocks.jpg">
+      <file>textures/shocks.jpg</file>
+    </texture>
+    <texture name="speakers.jpg">
+      <file>textures/speakers.jpg</file>
+    </texture>
+    <texture name="vanbody-t.jpg">
+      <file>textures/vanbody-t.jpg</file>
+    </texture>
+    <texture name="windows-dmg.png">
+      <file>textures/windows-dmg.png</file>
+    </texture>
+    <texture name="vanwheels.jpg">
+      <file>textures/wheels.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="bumpersbumpers.jpg">
+      <texture>bumpers.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="bodyvanbody.jpg">
+      <texture>vanbody.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="detailsdetails1.jpg">
+      <texture>details1.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="windowswindows.jpg">
+      <texture>windows.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="15 - Defaultshocks.jpg">
+      <texture>shocks.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="6 - Defaultspeakers.jpg">
+      <texture>speakers.jpg</texture>
+    </material>
+    <material name="vanbody-t.jpg">
+      <texture>vanbody-t.jpg</texture>
+    </material>
+    <material name="vanwheels.jpg">
+      <texture>vanwheels.jpg</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genVanBody-exp</library>
+  <library>factories/genVanRear</library>
+  <library>factories/genVanRight</library>
+  <library>factories/genVanFront</library>
+  <library>factories/genVanLeft</library>
+  <library>factories/genVanWheel</library>
+  <library>factories/genVanBody</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="Van-Engine">
+      <position y="0.590786" x="-0.0120602" z="-1.09831"/>
+      <xvector y="3.25841e-07" x="1" z="8.74228e-08"/>
+      <yvector y="-4.30346e-06" x="8.74242e-08" z="-1"/>
+      <zvector y="1" x="1.65478e-07" z="-3.97762e-06"/>
+    </node>
+    <node name="Van-Exhaust2">
+      <position y="-0.0223665" x="-0.303984" z="1.53783"/>
+      <xvector y="-5.87304e-06" x="-1" z="5.5472e-06"/>
+      <yvector y="2.33531e-05" x="5.54706e-06" z="1"/>
+      <zvector y="1" x="6.02391e-06" z="-2.32021e-05"/>
+    </node>
+    <node name="Van-Exhaust1">
+      <position y="-0.0223666" x="0.307306" z="1.53783"/>
+      <xvector y="-5.87304e-06" x="-1" z="5.5472e-06"/>
+      <yvector y="2.33531e-05" x="5.54706e-06" z="1"/>
+      <zvector y="1" x="6.02391e-06" z="-2.32021e-05"/>
+    </node>
+    <node name="Van-Rear1">
+      <position y="0.103024" x="-0.343169" z="1.38812"/>
+      <xvector y="-5.63462e-06" x="1" z="-5.3962e-06"/>
+      <yvector y="2.04921e-05" x="-5.39609e-06" z="-1"/>
+      <zvector y="1" x="-5.54709e-06" z="2.01027e-05"/>
+    </node>
+    <node name="Van-Side2">
+      <position y="0.850672" x="-0.574842" z="0.753007"/>
+      <xvector y="0.07449" x="-0.997222" z="-4.60455e-06"/>
+      <yvector y="1.81448e-05" x="-3.26201e-06" z="1"/>
+      <zvector y="0.997222" x="-0.0744898" z="-1.84434e-05"/>
+    </node>
+    <node name="Van-Side1">
+      <position y="0.850671" x="0.579885" z="0.753007"/>
+      <xvector y="-0.110003" x="-0.993931" z="3.87765e-05"/>
+      <yvector y="-8.57443e-06" x="3.99622e-05" z="1"/>
+      <zvector y="0.993931" x="0.110003" z="4.31303e-06"/>
+    </node>
+    <node name="Van-Front1">
+      <position y="0.139667" x="0.286636" z="-1.07681"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+    <node name="Van-Roof1">
+      <position y="1.07394" x="0.279864" z="0.085885"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+    <node name="Van-Roof2">
+      <position y="1.07394" x="-0.399412" z="0.085885"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+  </sector>
+  <sequences/>
+</world>

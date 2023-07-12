@@ -1,0 +1,40 @@
+<library>
+    <meshfact name="thingPlane.035">
+        <plugin>thingfact</plugin>
+        <priority>sky</priority>
+        <zfill />
+        <params>
+            <material>up.jpg</material>
+            <v x="1180" y="100" z="1200" />
+            <v x="1180" y="100" z="-1200" />
+            <v x="-1220" y="100" z="-1200" />
+            <v x="-1220" y="100" z="1200" />
+            <p name="0">
+                <v>3</v>
+                <v>2</v>
+                <v>1</v>
+                <v>0</v>
+                <material>up.jpg</material>
+                <texmap>
+                    <uv idx="2" u="1" v="0" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="0" v="1" />
+                </texmap>
+                <lighting>no</lighting>
+            </p>
+            <p name="0">
+                <v>0</v>
+                <v>1</v>
+                <v>2</v>
+                <v>3</v>
+                <material>up.jpg</material>
+                <texmap>
+                    <uv idx="2" u="1" v="1" />
+                    <uv idx="1" u="1" v="0" />
+                    <uv idx="0" u="0" v="0" />
+                </texmap>
+                <lighting>no</lighting>
+            </p>
+        </params>
+    </meshfact>
+</library>

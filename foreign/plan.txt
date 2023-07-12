@@ -1,0 +1,13 @@
+ok, this is the plan for generating all getters/setters:
+
+1 - make the script find all get/set/has/is attributes. DONE
+2 - generate the cel attributes (so we replace all the %cel_attribute manually created commands by automatically generated stuff). DONE
+3 - generate the cs attributes. DONE
+4 - do setter (write only attributes also). DONE
+5 - add the script to the build system so this will be generated automatically.
+
+Note we will need only to find a way to infere attributes such as the Forward() IsMovingForward() --> MovingForward. DONE
+
+BUGS:
+-there are still many getters/setters not exported due to having multiple input/output args.
+

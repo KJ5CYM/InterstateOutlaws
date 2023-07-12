@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+      <shader><file>/shader/stat_dyn_reflect.xml</file></shader>
+  </shaders>
+  <textures>  
+    <texture name='blank-reflect-mask-shiny.png'>
+      <file>/outlaws/textures/blank-reflect-mask-shiny.png</file>
+    </texture>
+    <texture name='blank-reflect-mask.png'>
+      <file>/outlaws/textures/blank-reflect-mask.png</file>
+    </texture>
+    <texture name='desert-reflect.jpg'>
+      <file>/outlaws/textures/desert-reflect.jpg</file>
+    </texture>
+    <texture name="falconwindows.png">
+      <file>textures/falconwindows.png</file>
+    </texture>
+    <texture name="otherparts.png">
+      <file>textures/otherparts.png</file>
+    </texture>
+    <texture name="chrome.png">
+      <file>textures/chrome.png</file>
+    </texture>
+    <texture name="falcon-tex.png">
+      <file>textures/falcon-tex.png</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="chrome.png">
+      <texture>chrome.png</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask-shiny.png</shadervar>
+    </material>
+    <material name="otherparts.png">
+      <texture>otherparts.png</texture>
+    </material>
+    <material name="falcon-tex.png">
+      <texture>falcon-tex.png</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genFalconRear</library>
+  <library>factories/genFalconRight</library>
+  <library>factories/genFalconLeft</library>
+  <library>factories/genFalconFront</library>
+  <library>factories/genFalconWheel</library>
+  <library>factories/genFalconBody</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="Falcon-Engine">
+      <position y="0.517854" x="0.0607528" z="-1.05978"/>
+      <xvector y="5.6426e-07" x="-3.65178e-06" z="-1"/>
+      <yvector y="-6.68765e-06" x="-1" z="3.65177e-06"/>
+      <zvector y="1" x="-7.07706e-06" z="-6.55621e-07"/>
+    </node>
+   <node name="Falcon-Exhaust1">
+      <position y="0.126927" x="0.485644" z="1.5549"/>
+      <xvector y="5.6426e-07" x="1" z="5.6426e-07"/>
+      <yvector y="-9.65599e-07" x="5.64261e-07" z="-1"/>
+      <zvector y="1" x="5.81133e-07" z="-9.97385e-07"/>
+    </node>
+    <node name="Falcon-Exhaust2">
+      <position y="0.126927" x="-0.540936" z="1.5549"/>
+      <xvector y="5.6426e-07" x="1" z="5.6426e-07"/>
+      <yvector y="-9.65599e-07" x="5.64261e-07" z="-1"/>
+      <zvector y="1" x="5.81133e-07" z="-9.97385e-07"/>
+    </node>
+    <node name="Falcon-Rear1">
+      <position y="0.27567" x="-0.247303" z="1.34879"/>
+      <xvector y="5.6426e-07" x="1" z="5.6426e-07"/>
+      <yvector y="-9.65599e-07" x="5.64261e-07" z="-1"/>
+      <zvector y="1" x="5.81133e-07" z="-9.97385e-07"/>
+    </node>
+    <node name="Falcon-Front1">
+      <position y="0.562629" x="-0.320116" z="-0.814607"/>
+      <xvector y="5.6426e-07" x="-1" z="-5.32632e-07"/>
+      <yvector y="-1.19249e-08" x="-5.32632e-07" z="1"/>
+      <zvector y="1" x="-5.6132e-07" z="4.37111e-08"/>
+    </node>
+    <node name="Falcon-Roof1">
+      <position y="0.867024" x="0.295901" z="0.277639"/>
+      <xvector y="5.6426e-07" x="-1" z="-5.32632e-07"/>
+      <yvector y="-1.19249e-08" x="-5.32632e-07" z="1"/>
+      <zvector y="1" x="-5.6132e-07" z="4.37111e-08"/>
+    </node>
+    <node name="Falcon-Roof2">
+      <position y="0.867024" x="-0.320111" z="0.277639"/>
+      <xvector y="5.6426e-07" x="-1" z="-5.32632e-07"/>
+      <yvector y="-1.19249e-08" x="-5.32632e-07" z="1"/>
+      <zvector y="1" x="-5.6132e-07" z="4.37111e-08"/>
+    </node>
+  </sector>
+  <sequences/>
+</world>

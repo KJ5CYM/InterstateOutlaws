@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+  <plugins>
+    <plugin name='thing'>crystalspace.mesh.loader.thing</plugin>
+    <plugin name='null'>crystalspace.mesh.loader.null</plugin>
+    <plugin name='genmesh'>crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name='spr3d'>crystalspace.mesh.loader.sprite.3d</plugin>
+    <plugin name='spr2d'>crystalspace.mesh.loader.sprite.2d</plugin>
+    <plugin name='cal3d'>crystalspace.mesh.loader.sprite.cal3d</plugin>
+    <plugin name='spr2dfact'>crystalspace.mesh.loader.factory.sprite.2d</plugin>
+    <plugin name='spr3dfact'>crystalspace.mesh.loader.factory.sprite.3d</plugin>
+    <plugin name='thingfact'>crystalspace.mesh.loader.factory.thing</plugin>
+    <plugin name='genmeshfact'>crystalspace.mesh.loader.factory.genmesh</plugin>
+    <plugin name='cal3dfact'>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+  </plugins>
+  <shaders/>
+  <textures>
+    <texture name='flamer.png'>
+      <file>textures/flamer.png</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name='FrontColorflamer.png'>
+      <texture>flamer.png</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genSmallRocket</library>
+  <library>factories/genBigRocket</library>
+  <library>factories/genRocketLauncher</library>
+  <library>rocketexplosion.xml</library>
+  <library>rockettrail.xml</library>
+  <library>rocketfire.xml</library>
+  <library>rocketdirtfly.xml</library>
+</world>

@@ -1,0 +1,142 @@
+<world>
+	<textures>
+		<texture name="menu_bg">
+			<file>textures/menu_bg.png</file>
+			<keepimage />
+			<class>nocompress</class>
+		</texture>
+		<texture name="button-bg">
+			<file>textures/button-bg.png</file>
+			<keepimage />
+		</texture>
+		<texture name="back-bg">
+			<file>textures/back-bg.png</file>
+			<keepimage />
+		</texture>
+		<texture name="dropdown-bg">
+			<file>textures/dropdown-bg.png</file>
+			<keepimage />
+		</texture>
+		<texture name="titleback">
+			<file>textures/titleback.jpg</file>
+			<keepimage />
+		</texture>
+		<texture name="blackbg">
+			<file>textures/blackbg.png</file>
+			<keepimage />
+		</texture>
+		<texture name="melee">
+			<file>textures/melee.png</file>
+			<keepimage />
+		</texture>
+		<texture name="multimelee">
+			<file>textures/multimelee.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="garage">
+			<file>textures/garage.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="options">
+			<file>textures/options.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="credits">
+			<file>textures/credits.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="exit">
+			<file>textures/exit.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="selection">
+			<file>textures/selection.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="unselection">
+			<file>textures/unselection.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="server-bg">
+			<file>textures/server-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="game-bg">
+			<file>textures/game-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="hostjoin-bg">
+			<file>textures/hostjoin-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="servers-window-bg">
+			<file>textures/servers-window-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="options-window-bg">
+			<file>textures/options-window-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="games-window-bg">
+			<file>textures/games-window-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="host-window-bg">
+			<file>textures/host-window-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="join-window-bg">
+			<file>textures/join-window-bg.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="window-frame">
+			<file>textures/window-frame.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="half-black">
+			<file>textures/half-black.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="scroller-up">
+			<file>textures/scroller-up.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="scroller-down">
+			<file>textures/scroller-down.png</file>
+			<keepimage />
+		</texture>
+	        <texture name="darkblack">
+			<file>textures/darkblack.png</file>
+			<keepimage />
+		</texture>
+	</textures>
+	<materials>
+		<material name="menu_bg"> <texture>menu_bg</texture> </material>
+		<material name="button-bg"> <texture>button-bg</texture> </material>
+		<material name="back-bg"> <texture>back-bg</texture> </material>
+		<material name="dropdown-bg"> <texture>dropdown-bg</texture> </material>
+		<material name="titleback"> <texture>titleback</texture> </material>
+		<material name="blackbg"> <texture>blackbg</texture> </material>
+                <material name="melee"> <texture>melee</texture> </material>
+                <material name="multimelee"> <texture>multimelee</texture> </material>
+		<material name="garage"> <texture>garage</texture> </material>
+                <material name="options"> <texture>options</texture> </material>
+                <material name="credits"> <texture>credits</texture> </material>
+                <material name="exit"> <texture>exit</texture> </material>
+                <material name="unselection"> <texture>unselection</texture> </material>
+                <material name="selection"> <texture>selection</texture> </material>
+                <material name="game-bg"> <texture>game-bg</texture> </material>
+                <material name="server-bg"> <texture>server-bg</texture> </material>
+                <material name="hostjoin-bg"> <texture>hostjoin-bg</texture> </material>
+                <material name="servers-window-bg"> <texture>servers-window-bg</texture> </material>
+                <material name="options-window-bg"> <texture>options-window-bg</texture> </material>
+                <material name="games-window-bg"> <texture>games-window-bg</texture> </material>
+                <material name="host-window-bg"> <texture>host-window-bg</texture> </material>
+                <material name="join-window-bg"> <texture>join-window-bg</texture> </material>
+                <material name="window-frame"> <texture>window-frame</texture> </material>
+                <material name="half-black"> <texture>half-black</texture> </material>
+                <material name="scroller-up"> <texture>scroller-up</texture> </material>
+                <material name="scroller-down"> <texture>scroller-down</texture> </material>
+                <material name="darkblack"> <texture>darkblack</texture> </material>
+	</materials>
+</world>

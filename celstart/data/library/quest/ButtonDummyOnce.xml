@@ -1,0 +1,35 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a button. This quest should be assigned to the entity
+      that also holds the button mesh. This variant will run a sequence
+      in the target entity and cannot be deactivated.
+      Parameters:
+	 $on_distance: relative move for the button to go on in x axis.
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+    <quest name="ButtonDummyOnce">
+	<state name="init">
+		<trigger type="timeout">
+			<fireon timeout="100" />
+			<reward type="newstate" state="off" />
+		</trigger>
+	</state>
+	<state name="off">
+		<trigger type="meshselect">
+		    	<fireon entity="$this" />
+			<reward type="sequence" entity="$this" sequence="but_on" />
+			<reward type="newstate" state="on" />
+		</trigger>
+	</state>
+	<state name="on">
+	</state>
+	<sequence name="but_on">
+	    <op type="transform" duration="100" entity="$this">
+		<v x="$on_distance" y="0" z="0" />
+	    </op>
+	</sequence>
+</quest>
+</addon>
+</library>
+
+

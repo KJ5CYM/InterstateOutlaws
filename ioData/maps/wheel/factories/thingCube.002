@@ -1,0 +1,1021 @@
+<library>
+    <meshfact name="thingCube.002">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>wall2.png</material>
+            <v x="-70.2" y="-27.39" z="10" />
+            <v x="-70.2" y="-27.39" z="9" />
+            <v x="-70.3" y="-27.39" z="8.9" />
+            <v x="-70.3" y="-27.39" z="10.1" />
+            <v x="-70.2" y="-27.33" z="10" />
+            <v x="-70.2" y="-27.33" z="9" />
+            <v x="-70.3" y="-27.33" z="8.9" />
+            <v x="-70.3" y="-27.33" z="10.1" />
+            <v x="-69.1" y="-27.33" z="10.1" />
+            <v x="-69.2" y="-27.33" z="10" />
+            <v x="-69.1" y="-27.39" z="10.1" />
+            <v x="-69.2" y="-27.39" z="10" />
+            <v x="-69.1" y="-27.33" z="8.9" />
+            <v x="-69.2" y="-27.33" z="9" />
+            <v x="-69.1" y="-27.39" z="8.9" />
+            <v x="-69.2" y="-27.39" z="9" />
+            <v x="-69.2" y="-27.39" z="10" />
+            <v x="-69.1" y="-27.39" z="10.1" />
+            <v x="-69.2" y="-27.33" z="10" />
+            <v x="-69.1" y="-27.33" z="10.1" />
+            <v x="-69.2" y="-27.39" z="10" />
+            <v x="-69.2" y="-27.37" z="10" />
+            <v x="-69.2" y="-27.37" z="9" />
+            <v x="-70.2" y="-27.37" z="9" />
+            <v x="-70.2" y="-27.37" z="10" />
+            <v x="-75.1" y="-19.87" z="10" />
+            <v x="-75.1" y="-19.87" z="9" />
+            <v x="-74.1" y="-19.87" z="9" />
+            <v x="-74.1" y="-19.87" z="10" />
+            <v x="-74.1" y="-19.89" z="10" />
+            <v x="-74" y="-19.83" z="10.1" />
+            <v x="-74.1" y="-19.83" z="10" />
+            <v x="-74" y="-19.89" z="10.1" />
+            <v x="-74.1" y="-19.89" z="10" />
+            <v x="-74.1" y="-19.89" z="9" />
+            <v x="-74" y="-19.89" z="8.9" />
+            <v x="-74.1" y="-19.83" z="9" />
+            <v x="-74" y="-19.83" z="8.9" />
+            <v x="-74.1" y="-19.89" z="10" />
+            <v x="-74" y="-19.89" z="10.1" />
+            <v x="-74.1" y="-19.83" z="10" />
+            <v x="-74" y="-19.83" z="10.1" />
+            <v x="-75.2" y="-19.83" z="10.1" />
+            <v x="-75.2" y="-19.83" z="8.9" />
+            <v x="-75.1" y="-19.83" z="9" />
+            <v x="-75.1" y="-19.83" z="10" />
+            <v x="-75.2" y="-19.89" z="10.1" />
+            <v x="-75.2" y="-19.89" z="8.9" />
+            <v x="-75.1" y="-19.89" z="9" />
+            <v x="-75.1" y="-19.89" z="10" />
+            <v x="-68.6392" y="-29.3648" z="10" />
+            <v x="-68.6392" y="-29.3648" z="9" />
+            <v x="-68.6392" y="-29.2648" z="8.9" />
+            <v x="-68.6392" y="-29.2648" z="10.1" />
+            <v x="-68.5792" y="-29.3648" z="10" />
+            <v x="-68.5792" y="-29.3648" z="9" />
+            <v x="-68.5792" y="-29.2648" z="8.9" />
+            <v x="-68.5792" y="-29.2648" z="10.1" />
+            <v x="-68.5792" y="-30.4648" z="10.1" />
+            <v x="-68.5792" y="-30.3648" z="10" />
+            <v x="-68.6392" y="-30.4648" z="10.1" />
+            <v x="-68.6392" y="-30.3648" z="10" />
+            <v x="-68.5792" y="-30.4648" z="8.9" />
+            <v x="-68.5792" y="-30.3648" z="9" />
+            <v x="-68.6392" y="-30.4648" z="8.9" />
+            <v x="-68.6392" y="-30.3648" z="9" />
+            <v x="-68.6392" y="-30.3648" z="10" />
+            <v x="-68.6392" y="-30.4648" z="10.1" />
+            <v x="-68.5792" y="-30.3648" z="10" />
+            <v x="-68.5792" y="-30.4648" z="10.1" />
+            <v x="-68.6392" y="-30.3648" z="10" />
+            <v x="-68.6192" y="-30.3648" z="10" />
+            <v x="-68.6192" y="-30.3648" z="9" />
+            <v x="-68.6192" y="-29.3648" z="9" />
+            <v x="-68.6192" y="-29.3648" z="10" />
+            <v x="-75.2633" y="-32.658" z="20" />
+            <v x="-75.2633" y="-32.658" z="19" />
+            <v x="-75.3785" y="-33.6513" z="19" />
+            <v x="-75.3785" y="-33.6513" z="20" />
+            <v x="-75.3984" y="-33.649" z="20" />
+            <v x="-75.3503" y="-33.7553" z="20.1" />
+            <v x="-75.3388" y="-33.656" z="20" />
+            <v x="-75.4099" y="-33.7484" z="20.1" />
+            <v x="-75.3984" y="-33.649" z="20" />
+            <v x="-75.3984" y="-33.649" z="19" />
+            <v x="-75.4099" y="-33.7484" z="18.9" />
+            <v x="-75.3388" y="-33.656" z="19" />
+            <v x="-75.3503" y="-33.7553" z="18.9" />
+            <v x="-75.3984" y="-33.649" z="20" />
+            <v x="-75.4099" y="-33.7484" z="20.1" />
+            <v x="-75.3388" y="-33.656" z="20" />
+            <v x="-75.3503" y="-33.7553" z="20.1" />
+            <v x="-75.2121" y="-32.5633" z="20.1" />
+            <v x="-75.2121" y="-32.5633" z="18.9" />
+            <v x="-75.2236" y="-32.6626" z="19" />
+            <v x="-75.2236" y="-32.6626" z="20" />
+            <v x="-75.2717" y="-32.5564" z="20.1" />
+            <v x="-75.2717" y="-32.5564" z="18.9" />
+            <v x="-75.2832" y="-32.6557" z="19" />
+            <v x="-75.2832" y="-32.6557" z="20" />
+            <p name="0">
+                <v>3</v>
+                <v>2</v>
+                <v>1</v>
+                <v>0</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>5</v>
+                <v>6</v>
+                <v>7</v>
+                <v>4</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>1</v>
+                <v>5</v>
+                <v>4</v>
+                <v>0</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>3</v>
+                <v>7</v>
+                <v>6</v>
+                <v>2</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>10</v>
+                <v>8</v>
+                <v>7</v>
+                <v>3</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>9</v>
+                <v>20</v>
+                <v>0</v>
+                <v>4</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>8</v>
+                <v>9</v>
+                <v>4</v>
+                <v>7</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>11</v>
+                <v>10</v>
+                <v>3</v>
+                <v>0</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="8">
+                <v>20</v>
+                <v>9</v>
+                <v>8</v>
+                <v>10</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="9">
+                <v>12</v>
+                <v>14</v>
+                <v>2</v>
+                <v>6</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="10">
+                <v>15</v>
+                <v>13</v>
+                <v>5</v>
+                <v>1</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="11">
+                <v>13</v>
+                <v>12</v>
+                <v>6</v>
+                <v>5</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="12">
+                <v>14</v>
+                <v>15</v>
+                <v>1</v>
+                <v>2</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="13">
+                <v>17</v>
+                <v>16</v>
+                <v>15</v>
+                <v>14</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="14">
+                <v>18</v>
+                <v>19</v>
+                <v>12</v>
+                <v>13</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="15">
+                <v>16</v>
+                <v>18</v>
+                <v>13</v>
+                <v>15</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="16">
+                <v>19</v>
+                <v>17</v>
+                <v>14</v>
+                <v>12</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="17">
+                <v>17</v>
+                <v>19</v>
+                <v>18</v>
+                <v>16</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="18">
+                <v>22</v>
+                <v>23</v>
+                <v>24</v>
+                <v>21</v>
+                <material>house3.png</material>
+                <texmap>
+                    <uv idx="2" u="0.188336" v="0.343436" />
+                    <uv idx="1" u="0.188052" v="0.45651" />
+                    <uv idx="0" u="0.309515" v="0.459845" />
+                </texmap>
+            </p>
+            <p name="19">
+                <v>27</v>
+                <v>26</v>
+                <v>25</v>
+                <v>28</v>
+                <material>house3.png</material>
+                <texmap>
+                    <uv idx="2" u="0.188336" v="0.343436" />
+                    <uv idx="1" u="0.188052" v="0.45651" />
+                    <uv idx="0" u="0.309515" v="0.459845" />
+                </texmap>
+            </p>
+            <p name="20">
+                <v>32</v>
+                <v>30</v>
+                <v>31</v>
+                <v>33</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="21">
+                <v>30</v>
+                <v>32</v>
+                <v>35</v>
+                <v>37</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="22">
+                <v>33</v>
+                <v>31</v>
+                <v>36</v>
+                <v>34</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="23">
+                <v>31</v>
+                <v>30</v>
+                <v>37</v>
+                <v>36</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="24">
+                <v>32</v>
+                <v>33</v>
+                <v>34</v>
+                <v>35</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="25">
+                <v>35</v>
+                <v>34</v>
+                <v>48</v>
+                <v>47</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="26">
+                <v>36</v>
+                <v>37</v>
+                <v>43</v>
+                <v>44</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="27">
+                <v>34</v>
+                <v>36</v>
+                <v>44</v>
+                <v>48</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="28">
+                <v>37</v>
+                <v>35</v>
+                <v>47</v>
+                <v>43</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="29">
+                <v>29</v>
+                <v>40</v>
+                <v>41</v>
+                <v>39</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="30">
+                <v>38</v>
+                <v>39</v>
+                <v>46</v>
+                <v>49</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="31">
+                <v>41</v>
+                <v>40</v>
+                <v>45</v>
+                <v>42</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="32">
+                <v>40</v>
+                <v>29</v>
+                <v>49</v>
+                <v>45</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="33">
+                <v>39</v>
+                <v>41</v>
+                <v>42</v>
+                <v>46</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="34">
+                <v>46</v>
+                <v>42</v>
+                <v>43</v>
+                <v>47</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="35">
+                <v>48</v>
+                <v>44</v>
+                <v>45</v>
+                <v>49</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="36">
+                <v>44</v>
+                <v>43</v>
+                <v>42</v>
+                <v>45</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="37">
+                <v>46</v>
+                <v>47</v>
+                <v>48</v>
+                <v>49</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="38">
+                <v>53</v>
+                <v>52</v>
+                <v>51</v>
+                <v>50</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="39">
+                <v>55</v>
+                <v>56</v>
+                <v>57</v>
+                <v>54</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="40">
+                <v>51</v>
+                <v>55</v>
+                <v>54</v>
+                <v>50</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="41">
+                <v>53</v>
+                <v>57</v>
+                <v>56</v>
+                <v>52</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="42">
+                <v>60</v>
+                <v>58</v>
+                <v>57</v>
+                <v>53</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="43">
+                <v>59</v>
+                <v>70</v>
+                <v>50</v>
+                <v>54</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="44">
+                <v>58</v>
+                <v>59</v>
+                <v>54</v>
+                <v>57</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="45">
+                <v>61</v>
+                <v>60</v>
+                <v>53</v>
+                <v>50</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="46">
+                <v>70</v>
+                <v>59</v>
+                <v>58</v>
+                <v>60</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="47">
+                <v>62</v>
+                <v>64</v>
+                <v>52</v>
+                <v>56</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="48">
+                <v>65</v>
+                <v>63</v>
+                <v>55</v>
+                <v>51</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="49">
+                <v>63</v>
+                <v>62</v>
+                <v>56</v>
+                <v>55</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="50">
+                <v>64</v>
+                <v>65</v>
+                <v>51</v>
+                <v>52</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="51">
+                <v>67</v>
+                <v>66</v>
+                <v>65</v>
+                <v>64</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="52">
+                <v>68</v>
+                <v>69</v>
+                <v>62</v>
+                <v>63</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="53">
+                <v>66</v>
+                <v>68</v>
+                <v>63</v>
+                <v>65</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="54">
+                <v>69</v>
+                <v>67</v>
+                <v>64</v>
+                <v>62</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="55">
+                <v>67</v>
+                <v>69</v>
+                <v>68</v>
+                <v>66</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="56">
+                <v>72</v>
+                <v>73</v>
+                <v>74</v>
+                <v>71</v>
+                <material>house3.png</material>
+                <texmap>
+                    <uv idx="2" u="0.188336" v="0.343436" />
+                    <uv idx="1" u="0.188052" v="0.45651" />
+                    <uv idx="0" u="0.309515" v="0.459845" />
+                </texmap>
+            </p>
+            <p name="57">
+                <v>77</v>
+                <v>76</v>
+                <v>75</v>
+                <v>78</v>
+                <material>house3.png</material>
+                <texmap>
+                    <uv idx="2" u="0.188336" v="0.343436" />
+                    <uv idx="1" u="0.188052" v="0.45651" />
+                    <uv idx="0" u="0.309515" v="0.459845" />
+                </texmap>
+            </p>
+            <p name="58">
+                <v>82</v>
+                <v>80</v>
+                <v>81</v>
+                <v>83</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="59">
+                <v>80</v>
+                <v>82</v>
+                <v>85</v>
+                <v>87</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="60">
+                <v>83</v>
+                <v>81</v>
+                <v>86</v>
+                <v>84</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="61">
+                <v>81</v>
+                <v>80</v>
+                <v>87</v>
+                <v>86</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="62">
+                <v>82</v>
+                <v>83</v>
+                <v>84</v>
+                <v>85</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="63">
+                <v>85</v>
+                <v>84</v>
+                <v>98</v>
+                <v>97</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="64">
+                <v>86</v>
+                <v>87</v>
+                <v>93</v>
+                <v>94</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="65">
+                <v>84</v>
+                <v>86</v>
+                <v>94</v>
+                <v>98</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="66">
+                <v>87</v>
+                <v>85</v>
+                <v>97</v>
+                <v>93</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="67">
+                <v>79</v>
+                <v>90</v>
+                <v>91</v>
+                <v>89</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="68">
+                <v>88</v>
+                <v>89</v>
+                <v>96</v>
+                <v>99</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="69">
+                <v>91</v>
+                <v>90</v>
+                <v>95</v>
+                <v>92</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="70">
+                <v>90</v>
+                <v>79</v>
+                <v>99</v>
+                <v>95</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="71">
+                <v>89</v>
+                <v>91</v>
+                <v>92</v>
+                <v>96</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="72">
+                <v>96</v>
+                <v>92</v>
+                <v>93</v>
+                <v>97</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="73">
+                <v>98</v>
+                <v>94</v>
+                <v>95</v>
+                <v>99</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="74">
+                <v>94</v>
+                <v>93</v>
+                <v>92</v>
+                <v>95</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+            <p name="75">
+                <v>96</v>
+                <v>97</v>
+                <v>98</v>
+                <v>99</v>
+                <material>wall2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.125" v="0.875" />
+                    <uv idx="1" u="0.875" v="0.875" />
+                    <uv idx="0" u="0.875" v="0.125" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

@@ -1,0 +1,64 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a button. This quest should be assigned to the entity
+      that also holds the button mesh. This variant will only move.
+      Parameters:
+	 $*on, *off: relative move for the button to go on or off.
+	 $duration: time for de open/close sequences
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+   <quest name="ButtonDummy">
+    <default name="x_on" value="0.5"/>
+    <default name="x_off" value="0.5"/>
+    <default name="y_on" value="0"/>
+    <default name="y_off" value="0"/>
+    <default name="z_on" value="0"/>
+    <default name="z_off" value="0"/>
+    <default name="duration" value="100"/>
+    <state name="init">
+        <trigger type="timeout">
+    	    <fireon timeout="100" />
+	    <reward type="newstate" state="off" />
+        </trigger>
+    </state>
+    <state name="off">
+        <trigger type="meshselect">
+    	    <fireon entity="$this" />
+	    <reward type="sequence" entity="$this" sequence="button_on" />
+	    <reward type="newstate" state="to_on" />
+        </trigger>
+    </state>
+    <state name="to_on">
+        <trigger type="timeout">
+    	    <fireon timeout="100" />
+	    <reward type="newstate" state="on" />
+        </trigger>
+    </state>
+    <state name="on">
+	<trigger type="meshselect">
+	     <fireon entity="$this" />
+	     <reward type="sequence" entity="$this" sequence="button_off" />
+	     <reward type="newstate" state="to_off" />
+	</trigger>
+    </state>
+    <state name="to_off">
+        <trigger type="timeout">
+       	    <fireon timeout="100" />
+	    <reward type="newstate" state="off" />
+	</trigger>
+    </state>
+    <sequence name="button_on">
+        <op type="transform" duration="$duration" entity="$this">
+		<v x="$x_on" y="$y_on" z="$z_on" />
+        </op>
+    </sequence>
+    <sequence name="button_off">
+        <op type="transform" duration="$duration" entity="$this">
+         	<v x="$x_off" y="$y_off" z="$z_off" />
+	</op>
+    </sequence>
+</quest>
+</addon>
+</library>
+
+

@@ -1,0 +1,116 @@
+<library>
+    <meshfact name="thingwaterground">
+        <plugin>thingfact</plugin>
+        <priority>alpha</priority>
+        <ztest />
+        <params>
+            <material>water_p2.png</material>
+            <v x="-30" y="6.5" z="25" />
+            <v x="-30" y="6.5" z="5" />
+            <v x="-60" y="6.5" z="5" />
+            <v x="-65" y="6.5" z="20" />
+            <v x="-35" y="6.5" z="70" />
+            <v x="-60" y="6.5" z="75" />
+            <v x="-90" y="6.5" z="75" />
+            <v x="-90" y="6.5" z="25" />
+            <v x="-15" y="6.5" z="50" />
+            <v x="-10" y="6.5" z="25" />
+            <p name="0">
+                <v>1</v>
+                <v>2</v>
+                <v>3</v>
+                <v>0</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.385418" v="0.724328" />
+                    <uv idx="1" u="0.385418" v="0.959471" />
+                    <uv idx="0" u="0.738133" v="0.959471" />
+                </texmap>
+            </p>
+            <p name="0">
+                <v>0</v>
+                <v>3</v>
+                <v>2</v>
+                <v>1</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.385418" v="0.959471" />
+                    <uv idx="1" u="0.385418" v="0.724328" />
+                    <uv idx="0" u="0.738133" v="0.724328" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>5</v>
+                <v>4</v>
+                <v>0</v>
+                <v>3</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.738133" v="0.724328" />
+                    <uv idx="1" u="0.679347" v="0.195255" />
+                    <uv idx="0" u="0.385418" v="0.136469" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>3</v>
+                <v>0</v>
+                <v>4</v>
+                <v>5</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.679347" v="0.195255" />
+                    <uv idx="1" u="0.738133" v="0.724328" />
+                    <uv idx="0" u="0.385418" v="0.724328" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>7</v>
+                <v>6</v>
+                <v>5</v>
+                <v>3</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.385418" v="0.136469" />
+                    <uv idx="1" u="0.032703" v="0.136469" />
+                    <uv idx="0" u="0.032703" v="0.724328" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>3</v>
+                <v>5</v>
+                <v>6</v>
+                <v>7</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.032703" v="0.136469" />
+                    <uv idx="1" u="0.385418" v="0.136469" />
+                    <uv idx="0" u="0.385418" v="0.724328" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>8</v>
+                <v>9</v>
+                <v>0</v>
+                <v>4</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.738133" v="0.724328" />
+                    <uv idx="1" u="0.973276" v="0.724328" />
+                    <uv idx="0" u="0.914491" v="0.430399" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>4</v>
+                <v>0</v>
+                <v>9</v>
+                <v>8</v>
+                <material>water_p2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.973276" v="0.724328" />
+                    <uv idx="1" u="0.738133" v="0.724328" />
+                    <uv idx="0" u="0.679347" v="0.195255" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

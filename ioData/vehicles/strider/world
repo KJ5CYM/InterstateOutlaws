@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="null">crystalspace.mesh.loader.null</plugin>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+      <shader><file>/shader/stat_dyn_reflect.xml</file></shader>
+  </shaders>
+  <textures>
+    <texture name="str01-exp.png">
+      <file>textures/str01-exp.png</file>
+    </texture>
+    <texture name="str01.png">
+      <file>textures/str01.png</file>
+    </texture>
+    <texture name="wheels.png">
+      <file>textures/wheels.png</file>
+    </texture>
+    <texture name="wheels.jpg">
+      <file>textures/wheels.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+   <material name="tireswheels.jpg">
+      <texture>wheels.jpg</texture>
+    </material>
+  </materials>
+  <materials>
+    <material name="str01.png">
+      <texture>str01.png</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="str01-exp.png">
+      <texture>str01-exp.png</texture>
+    </material>
+    <material name="wheels.png">
+      <texture>wheels.png</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genStriderBody-exp</library>
+  <library>factories/genStriderRear</library>
+  <library>factories/genStriderLeft</library>
+  <library>factories/genStriderFront</library>
+  <library>factories/genStriderRight</library>
+  <library>factories/genStriderRWheel</library>
+  <library>factories/genStriderBody</library>
+  <library>factories/genStriderFWheel</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="Strider-Engine">
+      <position y="0.420888" x="-0.0122603" z="-0.757293"/>
+      <xvector y="1.39157e-05" x="1" z="-3.48886e-06"/>
+      <yvector y="-5.00798e-05" x="-3.48816e-06" z="-1"/>
+      <zvector y="1" x="1.38803e-05" z="-5.02309e-05"/>
+    </node>
+    <node name="Strider-Front1">
+      <position y="0.448046" x="-0.252964" z="-0.702539"/>
+      <xvector y="3.16301e-06" x="-1" z="-1.27236e-05"/>
+      <yvector y="-9.81887e-06" x="-1.27236e-05" z="1"/>
+      <zvector y="1" x="-3.25056e-06" z="9.54863e-06"/>
+    </node>
+    <node name="Strider-Roof1">
+      <position y="0.794099" x="-0.258052" z="0.386452"/>
+      <xvector y="3.16301e-06" x="-1" z="-1.27236e-05"/>
+      <yvector y="-9.81887e-06" x="-1.27236e-05" z="1"/>
+      <zvector y="1" x="-3.25056e-06" z="9.54863e-06"/>
+    </node>
+    <node name="Strider-Rear1">
+      <position y="0.275054" x="-0.227517" z="0.986759"/>
+      <xvector y="3.16301e-06" x="-1" z="-1.27236e-05"/>
+      <yvector y="-9.81887e-06" x="-1.27236e-05" z="-1"/>
+      <zvector y="1" x="-3.25056e-06" z="9.54863e-06"/>
+    </node>
+    <node name="Strider-Exhaust1">
+      <position y="0.427724" x="0.00656474" z="1.41946"/>
+      <xvector y="3.16301e-06" x="-1" z="-1.27236e-05"/>
+      <yvector y="-9.81887e-06" x="-1.27236e-05" z="1"/>
+      <zvector y="1" x="-3.25056e-06" z="9.54863e-06"/>
+    </node>
+</sector>
+</world>

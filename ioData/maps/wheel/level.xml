@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level name="game_level">
+	<region name="cod">
+		<map name="world" file="world"/>
+		<map name="entities_world" file="entities_world"/>
+	</region>
+	<zone name="start">
+		<region>cod</region>
+	</zone>
+	<start>
+		<region>cod</region>
+		<name>Camera</name>
+	</start>
+</level>

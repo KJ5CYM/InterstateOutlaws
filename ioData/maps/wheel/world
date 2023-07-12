@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<world>
+    <plugins>
+        <plugin name="null">crystalspace.mesh.loader.null</plugin>
+        <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+        <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+        <plugin name="particles">crystalspace.mesh.loader.particles</plugin>
+        <plugin name="particlesfact">crystalspace.mesh.loader.factory.particles</plugin>
+        <plugin name="thing">crystalspace.mesh.loader.thing</plugin>
+        <plugin name="thingfact">crystalspace.mesh.loader.factory.thing</plugin>
+    </plugins>
+    <shaders />
+    <textures>
+        <texture name="waterfall.png">
+            <file>textures/waterfall.png</file>
+        </texture>
+        <texture name="wall2.png">
+            <file>textures/wall2.png</file>
+        </texture>
+        <texture name="house3.png">
+            <file>textures/house3.png</file>
+        </texture>
+        <texture name="gravel_cyc.jpg">
+            <file>textures/gravel_cyc.jpg</file>
+        </texture>
+        <texture name="house1.png">
+            <file>textures/house1.png</file>
+        </texture>
+        <texture name="house4.png">
+            <file>textures/house4.png</file>
+        </texture>
+        <texture name="house5.png">
+            <file>textures/house5.png</file>
+        </texture>
+        <texture name="house2.png">
+            <file>textures/house2.png</file>
+        </texture>
+        <texture name="arcs_tubesmetal_d.png">
+            <file>textures/arcs_tubesmetal_d.png</file>
+        </texture>
+        <texture name="wheet.png">
+            <file>textures/wheet.png</file>
+            <alpha>
+                <binary />
+            </alpha>
+        </texture>
+        <texture name="wood05a.tga">
+            <file>textures/wood05a.tga</file>
+        </texture>
+        <texture name="wall2-2.png">
+            <file>textures/wall2-2.png</file>
+        </texture>
+        <texture name="LRwall0009.jpg">
+            <file>textures/LRwall0009.jpg</file>
+        </texture>
+        <texture name="wall_wood_combo_color">
+            <file>textures/wall_wood_combo_color</file>
+        </texture>
+        <texture name="80x80_roof_old_rounde">
+            <file>textures/80x80_roof_old_rounde</file>
+        </texture>
+        <texture name="80x80_roof_old_rectan">
+            <file>textures/80x80_roof_old_rectan</file>
+        </texture>
+        <texture name="wall4.png">
+            <file>textures/wall4.png</file>
+        </texture>
+        <texture name="water_p2.png">
+            <file>textures/water_p2.png</file>
+        </texture>
+        <texture name="rockwall1.jpeg">
+            <file>textures/rockwall1.jpeg</file>
+        </texture>
+        <texture name="up.jpg">
+            <file>textures/up.jpg</file>
+        </texture>
+        <texture name="bark.png">
+            <file>textures/bark.png</file>
+        </texture>
+        <texture name="tree4.png">
+            <file>textures/tree4.png</file>
+            <alpha>
+                <binary />
+            </alpha>
+        </texture>
+        <texture name="bark1.png">
+            <file>textures/bark1.png</file>
+        </texture>
+        <texture name="tree5.png">
+            <file>textures/tree5.png</file>
+            <alpha>
+                <binary />
+            </alpha>
+        </texture>
+        <texture name="rock1_2.png">
+            <file>textures/rock1_2.png</file>
+        </texture>
+        <texture name="grass_rwy.png">
+            <file>textures/grass_rwy.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name="house3.png">
+            <texture>house3.png</texture>
+        </material>
+        <material name="house4.png">
+            <texture>house4.png</texture>
+        </material>
+        <material name="house5.png">
+            <texture>house5.png</texture>
+        </material>
+        <material name="house2.png">
+            <texture>house2.png</texture>
+        </material>
+        <material name="wall_wood_combo_color">
+            <texture>wall_wood_combo_color</texture>
+        </material>
+        <material name="80x80_roof_old_rounde">
+            <texture>80x80_roof_old_rounde</texture>
+        </material>
+        <material name="80x80_roof_old_rectan">
+            <texture>80x80_roof_old_rectan</texture>
+        </material>
+        <material name="wall2-2.png">
+            <texture>wall2-2.png</texture>
+        </material>
+        <material name="wall4.png">
+            <texture>wall4.png</texture>
+        </material>
+        <material name="wall2.png">
+            <texture>wall2.png</texture>
+        </material>
+    </materials>
+    <sounds />
+    <settings>
+        <clearscreen>yes</clearscreen>
+        <clearzbuf>yes</clearzbuf>
+    </settings>
+    <library>factories/thingCube.002</library>
+    <library>factories/thingtownroad</library>
+    <library>factories/thingtownbuildings</library>
+    <library>factories/thingwater_wheel</library>
+    <library>factories/thingwheet</library>
+    <library>factories/thingCylinder.033</library>
+    <library>factories/thingCube.001</library>
+    <library>factories/thingPlane.037</library>
+    <library>factories/thingwaterground</library>
+    <library>factories/thingCube</library>
+    <library>factories/thingPlane.035</library>
+    <library>factories/thingCylinder.031</library>
+    <library>factories/thingPlane.033</library>
+    <library>factories/thingPlane.032</library>
+    <library>factories/thingCylinder.030</library>
+    <library>factories/thingCylinder.029</library>
+    <library>factories/thingPlane.031</library>
+    <library>factories/thingCylinder.027</library>
+    <library>factories/thingPlane.029</library>
+    <library>factories/thingPlane.028</library>
+    <library>factories/thingCylinder.026</library>
+    <library>factories/thingCylinder.025</library>
+    <library>factories/thingPlane.027</library>
+    <library>factories/thingCylinder.023</library>
+    <library>factories/thingPlane.025</library>
+    <library>factories/thingCylinder.021</library>
+    <library>factories/thingPlane.023</library>
+    <library>factories/thingPlane.022</library>
+    <library>factories/thingCylinder.020</library>
+    <library>factories/thingCylinder.019</library>
+    <library>factories/thingPlane.021</library>
+    <library>factories/thingPlane.020</library>
+    <library>factories/thingCylinder.018</library>
+    <library>factories/thingCylinder.017</library>
+    <library>factories/thingPlane.019</library>
+    <library>factories/thingPlane.018</library>
+    <library>factories/thingCylinder.016</library>
+    <library>factories/thingCylinder.014</library>
+    <library>factories/thingPlane.016</library>
+    <library>factories/thingPlane.015</library>
+    <library>factories/thingCylinder.013</library>
+    <library>factories/thingCylinder.012</library>
+    <library>factories/thingPlane.014</library>
+    <library>factories/thingPlane.011</library>
+    <library>factories/thingCylinder.009</library>
+    <library>factories/thingCylinder.008</library>
+    <library>factories/thingPlane.010</library>
+    <library>factories/thingPlane.009</library>
+    <library>factories/thingCylinder.007</library>
+    <library>factories/thingCylinder.006</library>
+    <library>factories/thingPlane.008</library>
+    <library>factories/thingCylinder.004</library>
+    <library>factories/thingPlane.006</library>
+    <library>factories/thingPlane.005</library>
+    <library>factories/thingCylinder.003</library>
+    <library>factories/thingCylinder.002</library>
+    <library>factories/thingPlane.004</library>
+    <library>factories/thingPlane.003</library>
+    <library>factories/thingCylinder.001</library>
+    <library>factories/thingcliff</library>
+    <library>factories/thingcliff1</library>
+    <library>factories/thingGround</library>
+    <library>factories/thingCylinder</library>
+    <library>factories/thingPlane.002</library>
+    <triggers />
+    <meshfact name="partwater">
+        <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+        <priority>alpha</priority>
+        <ztest />
+        <params>
+            <material>waterfall.png</material>
+            <renderorientation>camface approx</renderorientation>
+            <rotationmode>none</rotationmode>
+            <sortmode>none</sortmode>
+            <integrationmode>linear</integrationmode>
+            <particlesize y="2" x="1" />
+            <transformmode>local</transformmode>
+            <emitter type="sphere">
+                <enabled>yes</enabled>
+                <uniformvelocity>yes</uniformvelocity>
+                <duration>9000</duration>
+                <emissionrate>200</emissionrate>
+                <radius>1.35</radius>
+                <position y="0" x="0" z="0" />
+                <initialvelocity y="0" x="0" z="0" />
+                <mass max="1.0" min="1.0" />
+                <initialttl max="3.0" min="3.0" />
+                <placement>volume</placement>
+            </emitter>
+            <effector type="force">
+                <force y="-10" x="5" z="0" />
+            </effector>
+            <effector type="lincolor">
+                <color blue="1.0" green="1.0" red="1.0" time="1" />
+                <color blue="1.0" green="1.0" red="1.0" time="0.9" />
+                <color blue="0.9" green="0.9" red="0.9" time="0.8" />
+                <color blue="0.8" green="0.8" red="0.8" time="0.6" />
+                <color blue="0.6" green="0.6" red="0.6" time="0.5" />
+                <color blue="0.4" green="0.4" red="0.4" time="0.4" />
+                <color blue="0.2" green="0.2" red="0.2" time="0.3" />
+                <color blue="0.0" green="0.0" red="0.0" time="0.1" />
+                <color blue="0.0" green="0.0" red="0.0" time="0" />
+            </effector>
+        </params>
+    </meshfact>
+    <meshfact name="partwater.001">
+        <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+        <priority>alpha</priority>
+        <ztest />
+        <params>
+            <material>waterfall.png</material>
+            <renderorientation>camface approx</renderorientation>
+            <rotationmode>none</rotationmode>
+            <sortmode>none</sortmode>
+            <integrationmode>linear</integrationmode>
+            <particlesize y="2" x="1" />
+            <transformmode>local</transformmode>
+            <emitter type="sphere">
+                <enabled>yes</enabled>
+                <uniformvelocity>yes</uniformvelocity>
+                <duration>9000</duration>
+                <emissionrate>200</emissionrate>
+                <radius>1.35</radius>
+                <position y="0" x="0" z="0" />
+                <initialvelocity y="0" x="0" z="0" />
+                <mass max="1.0" min="1.0" />
+                <initialttl max="3.0" min="3.0" />
+                <placement>volume</placement>
+            </emitter>
+            <effector type="force">
+                <force y="-10" x="5" z="0" />
+            </effector>
+            <effector type="lincolor">
+                <color blue="1.0" green="1.0" red="1.0" time="1" />
+                <color blue="1.0" green="1.0" red="1.0" time="0.9" />
+                <color blue="0.9" green="0.9" red="0.9" time="0.8" />
+                <color blue="0.8" green="0.8" red="0.8" time="0.6" />
+                <color blue="0.6" green="0.6" red="0.6" time="0.5" />
+                <color blue="0.4" green="0.4" red="0.4" time="0.4" />
+                <color blue="0.2" green="0.2" red="0.2" time="0.3" />
+                <color blue="0.0" green="0.0" red="0.0" time="0.1" />
+                <color blue="0.0" green="0.0" red="0.0" time="0" />
+            </effector>
+        </params>
+    </meshfact>
+    <meshfact name="partwater.002">
+        <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+        <priority>alpha</priority>
+        <ztest />
+        <params>
+            <material>waterfall.png</material>
+            <renderorientation>camface approx</renderorientation>
+            <rotationmode>none</rotationmode>
+            <sortmode>none</sortmode>
+            <integrationmode>linear</integrationmode>
+            <particlesize y="2" x="1" />
+            <transformmode>local</transformmode>
+            <emitter type="sphere">
+                <enabled>yes</enabled>
+                <uniformvelocity>yes</uniformvelocity>
+                <duration>9000</duration>
+                <emissionrate>200</emissionrate>
+                <radius>1.35</radius>
+                <position y="0" x="0" z="0" />
+                <initialvelocity y="0" x="0" z="0" />
+                <mass max="1.0" min="1.0" />
+                <initialttl max="3.0" min="3.0" />
+                <placement>volume</placement>
+            </emitter>
+            <effector type="force">
+                <force y="-10" x="5" z="0" />
+            </effector>
+            <effector type="lincolor">
+                <color blue="1.0" green="1.0" red="1.0" time="1" />
+                <color blue="1.0" green="1.0" red="1.0" time="0.9" />
+                <color blue="0.9" green="0.9" red="0.9" time="0.8" />
+                <color blue="0.8" green="0.8" red="0.8" time="0.6" />
+                <color blue="0.6" green="0.6" red="0.6" time="0.5" />
+                <color blue="0.4" green="0.4" red="0.4" time="0.4" />
+                <color blue="0.2" green="0.2" red="0.2" time="0.3" />
+                <color blue="0.0" green="0.0" red="0.0" time="0.1" />
+                <color blue="0.0" green="0.0" red="0.0" time="0" />
+            </effector>
+        </params>
+    </meshfact>
+    <sector name="Scene">
+        <cullerp plugin="crystalspace.culling.frustvis" />
+        <meshobj name="water">
+            <plugin>particles</plugin>
+            <priority>alpha</priority>
+            <params>
+                <factory>partwater</factory>
+                <material>waterfall.png</material>
+                <mixmode>
+                    <add />
+                </mixmode>
+            </params>
+            <polymesh>
+                <colldet />
+            </polymesh>
+            <ztest />
+            <move>
+                <v y="25" x="7.3" z="-79.6" />
+            </move>
+        </meshobj>
+        <meshobj name="water.001">
+            <plugin>particles</plugin>
+            <priority>alpha</priority>
+            <params>
+                <factory>partwater.001</factory>
+                <material>waterfall.png</material>
+                <mixmode>
+                    <add />
+                </mixmode>
+            </params>
+            <polymesh>
+                <colldet />
+            </polymesh>
+            <ztest />
+            <move>
+                <v y="25" x="6.9" z="-76.7" />
+            </move>
+        </meshobj>
+        <meshobj name="water.002">
+            <plugin>particles</plugin>
+            <priority>alpha</priority>
+            <params>
+                <factory>partwater.002</factory>
+                <material>waterfall.png</material>
+                <mixmode>
+                    <add />
+                </mixmode>
+            </params>
+            <polymesh>
+                <colldet />
+            </polymesh>
+            <ztest />
+            <move>
+                <v y="25" x="7" z="-78" />
+            </move>
+        </meshobj>
+        <meshobj name="Cube.002">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCube.002</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="0" x="100" z="-120" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <light name="Lamp.036">
+            <center y="25.9039" x="445.076" z="-304.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.035">
+            <center y="25.9039" x="475.076" z="-304.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.034">
+            <center y="25.9039" x="475.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.033">
+            <center y="25.9039" x="475.076" z="-224.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.032">
+            <center y="25.9039" x="475.076" z="-194.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.031">
+            <center y="25.9039" x="475.076" z="-164.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.030">
+            <center y="25.9039" x="445.076" z="-164.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.029">
+            <center y="25.9039" x="445.076" z="-194.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.028">
+            <center y="25.9039" x="435.076" z="-224.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.027">
+            <center y="25.9039" x="425.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.026">
+            <center y="25.9039" x="405.076" z="-304.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.025">
+            <center y="25.9039" x="375.076" z="-294.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.024">
+            <center y="25.9039" x="365.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.023">
+            <center y="25.9039" x="385.076" z="-244.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.022">
+            <center y="25.9039" x="405.076" z="-224.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.021">
+            <center y="25.9039" x="345.076" z="-174.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.009">
+            <center y="25.9039" x="355.076" z="-154.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.008">
+            <center y="25.9039" x="375.076" z="-154.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.007">
+            <center y="25.9039" x="405.076" z="-194.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.006">
+            <center y="25.9039" x="395.076" z="-174.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.020">
+            <center y="25.9039" x="285.076" z="-284.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.019">
+            <center y="25.9039" x="295.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.018">
+            <center y="25.9039" x="335.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.017">
+            <center y="25.9039" x="345.076" z="-204.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.016">
+            <center y="25.9039" x="345.076" z="-234.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.015">
+            <center y="25.9039" x="345.076" z="-294.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.014">
+            <center y="25.9039" x="315.076" z="-294.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.013">
+            <center y="25.9039" x="315.076" z="-234.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.012">
+            <center y="25.9039" x="295.076" z="-204.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.011">
+            <center y="25.9039" x="285.076" z="-234.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">100.0</radius>
+        </light>
+        <light name="Lamp.010">
+            <center y="25.9039" x="255.076" z="-264.995" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">50.0</radius>
+        </light>
+        <meshobj name="townroad">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingtownroad</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="0" x="0" z="0" />
+            </move>
+        </meshobj>
+        <meshobj name="townbuildings">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingtownbuildings</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="0" x="0" z="0" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="water_wheel">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingwater_wheel</factory>
+            </params>
+            <polymesh>
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="wheet">
+            <plugin>thing</plugin>
+            <priority>alpha</priority>
+            <params>
+                <factory>thingwheet</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <ztest />
+            <noshadows />
+            <move>
+                <v y="5.82579" x="149.868" z="-108.616" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.033">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.033</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cube.001">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCube.001</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.037">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.037</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="97.8679" z="-122.616" />
+            </move>
+        </meshobj>
+        <meshobj name="waterground">
+            <plugin>thing</plugin>
+            <priority>alpha</priority>
+            <params>
+                <factory>thingwaterground</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <ztest />
+            <noshadows />
+            <move>
+                <v y="0.328386" x="100.368" z="-123.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cube">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCube</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.035">
+            <plugin>thing</plugin>
+            <priority>sky</priority>
+            <params>
+                <factory>thingPlane.035</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <camera />
+            <zfill />
+            <noshadows />
+            <move>
+                <v y="-20" x="0" z="0" />
+            </move>
+        </meshobj>
+        <light name="Lamp.005">
+            <center y="38.2803" x="32.406" z="-57.6131" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <light name="Lamp.004">
+            <center y="38.2803" x="42.406" z="-187.613" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <light name="Lamp.003">
+            <center y="38.2803" x="142.406" z="-172.613" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <light name="Lamp.002">
+            <center y="38.2803" x="187.406" z="-47.6131" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <light name="Lamp.001">
+            <center y="38.2803" x="97.406" z="-122.613" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <meshobj name="Cylinder.031">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.031</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="10.4996" x="45.3679" z="-48.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.033">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.033</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="10.4996" x="45.3679" z="-48.1159" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Plane.032">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.032</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.44827" x="35.3679" z="-128.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.030">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.030</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.44827" x="35.3679" z="-128.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.029">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.029</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="6.34367" x="67.8679" z="-122.616" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.031">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.031</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="6.34367" x="67.8679" z="-122.616" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.027">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.027</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="7.78267" x="70.3679" z="-178.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.029">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.029</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="7.78267" x="70.3679" z="-178.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Plane.028">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.028</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="10.2766" x="105.368" z="-168.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.026">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.026</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="10.2766" x="105.368" z="-168.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.025">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.025</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="7.33092" x="130.368" z="-148.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.027">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.027</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="7.33092" x="130.368" z="-148.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.023">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.023</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.17384" x="160.368" z="-188.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.025">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.025</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.17384" x="160.368" z="-188.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.021">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.021</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.02386" x="170.368" z="-103.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.023">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.023</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.02386" x="170.368" z="-103.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Plane.022">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.022</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="5.42208" x="95.3679" z="-48.1159" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.020">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.020</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.42208" x="95.3679" z="-48.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.019">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.019</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.29589" x="135.368" z="-43.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.021">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.021</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.29589" x="135.368" z="-43.1159" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Plane.020">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.020</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.93325" x="115.368" z="-78.1159" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.018">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.018</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.93325" x="115.368" z="-78.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.017">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.017</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.97298" x="45.3679" z="-148.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.019">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.019</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="5.97298" x="45.3679" z="-148.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Plane.018">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.018</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="8.34681" x="70.3679" z="-48.1159" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.016">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.016</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="8.34681" x="70.3679" z="-48.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.014">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.014</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="8.12284" x="90.3679" z="-178.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.016">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.016</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="8.12284" x="90.3679" z="-178.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.015">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.015</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.20145" x="145.368" z="-188.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.013">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.013</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.20145" x="145.368" z="-188.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.012">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.012</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="10.5871" x="175.368" z="-203.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.014">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.014</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="10.5871" x="175.368" z="-203.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.011">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.011</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="5.514" x="170.368" z="-83.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.009">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.009</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.514" x="170.368" z="-83.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.008">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.008</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="8.16066" x="100.368" z="-68.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.010">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.010</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="8.16066" x="100.368" z="-68.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.009">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.009</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="6.51866" x="120.368" z="-48.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.007">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.007</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="6.51866" x="120.368" z="-48.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.006">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.006</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="8.33831" x="125.368" z="-133.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.008">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.008</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="8.33831" x="125.368" z="-133.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.004">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.004</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="8.1803" x="30.3679" z="-183.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.006">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.006</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="8.1803" x="30.3679" z="-183.116" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.005">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.005</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.28791" x="20.3679" z="-146.616" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.003">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.003</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.28791" x="20.3679" z="-146.616" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.002">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.002</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.39921" x="80.3679" z="-101.616" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.004">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.004</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.39921" x="80.3679" z="-101.616" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.003">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.003</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="7.16322" x="65.3679" z="-68.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Cylinder.001">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder.001</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="7.16322" x="65.3679" z="-68.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="cliff">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingcliff</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="cliff1">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingcliff1</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+                <matrix>
+                    <rotx>-1.5708</rotx>
+                </matrix>
+            </move>
+        </meshobj>
+        <meshobj name="Ground">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingGround</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="5.32839" x="100.368" z="-123.116" />
+            </move>
+        </meshobj>
+        <light name="Lamp">
+            <center y="33.2803" x="102.406" z="-122.613" />
+            <color blue="1.0" green="1.0" red="1.0" />
+            <radius brightness="1.0">300.0</radius>
+        </light>
+        <meshobj name="Cylinder">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingCylinder</factory>
+            </params>
+            <zuse />
+            <move>
+                <v y="9.19909" x="35.3679" z="-58.1159" />
+            </move>
+        </meshobj>
+        <meshobj name="Plane.002">
+            <plugin>thing</plugin>
+            <params>
+                <factory>thingPlane.002</factory>
+            </params>
+            <polymesh>
+                <colldet />
+                <shadows />
+            </polymesh>
+            <zuse />
+            <noshadows />
+            <move>
+                <v y="9.19909" x="35.3679" z="-58.1159" />
+            </move>
+        </meshobj>
+    </sector>
+    <sequences />
+    <start name="Camera">
+        <sector>Scene</sector>
+        <position y="13.0002" x="94.1085" z="-76.3697" />
+        <up y="0.895343" x="-0.330657" z="0.298373" />
+        <forward y="-0.445245" x="-0.654862" z="0.610666" />
+    </start>
+</world>

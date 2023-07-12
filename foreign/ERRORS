@@ -1,0 +1,7 @@
+FIXED:
+%cs_attribute(iMaterial,const csHash<csRef<iShader>, csStringID>&,Shaders,GetShaders) FIXED (ignore)
+methods starting with a number FIXED (ignore)
+commented methods FIXED
+%cs_attribute_writeonly(iEngine,const char*  vfspath =,VFSCacheManager,SetVFSCacheManager) FIXED
+ClipperType gives errors due to wrongly resolved scope FIXED
+

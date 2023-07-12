@@ -1,0 +1,716 @@
+<library>
+    <meshfact name="thingCylinder.001">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>bark1.png</material>
+            <v x="0.565686" y="-0.2" z="0.565686" />
+            <v x="0.8" y="-0.2" z="1.03144e-07" />
+            <v x="0.565686" y="-0.2" z="-0.565685" />
+            <v x="2.35914e-09" y="-0.2" z="-0.8" />
+            <v x="-0.565685" y="-0.2" z="-0.565685" />
+            <v x="-0.8" y="-0.2" z="1.47653e-07" />
+            <v x="-0.565685" y="-0.2" z="0.565685" />
+            <v x="-1.69296e-07" y="-0.2" z="0.8" />
+            <v x="0.141421" y="0.2" z="0.141422" />
+            <v x="0.2" y="0.2" z="2.47689e-07" />
+            <v x="0.141421" y="0.2" z="-0.141421" />
+            <v x="5.31574e-08" y="0.2" z="-0.2" />
+            <v x="-0.141421" y="0.2" z="-0.141421" />
+            <v x="-0.2" y="0.2" z="2.57229e-07" />
+            <v x="-0.141421" y="0.2" z="0.141422" />
+            <v x="3.186e-07" y="0.2" z="0.2" />
+            <v x="7.22974e-08" y="-0.2" z="1.38113e-07" />
+            <v x="2.73424e-07" y="1.2" z="0.16" />
+            <v x="-0.113137" y="1.2" z="0.113137" />
+            <v x="-0.16" y="1.2" z="2.42539e-07" />
+            <v x="-0.113137" y="1.2" z="-0.113137" />
+            <v x="6.10696e-08" y="1.2" z="-0.16" />
+            <v x="0.113137" y="1.2" z="-0.113137" />
+            <v x="0.16" y="1.2" z="2.34907e-07" />
+            <v x="0.113137" y="1.2" z="0.113137" />
+            <v x="0.29051" y="6.2" z="0.19051" />
+            <v x="0.328" y="6.2" z="0.1" />
+            <v x="0.29051" y="6.2" z="0.0094905" />
+            <v x="0.2" y="6.2" z="-0.0279999" />
+            <v x="0.10949" y="6.2" z="0.0094905" />
+            <v x="0.0720001" y="6.2" z="0.1" />
+            <v x="0.10949" y="6.2" z="0.19051" />
+            <v x="0.2" y="6.2" z="0.228" />
+            <v x="2.07126e-07" y="6.7" z="0.316" />
+            <v x="-0.0678821" y="6.7" z="0.287883" />
+            <v x="-0.0959999" y="6.7" z="0.22" />
+            <v x="-0.0678822" y="6.7" z="0.152118" />
+            <v x="8.19564e-08" y="6.7" z="0.124" />
+            <v x="0.0678824" y="6.7" z="0.152118" />
+            <v x="0.0960001" y="6.7" z="0.22" />
+            <v x="0.0678823" y="6.7" z="0.287882" />
+            <v x="0.0475177" y="7.2" z="0.0475178" />
+            <v x="0.0672001" y="7.2" z="1.98506e-07" />
+            <v x="0.0475177" y="7.2" z="-0.0475174" />
+            <v x="8.45227e-08" y="7.2" z="-0.0671998" />
+            <v x="-0.0475175" y="7.2" z="-0.0475174" />
+            <v x="-0.0671999" y="7.2" z="2.04764e-07" />
+            <v x="-0.0475175" y="7.2" z="0.0475178" />
+            <v x="1.72142e-07" y="7.2" z="0.0672002" />
+            <v x="9.76854e-08" y="10.2" z="1.79642e-07" />
+            <p name="0">
+                <v>1</v>
+                <v>0</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>2</v>
+                <v>1</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>3</v>
+                <v>2</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>4</v>
+                <v>3</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>5</v>
+                <v>4</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>6</v>
+                <v>5</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>7</v>
+                <v>6</v>
+                <v>16</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>16</v>
+                <v>0</v>
+                <v>7</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="8">
+                <v>1</v>
+                <v>9</v>
+                <v>8</v>
+                <v>0</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="9">
+                <v>2</v>
+                <v>10</v>
+                <v>9</v>
+                <v>1</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="10">
+                <v>3</v>
+                <v>11</v>
+                <v>10</v>
+                <v>2</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="11">
+                <v>4</v>
+                <v>12</v>
+                <v>11</v>
+                <v>3</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="12">
+                <v>5</v>
+                <v>13</v>
+                <v>12</v>
+                <v>4</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="13">
+                <v>6</v>
+                <v>14</v>
+                <v>13</v>
+                <v>5</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="14">
+                <v>7</v>
+                <v>15</v>
+                <v>14</v>
+                <v>6</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="15">
+                <v>15</v>
+                <v>7</v>
+                <v>0</v>
+                <v>8</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="16">
+                <v>24</v>
+                <v>17</v>
+                <v>15</v>
+                <v>8</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="17">
+                <v>17</v>
+                <v>18</v>
+                <v>14</v>
+                <v>15</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="18">
+                <v>18</v>
+                <v>19</v>
+                <v>13</v>
+                <v>14</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="19">
+                <v>19</v>
+                <v>20</v>
+                <v>12</v>
+                <v>13</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="20">
+                <v>20</v>
+                <v>21</v>
+                <v>11</v>
+                <v>12</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="21">
+                <v>21</v>
+                <v>22</v>
+                <v>10</v>
+                <v>11</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="22">
+                <v>22</v>
+                <v>23</v>
+                <v>9</v>
+                <v>10</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="23">
+                <v>23</v>
+                <v>24</v>
+                <v>8</v>
+                <v>9</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="24">
+                <v>26</v>
+                <v>25</v>
+                <v>24</v>
+                <v>23</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="25">
+                <v>27</v>
+                <v>26</v>
+                <v>23</v>
+                <v>22</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="26">
+                <v>28</v>
+                <v>27</v>
+                <v>22</v>
+                <v>21</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="27">
+                <v>29</v>
+                <v>28</v>
+                <v>21</v>
+                <v>20</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="28">
+                <v>30</v>
+                <v>29</v>
+                <v>20</v>
+                <v>19</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="29">
+                <v>31</v>
+                <v>30</v>
+                <v>19</v>
+                <v>18</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="30">
+                <v>32</v>
+                <v>31</v>
+                <v>18</v>
+                <v>17</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="31">
+                <v>25</v>
+                <v>32</v>
+                <v>17</v>
+                <v>24</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="32">
+                <v>40</v>
+                <v>33</v>
+                <v>32</v>
+                <v>25</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="33">
+                <v>33</v>
+                <v>34</v>
+                <v>31</v>
+                <v>32</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="34">
+                <v>34</v>
+                <v>35</v>
+                <v>30</v>
+                <v>31</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="35">
+                <v>35</v>
+                <v>36</v>
+                <v>29</v>
+                <v>30</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="36">
+                <v>36</v>
+                <v>37</v>
+                <v>28</v>
+                <v>29</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="37">
+                <v>37</v>
+                <v>38</v>
+                <v>27</v>
+                <v>28</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="38">
+                <v>38</v>
+                <v>39</v>
+                <v>26</v>
+                <v>27</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="39">
+                <v>39</v>
+                <v>40</v>
+                <v>25</v>
+                <v>26</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="40">
+                <v>42</v>
+                <v>41</v>
+                <v>40</v>
+                <v>39</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="41">
+                <v>43</v>
+                <v>42</v>
+                <v>39</v>
+                <v>38</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="42">
+                <v>44</v>
+                <v>43</v>
+                <v>38</v>
+                <v>37</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="43">
+                <v>45</v>
+                <v>44</v>
+                <v>37</v>
+                <v>36</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="44">
+                <v>46</v>
+                <v>45</v>
+                <v>36</v>
+                <v>35</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="45">
+                <v>47</v>
+                <v>46</v>
+                <v>35</v>
+                <v>34</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="46">
+                <v>48</v>
+                <v>47</v>
+                <v>34</v>
+                <v>33</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="47">
+                <v>41</v>
+                <v>48</v>
+                <v>33</v>
+                <v>40</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="1" />
+                    <uv idx="1" u="1" v="1" />
+                    <uv idx="0" u="1" v="0" />
+                </texmap>
+            </p>
+            <p name="48">
+                <v>49</v>
+                <v>48</v>
+                <v>41</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="49">
+                <v>49</v>
+                <v>47</v>
+                <v>48</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="50">
+                <v>49</v>
+                <v>46</v>
+                <v>47</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="51">
+                <v>49</v>
+                <v>45</v>
+                <v>46</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="52">
+                <v>49</v>
+                <v>44</v>
+                <v>45</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="53">
+                <v>49</v>
+                <v>43</v>
+                <v>44</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="54">
+                <v>49</v>
+                <v>42</v>
+                <v>43</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="55">
+                <v>49</v>
+                <v>41</v>
+                <v>42</v>
+                <material>bark1.png</material>
+                <texmap>
+                    <uv idx="2" u="0" v="0" />
+                    <uv idx="1" u="0" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <smooth />
+        </params>
+    </meshfact>
+</library>

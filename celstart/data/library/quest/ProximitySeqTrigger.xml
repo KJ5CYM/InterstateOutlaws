@@ -1,0 +1,38 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a trigger that sets a sequence on another object
+      Parameters:
+         $target_ent: the entity that represents the key. This parameter
+	 is not required if the door is always unlocked.
+         $target_op_on: the sequence to be activated
+         $target_op_off: the sequence to be activated when leaving
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+     <quest name="ProximitySeqTrigger">
+    	<state name="init">
+	    <trigger type="timeout">
+	    	<fireon timeout="100" />
+		<reward type="newstate" state="waiting" />
+	    </trigger>
+	</state>
+    	<state name="waiting">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" />
+		<reward type="sequencefinish" entity="$target_ent" sequence="$target_op_off" />
+		<reward type="sequence" entity="$target_ent" sequence="$target_op_on" />
+	    	<reward type="newstate" state="monitoring" />
+	    </trigger>
+	</state>
+    	<state name="monitoring">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" leave="true" />
+		<reward type="sequencefinish" entity="$target_ent" sequence="$target_op_on" />
+		<reward type="sequence" entity="$target_ent" sequence="$target_op_off" />
+	    	<reward type="newstate" state="waiting" />
+	    </trigger>
+	</state>
+</quest>
+</addon>
+</library>
+
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+    <sector name="Scene">
+        <addon entityname="map" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Ground" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+            <behaviour layer="blpython" name="ioMapBase"/>
+        </addon>
+        <addon entityname="walls" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Cube" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="waterwheel" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="water_wheel" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="townroad" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="townroad" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+                <addon entityname="townbuildings" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="townbuildings" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="Cylinder.033" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Cylinder.033" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="Cube.001" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Cube.001" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="Plane.037" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Plane.037" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="Cylinder.031" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Cylinder.031" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+        <addon entityname="cliff" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="cliff" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+                <addon entityname="cliff1" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="cliff1" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.1" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+                <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action>
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+    </sector>
+</world>

@@ -1,0 +1,718 @@
+<library>
+    <meshfact name="thingcliff1">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>rock1_2.png</material>
+            <v x="5.02134" y="27.5002" z="15.5" />
+            <v x="4.97866" y="29.9998" z="2" />
+            <v x="-5" y="30" z="2" />
+            <v x="-5" y="27.5" z="15.5" />
+            <v x="8.52134" y="23.5002" z="15.5" />
+            <v x="9.97866" y="24.9998" z="2" />
+            <v x="12.9787" y="14.9998" z="2" />
+            <v x="11.0213" y="15.0002" z="15.5" />
+            <v x="13.5213" y="-5.49982" z="15.5" />
+            <v x="15.4787" y="-5.50018" z="2" />
+            <v x="13.9787" y="-8.50018" z="2" />
+            <v x="12.0213" y="-8.49982" z="15.5" />
+            <v x="17.9787" y="-12.0002" z="2" />
+            <v x="16.0213" y="-11.9998" z="15.5" />
+            <v x="16.0213" y="-21.9998" z="15.5" />
+            <v x="17.9787" y="-22.0002" z="2" />
+            <v x="10.5213" y="-35.4998" z="15.5" />
+            <v x="12.4787" y="-35.5002" z="2" />
+            <v x="10.4787" y="-37.0002" z="2" />
+            <v x="1.52134" y="-36.4998" z="15.5" />
+            <v x="1.47866" y="-38.0002" z="2" />
+            <v x="-5.52134" y="-36.0002" z="2" />
+            <v x="-5.47866" y="-34.4998" z="15.5" />
+            <v x="-7.52134" y="-37.5002" z="2" />
+            <v x="-7.47866" y="-35.9998" z="15.5" />
+            <v x="-11.5213" y="-35.5002" z="2" />
+            <v x="-9.97866" y="-34.9998" z="15.5" />
+            <v x="-12.0213" y="-32.0002" z="2" />
+            <v x="-10.4787" y="-31.9998" z="15.5" />
+            <v x="-17.0213" y="-12.0002" z="2" />
+            <v x="-15.4787" y="-11.9998" z="15.5" />
+            <v x="-22.9787" y="-1.99982" z="15.5" />
+            <v x="-27.0213" y="-2.00018" z="2" />
+            <v x="-15.4787" y="8.00018" z="15.5" />
+            <v x="-17.0213" y="7.99982" z="2" />
+            <v x="-12.0213" y="22.9998" z="2" />
+            <v x="-9.97866" y="23.0002" z="15.5" />
+            <v x="-7.5" y="28.5" z="2" />
+            <v x="3.37932" y="16.8002" z="18" />
+            <v x="-3.63562" y="16.8001" z="18" />
+            <v x="5.82932" y="14.0002" z="18" />
+            <v x="7.57932" y="8.05018" z="18" />
+            <v x="9.32932" y="-6.29982" z="18" />
+            <v x="8.27932" y="-8.39982" z="18" />
+            <v x="11.0793" y="-10.8498" z="18" />
+            <v x="11.0793" y="-17.8498" z="18" />
+            <v x="7.22932" y="-27.2998" z="18" />
+            <v x="0.929321" y="-27.9998" z="18" />
+            <v x="-3.97068" y="-26.5998" z="18" />
+            <v x="-5.37068" y="-27.6498" z="18" />
+            <v x="-7.12068" y="-26.9498" z="18" />
+            <v x="-7.47068" y="-24.8498" z="18" />
+            <v x="-10.9707" y="-10.8498" z="18" />
+            <v x="-16.2207" y="-3.84982" z="18" />
+            <v x="-10.9707" y="3.15018" z="18" />
+            <v x="-7.12068" y="13.6502" z="18" />
+            <v x="-0.452064" y="-8.1665" z="19.5" />
+            <p name="0">
+                <v>1</v>
+                <v>2</v>
+                <v>3</v>
+                <v>0</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.600595" v="2.3514" />
+                    <uv idx="1" u="0.600595" v="3.19515" />
+                    <uv idx="0" u="1.22426" v="3.19515" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>4</v>
+                <v>5</v>
+                <v>1</v>
+                <v>0</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22426" v="3.19515" />
+                    <uv idx="1" u="1.53676" v="3.19515" />
+                    <uv idx="0" u="1.44568" v="2.3514" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>7</v>
+                <v>6</v>
+                <v>5</v>
+                <v>4</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.413095" v="2.32016" />
+                    <uv idx="1" u="0.413095" v="2.94516" />
+                    <uv idx="0" u="1.25684" v="2.94514" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>8</v>
+                <v>9</v>
+                <v>6</v>
+                <v>7</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.413095" v="2.38266" />
+                    <uv idx="1" u="0.413095" v="3.66391" />
+                    <uv idx="0" u="1.25684" v="3.66389" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>11</v>
+                <v>10</v>
+                <v>9</v>
+                <v>8</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.350595" v="2.41391" />
+                    <uv idx="1" u="0.350595" v="2.60141" />
+                    <uv idx="0" u="1.19434" v="2.60139" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>13</v>
+                <v>12</v>
+                <v>10</v>
+                <v>11</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.34926" v="3.25765" />
+                    <uv idx="1" u="1.59926" v="3.25765" />
+                    <uv idx="0" u="1.47693" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>14</v>
+                <v>15</v>
+                <v>12</v>
+                <v>13</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.350595" v="2.38266" />
+                    <uv idx="1" u="0.350595" v="3.00766" />
+                    <uv idx="0" u="1.19434" v="3.00764" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>16</v>
+                <v>17</v>
+                <v>15</v>
+                <v>14</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.350595" v="2.38266" />
+                    <uv idx="1" u="0.350595" v="3.22641" />
+                    <uv idx="0" u="1.19434" v="3.22639" />
+                </texmap>
+            </p>
+            <p name="8">
+                <v>18</v>
+                <v>17</v>
+                <v>16</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19568" v="2.4139" />
+                    <uv idx="1" u="1.31801" v="3.25765" />
+                    <uv idx="0" u="1.19301" v="3.25765" />
+                </texmap>
+            </p>
+            <p name="9">
+                <v>19</v>
+                <v>20</v>
+                <v>18</v>
+                <v>16</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19301" v="3.25765" />
+                    <uv idx="1" u="0.630511" v="3.25765" />
+                    <uv idx="0" u="0.633179" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="10">
+                <v>22</v>
+                <v>21</v>
+                <v>20</v>
+                <v>19</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19301" v="3.25765" />
+                    <uv idx="1" u="0.755511" v="3.25765" />
+                    <uv idx="0" u="0.758179" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="11">
+                <v>24</v>
+                <v>23</v>
+                <v>21</v>
+                <v>22</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19301" v="3.25765" />
+                    <uv idx="1" u="1.06801" v="3.25765" />
+                    <uv idx="0" u="1.07068" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="12">
+                <v>26</v>
+                <v>25</v>
+                <v>23</v>
+                <v>24</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19301" v="3.25765" />
+                    <uv idx="1" u="0.943011" v="3.25765" />
+                    <uv idx="0" u="1.03943" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="13">
+                <v>28</v>
+                <v>27</v>
+                <v>25</v>
+                <v>26</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.350595" v="2.41391" />
+                    <uv idx="1" u="0.350595" v="2.19516" />
+                    <uv idx="0" u="1.19434" v="2.19514" />
+                </texmap>
+            </p>
+            <p name="14">
+                <v>30</v>
+                <v>29</v>
+                <v>27</v>
+                <v>28</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.350595" v="2.38266" />
+                    <uv idx="1" u="0.350595" v="1.13266" />
+                    <uv idx="0" u="1.19434" v="1.13264" />
+                </texmap>
+            </p>
+            <p name="15">
+                <v>31</v>
+                <v>32</v>
+                <v>29</v>
+                <v>30</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.09926" v="3.25765" />
+                    <uv idx="1" u="0.474261" v="3.25765" />
+                    <uv idx="0" u="0.726929" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="16">
+                <v>33</v>
+                <v>34</v>
+                <v>32</v>
+                <v>31</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.974261" v="3.25765" />
+                    <uv idx="1" u="1.59926" v="3.25765" />
+                    <uv idx="0" u="1.69568" v="2.4139" />
+                </texmap>
+            </p>
+            <p name="17">
+                <v>36</v>
+                <v>35</v>
+                <v>34</v>
+                <v>33</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.413095" v="2.38266" />
+                    <uv idx="1" u="0.413095" v="1.44516" />
+                    <uv idx="0" u="1.25684" v="1.44514" />
+                </texmap>
+            </p>
+            <p name="18">
+                <v>3</v>
+                <v>37</v>
+                <v>35</v>
+                <v>36</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.413095" v="2.38266" />
+                    <uv idx="1" u="0.413095" v="2.0389" />
+                    <uv idx="0" u="1.25684" v="2.1014" />
+                </texmap>
+            </p>
+            <p name="19">
+                <v>2</v>
+                <v>37</v>
+                <v>3</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22559" v="2.3514" />
+                    <uv idx="1" u="1.06934" v="3.19515" />
+                    <uv idx="0" u="1.22559" v="3.19515" />
+                </texmap>
+            </p>
+            <p name="20">
+                <v>39</v>
+                <v>38</v>
+                <v>0</v>
+                <v>3</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.85193" v="2.41389" />
+                    <uv idx="1" u="1.7493" v="3.08264" />
+                    <uv idx="0" u="1.31087" v="3.08264" />
+                </texmap>
+            </p>
+            <p name="21">
+                <v>38</v>
+                <v>40</v>
+                <v>4</v>
+                <v>0</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.44568" v="2.66389" />
+                    <uv idx="1" u="1.27743" v="3.25764" />
+                    <uv idx="0" u="1.1243" v="3.08264" />
+                </texmap>
+            </p>
+            <p name="22">
+                <v>40</v>
+                <v>41</v>
+                <v>7</v>
+                <v>4</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.35193" v="2.94514" />
+                    <uv idx="1" u="1.1368" v="3.37951" />
+                    <uv idx="0" u="1.02743" v="3.00764" />
+                </texmap>
+            </p>
+            <p name="23">
+                <v>41</v>
+                <v>42</v>
+                <v>8</v>
+                <v>7</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.38318" v="3.66389" />
+                    <uv idx="1" u="1.12118" v="3.71389" />
+                    <uv idx="0" u="1.0118" v="2.81701" />
+                </texmap>
+            </p>
+            <p name="24">
+                <v>42</v>
+                <v>43</v>
+                <v>11</v>
+                <v>8</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.10193" v="2.60139" />
+                    <uv idx="1" u="0.868052" v="2.59514" />
+                    <uv idx="0" u="0.933677" v="2.46389" />
+                </texmap>
+            </p>
+            <p name="25">
+                <v>43</v>
+                <v>44</v>
+                <v>13</v>
+                <v>11</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.47693" v="2.63264" />
+                    <uv idx="1" u="1.16805" v="2.56076" />
+                    <uv idx="0" u="0.993052" v="2.40764" />
+                </texmap>
+            </p>
+            <p name="26">
+                <v>44</v>
+                <v>45</v>
+                <v>14</v>
+                <v>13</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22693" v="3.00764" />
+                    <uv idx="1" u="0.918052" v="2.74826" />
+                    <uv idx="0" u="0.918052" v="2.31076" />
+                </texmap>
+            </p>
+            <p name="27">
+                <v>45</v>
+                <v>46</v>
+                <v>16</v>
+                <v>14</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.883179" v="3.22639" />
+                    <uv idx="1" u="0.677427" v="2.71389" />
+                    <uv idx="0" u="0.918052" v="2.12326" />
+                </texmap>
+            </p>
+            <p name="28">
+                <v>47</v>
+                <v>48</v>
+                <v>22</v>
+                <v>19</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.758179" v="2.28889" />
+                    <uv idx="1" u="0.852427" v="1.79514" />
+                    <uv idx="0" u="1.15868" v="1.88264" />
+                </texmap>
+            </p>
+            <p name="29">
+                <v>48</v>
+                <v>49</v>
+                <v>24</v>
+                <v>22</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.07068" v="2.50764" />
+                    <uv idx="1" u="1.20243" v="1.98576" />
+                    <uv idx="0" u="1.28993" v="1.92014" />
+                </texmap>
+            </p>
+            <p name="30">
+                <v>49</v>
+                <v>50</v>
+                <v>26</v>
+                <v>24</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.03943" v="2.32014" />
+                    <uv idx="1" u="1.21805" v="1.81701" />
+                    <uv idx="0" u="1.32743" v="1.86076" />
+                </texmap>
+            </p>
+            <p name="31">
+                <v>50</v>
+                <v>51</v>
+                <v>28</v>
+                <v>26</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19568" v="2.19514" />
+                    <uv idx="1" u="1.38368" v="1.74826" />
+                    <uv idx="0" u="1.40555" v="1.87951" />
+                </texmap>
+            </p>
+            <p name="32">
+                <v>51</v>
+                <v>52</v>
+                <v>30</v>
+                <v>28</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.883179" v="1.13264" />
+                    <uv idx="1" u="1.16493" v="1.06076" />
+                    <uv idx="0" u="1.38368" v="1.93576" />
+                </texmap>
+            </p>
+            <p name="33">
+                <v>52</v>
+                <v>53</v>
+                <v>31</v>
+                <v>30</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.726929" v="1.75764" />
+                    <uv idx="1" u="1.1493" v="1.87326" />
+                    <uv idx="0" u="1.47743" v="2.31076" />
+                </texmap>
+            </p>
+            <p name="34">
+                <v>53</v>
+                <v>54</v>
+                <v>33</v>
+                <v>31</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.69568" v="1.75764" />
+                    <uv idx="1" u="1.97743" v="2.06076" />
+                    <uv idx="0" u="1.6493" v="2.49826" />
+                </texmap>
+            </p>
+            <p name="35">
+                <v>54</v>
+                <v>55</v>
+                <v>36</v>
+                <v>33</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.53943" v="1.44514" />
+                    <uv idx="1" u="1.71805" v="2.02951" />
+                    <uv idx="0" u="1.47743" v="2.68576" />
+                </texmap>
+            </p>
+            <p name="36">
+                <v>55</v>
+                <v>39</v>
+                <v>3</v>
+                <v>36</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.53809" v="2.1014" />
+                    <uv idx="1" u="1.62337" v="2.77014" />
+                    <uv idx="0" u="1.40555" v="2.96701" />
+                </texmap>
+            </p>
+            <p name="37">
+                <v>46</v>
+                <v>47</v>
+                <v>19</v>
+                <v>16</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="0.633179" v="2.47639" />
+                    <uv idx="1" u="0.596177" v="1.94514" />
+                    <uv idx="0" u="0.989927" v="1.90139" />
+                </texmap>
+            </p>
+            <p name="38">
+                <v>56</v>
+                <v>38</v>
+                <v>39</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.24837" v="2.39514" />
+                    <uv idx="1" u="1.6868" v="2.39514" />
+                    <uv idx="0" u="1.44734" v="3.95555" />
+                </texmap>
+            </p>
+            <p name="39">
+                <v>56</v>
+                <v>40</v>
+                <v>38</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.2493" v="2.39514" />
+                    <uv idx="1" u="1.40243" v="2.57014" />
+                    <uv idx="0" u="1.00984" v="3.95555" />
+                </texmap>
+            </p>
+            <p name="40">
+                <v>56</v>
+                <v>41</v>
+                <v>40</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.21493" v="2.38264" />
+                    <uv idx="1" u="1.3243" v="2.75451" />
+                    <uv idx="0" u="0.822341" v="3.76805" />
+                </texmap>
+            </p>
+            <p name="41">
+                <v>56</v>
+                <v>42</v>
+                <v>41</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.1993" v="2.37951" />
+                    <uv idx="1" u="1.30868" v="3.27639" />
+                    <uv idx="0" u="0.697341" v="3.39305" />
+                </texmap>
+            </p>
+            <p name="42">
+                <v>56</v>
+                <v>43</v>
+                <v>42</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.24618" v="2.40139" />
+                    <uv idx="1" u="1.18055" v="2.53264" />
+                    <uv idx="0" u="0.634841" v="2.51805" />
+                </texmap>
+            </p>
+            <p name="43">
+                <v>56</v>
+                <v>44</v>
+                <v>43</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.24305" v="2.40764" />
+                    <uv idx="1" u="1.41805" v="2.56076" />
+                    <uv idx="0" u="0.697341" v="2.39305" />
+                </texmap>
+            </p>
+            <p name="44">
+                <v>56</v>
+                <v>45</v>
+                <v>44</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.23055" v="2.37326" />
+                    <uv idx="1" u="1.23055" v="2.81076" />
+                    <uv idx="0" u="0.509841" v="2.20555" />
+                </texmap>
+            </p>
+            <p name="45">
+                <v>56</v>
+                <v>46</v>
+                <v>45</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.23055" v="2.37326" />
+                    <uv idx="1" u="0.989927" v="2.96389" />
+                    <uv idx="0" u="0.509841" v="1.76805" />
+                </texmap>
+            </p>
+            <p name="46">
+                <v>56</v>
+                <v>48</v>
+                <v>47</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22118" v="2.38264" />
+                    <uv idx="1" u="0.914927" v="2.29514" />
+                    <uv idx="0" u="1.13484" v="1.14305" />
+                </texmap>
+            </p>
+            <p name="47">
+                <v>56</v>
+                <v>49</v>
+                <v>48</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22743" v="2.35764" />
+                    <uv idx="1" u="1.13993" v="2.42326" />
+                    <uv idx="0" u="1.44734" v="1.20555" />
+                </texmap>
+            </p>
+            <p name="48">
+                <v>56</v>
+                <v>50</v>
+                <v>49</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.20243" v="2.36076" />
+                    <uv idx="1" u="1.09305" v="2.31701" />
+                    <uv idx="0" u="1.50984" v="1.14305" />
+                </texmap>
+            </p>
+            <p name="49">
+                <v>56</v>
+                <v>51</v>
+                <v>50</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.21805" v="2.37951" />
+                    <uv idx="1" u="1.19618" v="2.24826" />
+                    <uv idx="0" u="1.63484" v="1.20555" />
+                </texmap>
+            </p>
+            <p name="50">
+                <v>56</v>
+                <v>52</v>
+                <v>51</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.19618" v="2.37326" />
+                    <uv idx="1" u="0.977427" v="1.49826" />
+                    <uv idx="0" u="1.63484" v="1.33055" />
+                </texmap>
+            </p>
+            <p name="51">
+                <v>56</v>
+                <v>53</v>
+                <v>52</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22743" v="2.37326" />
+                    <uv idx="1" u="0.899302" v="1.93576" />
+                    <uv idx="0" u="1.88484" v="2.20555" />
+                </texmap>
+            </p>
+            <p name="52">
+                <v>56</v>
+                <v>54</v>
+                <v>53</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.2118" v="2.37326" />
+                    <uv idx="1" u="1.53993" v="1.93576" />
+                    <uv idx="0" u="2.19734" v="2.64305" />
+                </texmap>
+            </p>
+            <p name="53">
+                <v>56</v>
+                <v>55</v>
+                <v>54</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.22743" v="2.37326" />
+                    <uv idx="1" u="1.46805" v="1.71701" />
+                    <uv idx="0" u="1.88484" v="3.08055" />
+                </texmap>
+            </p>
+            <p name="54">
+                <v>56</v>
+                <v>39</v>
+                <v>55</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.21805" v="2.40451" />
+                    <uv idx="1" u="1.43587" v="2.20764" />
+                    <uv idx="0" u="1.63484" v="3.76805" />
+                </texmap>
+            </p>
+            <p name="55">
+                <v>56</v>
+                <v>47</v>
+                <v>46</v>
+                <material>rock1_2.png</material>
+                <texmap>
+                    <uv idx="2" u="1.23993" v="2.40139" />
+                    <uv idx="1" u="0.846177" v="2.44514" />
+                    <uv idx="0" u="0.759841" v="1.20555" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

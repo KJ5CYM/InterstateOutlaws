@@ -1,0 +1,32 @@
+ <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quests for anchoring the camera on a moving platform.
+      The entity on which this is used should have a trigger with
+      tag 'anchor' which indicates the trigger that should fire when
+      we're on top of the anchor.
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+     <quest name="MovingPlatformAnchor">
+	<state name="waiting_to_enter">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" entity_tag="anchor" />
+		<reward type="debugprint" message="Camera on platform!" />
+	    	<reward type="changeproperty" entity="camera" pc="pclinearmovement"
+			property="cel.property.anchor" string="$this" />
+		<reward type="newstate" state="waiting_to_leave" />
+	    </trigger>
+	</state>
+    	<state name="waiting_to_leave">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" entity_tag="anchor" leave="true" />
+		<reward type="debugprint" message="Camera from platform!" />
+	    	<reward type="changeproperty" entity="camera" pc="pclinearmovement"
+			property="cel.property.anchor" string="" />
+		<reward type="newstate" state="waiting_to_enter" />
+	    </trigger>
+	</state>
+</quest>
+</addon>
+</library>
+
+

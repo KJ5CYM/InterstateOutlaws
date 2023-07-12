@@ -1,0 +1,17 @@
+<!-- ooooooooooooooooooooooooooooooooooooooooooooooooo
+        Really simple template to show basics of template usage.
+     ooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  
+<library>
+<addon plugin="cel.addons.celentitytpl" entityname="dummytpl" >
+    <propclass name="pcsolid">
+    </propclass>
+    <propclass name="pclinearmovement">
+	<action name="InitCDMesh">
+	    <par name="percentage" float="$per" />
+	</action>
+    </propclass>
+    <behaviour layer="bltest" name="printer" />
+</addon>
+</library>
+

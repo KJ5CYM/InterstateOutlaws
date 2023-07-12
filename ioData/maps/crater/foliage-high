@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<world>
+    <textures>
+        <!--foliage textures -->
+        <texture name="sage2.png">
+            <file>textures/sage2.png</file>
+            <alpha>
+                <binary />
+            </alpha>
+        </texture>
+        <texture name="grass.dds">
+            <file>textures/grass.dds</file>
+            <alpha>
+                <binary />
+            </alpha>
+        </texture>
+    </textures>
+    <materials>
+        <!--foliage mats-->
+        <material name="sage2.png">
+            <texture>sage2.png</texture>
+        </material>
+        <material name="grass.dds">
+            <texture>grass.dds</texture>
+        </material>
+    </materials>
+    <library>factories/grass.lib</library>
+    <library>factories/bush2.lib</library>
+    <sector name="Scene">
+        <meshgen name="grass">
+            <geometry>
+                <factory maxdist="50" name="Grass" />
+                <factory maxdist="50" name="GrassLow" />
+                <radius>1</radius>
+                <density>0.03</density>
+                <materialfactor material="cracked" factor="1" />
+                <materialfactor material="Sand00" factor="1" />
+            </geometry>
+            <geometry>
+                <factory maxdist="50" name="bush2" />
+                <radius>1</radius>
+                <density>0.06</density>
+                <materialfactor material="Sand00" factor="1" />
+                <materialfactor material="Sand01" factor="0" />
+                <defaultmaterialfactor>0.009</defaultmaterialfactor>
+            </geometry>
+            <alphascale mindist="40" maxdist="50" />
+            <samplebox>
+                <min x="-256" y="-200" z="-256" />
+                <max x="256" y="200" z="256" />
+            </samplebox>
+            <meshobj>Terrain</meshobj>
+        </meshgen>
+    </sector>
+</world>

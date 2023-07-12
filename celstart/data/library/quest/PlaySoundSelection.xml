@@ -1,0 +1,19 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a trigger that plays a sound when selected
+      No Parameters
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+   <quest name="PlaySoundSelection">
+    <state name="idle">
+        <trigger type="meshselect">
+            <fireon entity="$this" />
+	    <reward type="action" id="Unpause" entity="$this" pc="pcsoundsource" />
+	    <reward type="newstate" state="idle" />
+	</trigger>
+    </state>
+</quest>
+</addon>
+</library>
+
+

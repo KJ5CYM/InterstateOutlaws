@@ -1,0 +1,206 @@
+<library>
+  <addon plugin="cel.addons.xmlscripts">
+    <pcfactory> cel.pcfactory.defaultcamera </pcfactory>
+    <pcfactory> cel.pcfactory.pccommandinput </pcfactory>
+    <pcfactory> cel.pcfactory.actormove </pcfactory>
+    <pcfactory> cel.pcfactory.linmove </pcfactory>
+
+    <script name="actor">
+
+      <event name="init">
+        <print value="'Initializing actor...'" />
+        <var name="camoffs_min" value="2.0"/>
+        <var name="camoffs_opt" value="4.0"/>
+        <var name="camoffs_max" value="6.0"/>
+        <var name="camdist_min" value="8.0"/>
+        <var name="camdist_opt" value="13.0"/>
+        <var name="camdist_max" value="18.0"/>
+        <call event="set_camera"/>
+        <call event="bind_input"/>
+	<if eval="!pc(pclinearmovement)">
+          <createpropclass name="pclinearmovement"/>
+	</if>
+	<if eval="!pc(pcdefaultcamera)">
+          <createpropclass name="pcdefaultcamera"/>
+	</if>
+	<if eval="!pc(pccommandinput)">
+          <createpropclass name="pccommandinput"/>
+	</if>
+	<if eval="!pc(pcactormove)">
+          <createpropclass name="pcactormove"/>
+	</if>
+      </event>
+
+      <event name="set_camera">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetCamera)">
+          <par id="parid(modename)" value="'thirdperson'"/>
+        </action>
+      </event>
+      <event name="bind_input">
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="up"/>
+          <par id="parid(command)" value="forward"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="down"/>
+          <par id="parid(command)" value="backward"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="left"/>
+          <par id="parid(command)" value="rotateleft"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="right"/>
+          <par id="parid(command)" value="rotateright"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="space"/>
+          <par id="parid(command)" value="jump"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="pgup"/>
+          <par id="parid(command)" value="camup"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="pgdn"/>
+          <par id="parid(command)" value="camdn"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="home"/>
+          <par id="parid(command)" value="camclose"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="end"/>
+          <par id="parid(command)" value="camfar"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="insert"/>
+          <par id="parid(command)" value="camshift"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="delete"/>
+          <par id="parid(command)" value="camdrop"/>
+        </action>
+        <action propclass="pc(pccommandinput)" id="actid(Bind)">
+          <par id="parid(trigger)" value="esc"/>
+          <par id="parid(command)" value="exit"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_forward1">
+        <action propclass="pc(pcactormove)" id="actid(Forward)">
+          <par id="parid(start)" value="true"/>
+        </action>
+      </event>
+      <event name="pccommandinput_forward0">
+        <action propclass="pc(pcactormove)" id="actid(Forward)">
+          <par id="parid(start)" value="false"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_backward1">
+        <action propclass="pc(pcactormove)" id="actid(Backward)">
+          <par id="parid(start)" value="true"/>
+        </action>
+      </event>
+      <event name="pccommandinput_backward0">
+        <action propclass="pc(pcactormove)" id="actid(Backward)">
+          <par id="parid(start)" value="false"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_rotateleft1">
+        <action propclass="pc(pcactormove)" id="actid(RotateLeft)">
+          <par id="parid(start)" value="true"/>
+        </action>
+      </event>
+      <event name="pccommandinput_rotateleft0">
+        <action propclass="pc(pcactormove)" id="actid(RotateLeft)">
+          <par id="parid(start)" value="false"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_rotateright1">
+        <action propclass="pc(pcactormove)" id="actid(RotateRight)">
+          <par id="parid(start)" value="true"/>
+        </action>
+      </event>
+      <event name="pccommandinput_rotateright0">
+        <action propclass="pc(pcactormove)" id="actid(RotateRight)">
+          <par id="parid(start)" value="false"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_jump1">
+        <sound name="jump" loop="false"/>
+        <action propclass="pc(pcactormove)" id="actid(Jump)">
+          <par id="parid(start)" value="true"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_camup1">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetCamera)">
+          <par id="parid(pitchvelocity)" value="1.0"/>
+        </action>
+      </event>
+      <event name="pccommandinput_camup0">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetCamera)">
+          <par id="parid(pitchvelocity)" value="0.0"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_camdn1">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetCamera)">
+          <par id="parid(pitchvelocity)" value="-1.0"/>
+        </action>
+      </event>
+      <event name="pccommandinput_camdn0">
+        <action propclass="pc(pcdefaultcamera)" id="actid(SetCamera)">
+          <par id="parid(pitchvelocity)" value="0.0"/>
+        </action>
+      </event>
+
+      <event name="pccommandinput_camclose1">
+        <if eval="?camdist_opt > ?camdist_min">
+          <true>
+            <var name="camdist_opt" value="?camdist_opt-5.0"/>
+            <call event="set_camera"/>
+          </true>
+        </if>
+      </event>
+
+      <event name="pccommandinput_camfar1">
+        <if eval="?camdist_opt < ?camdist_max">
+          <true>
+            <var name="camdist_opt" value="?camdist_opt+5.0"/>
+            <call event="set_camera"/>
+          </true>
+        </if>
+      </event>
+
+      <event name="pccommandinput_camshift1">
+        <if eval="?camoffs_opt < ?camoffs_max">
+          <true>
+            <var name="camoffs_opt" value="?camoffs_opt+2.0"/>
+            <call event="set_camera"/>
+          </true>
+        </if>
+      </event>
+
+      <event name="pccommandinput_camdrop1">
+        <if eval="?camoffs_opt > ?camoffs_min">
+          <true>
+            <var name="camoffs_opt" value="?camoffs_opt-2.0"/>
+            <call event="set_camera"/>
+          </true>
+        </if>
+      </event>
+
+      <event name="pccommandinput_exit0">
+        <call entity="en_levelmgr" event="level_exit"/>
+      </event>
+
+    </script>
+  </addon>
+</library>
+

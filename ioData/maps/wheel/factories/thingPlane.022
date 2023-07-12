@@ -1,0 +1,227 @@
+<library>
+    <meshfact name="thingPlane.022">
+        <plugin>thingfact</plugin>
+        <zuse />
+        <params>
+            <material>tree4.png</material>
+            <v x="4" y="4.94257e-07" z="7" />
+            <v x="4" y="1.85224e-07" z="2" />
+            <v x="-4.76837e-07" y="2.60722e-07" z="7" />
+            <v x="0" y="-1.85224e-07" z="2" />
+            <v x="-4" y="4.18759e-07" z="2" />
+            <v x="-4" y="8.64705e-07" z="7" />
+            <v x="-5.78607e-07" y="-4" z="7" />
+            <v x="-5.1015e-07" y="-4" z="2" />
+            <v x="3.27368e-07" y="4" z="2" />
+            <v x="3.95825e-07" y="4" z="7" />
+            <v x="-1.49977" y="1.32866" z="2.585" />
+            <v x="1.32866" y="-1.49977" z="2.585" />
+            <v x="0.501342" y="3.32977" z="6.415" />
+            <v x="3.32977" y="0.501343" z="6.415" />
+            <v x="0.501343" y="-3.49977" z="6.415" />
+            <v x="3.32977" y="-0.671342" z="6.415" />
+            <v x="-1.49977" y="-1.49866" z="2.585" />
+            <v x="1.32866" y="1.32977" z="2.585" />
+            <v x="1.32977" y="-1.49866" z="2.585" />
+            <v x="-1.49866" y="1.32977" z="2.585" />
+            <v x="-0.671342" y="-3.49977" z="6.415" />
+            <v x="-3.49977" y="-0.671343" z="6.415" />
+            <v x="-0.671344" y="3.32977" z="6.415" />
+            <v x="-3.49977" y="0.501342" z="6.415" />
+            <v x="1.32977" y="1.32866" z="2.585" />
+            <v x="-1.49866" y="-1.49977" z="2.585" />
+            <p name="0">
+                <v>1</v>
+                <v>3</v>
+                <v>2</v>
+                <v>0</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="0">
+                <v>0</v>
+                <v>2</v>
+                <v>3</v>
+                <v>1</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>4</v>
+                <v>3</v>
+                <v>2</v>
+                <v>5</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="1">
+                <v>5</v>
+                <v>2</v>
+                <v>3</v>
+                <v>4</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>7</v>
+                <v>3</v>
+                <v>2</v>
+                <v>6</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="2">
+                <v>6</v>
+                <v>2</v>
+                <v>3</v>
+                <v>7</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>8</v>
+                <v>3</v>
+                <v>2</v>
+                <v>9</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="3">
+                <v>9</v>
+                <v>2</v>
+                <v>3</v>
+                <v>8</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>12</v>
+                <v>10</v>
+                <v>11</v>
+                <v>13</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="4">
+                <v>13</v>
+                <v>11</v>
+                <v>10</v>
+                <v>12</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>15</v>
+                <v>17</v>
+                <v>16</v>
+                <v>14</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="5">
+                <v>14</v>
+                <v>16</v>
+                <v>17</v>
+                <v>15</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>20</v>
+                <v>18</v>
+                <v>19</v>
+                <v>21</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="6">
+                <v>21</v>
+                <v>19</v>
+                <v>18</v>
+                <v>20</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>23</v>
+                <v>25</v>
+                <v>24</v>
+                <v>22</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="-5.96046e-08" v="1" />
+                    <uv idx="1" u="2.98023e-08" v="0.1875" />
+                    <uv idx="0" u="1" v="0.1875" />
+                </texmap>
+            </p>
+            <p name="7">
+                <v>22</v>
+                <v>24</v>
+                <v>25</v>
+                <v>23</v>
+                <material>tree4.png</material>
+                <texmap>
+                    <uv idx="2" u="2.98023e-08" v="0.1875" />
+                    <uv idx="1" u="-5.96046e-08" v="1" />
+                    <uv idx="0" u="1" v="1" />
+                </texmap>
+            </p>
+        </params>
+    </meshfact>
+</library>

@@ -1,0 +1,50 @@
+<library> 
+    <shaders>
+        <shader><file>/outlaws/ioData/scripts/particle_basic2.xml</file></shader>
+    </shaders>
+    <textures>
+        <texture name='smoke.png'>
+            <file>/outlaws/textures/smoke.png</file>
+        </texture>
+    </textures>
+    <materials>
+        <material name='smoke.png'>
+            <texture>smoke.png</texture>
+            <shader type="standard">particle_basic2</shader>
+        </material>
+</materials>
+<meshfact name="rocketExplosion">
+    <plugin>crystalspace.mesh.loader.factory.particles</plugin>
+    <priority>alpha</priority>
+    <ztest/>
+    <params>
+      <mixmode>
+        <add/>
+      </mixmode>
+      <material>smoke.png</material>
+      <particlesize x="0.6" y="0.6" />
+      <sortmode>dot</sortmode>
+      <transformmode>local</transformmode>
+      <emitter type="sphere">
+        <emissionrate>50</emissionrate>
+        <mass min="1" max="5" />
+        <duration>0.5</duration>
+        <radius>0.6</radius>
+        <uniformvelocity>no</uniformvelocity>
+        <initialvelocity x="1.0" y="1.0" z="1.0" />
+        <initialttl min="0.5" max="1.0" />
+      </emitter>
+      <effector type="lincolor">
+        <color red="1.00" green="0.85" blue="0.50" alpha="0" time="0.5" />
+        <color red="1.00" green="0.62" blue="0.30" alpha=".1" time="0.45" />
+        <color red="1.00" green="0.52" blue="0.10" alpha=".3" time="0.4" />
+        <color red="0.80" green="0.42" blue="0.05" alpha=".8" time="0.35" />
+        <color red="0.60" green="0.30" blue="0.00" alpha=".9" time="0.3" />
+        <color red="0.40" green="0.20" blue="0.00" alpha=".97" time="0.25" />
+        <color red="0.20" green="0.10" blue="0.00" alpha="1" time="0.2" />
+        <color red="0.00" green="0.00" blue="0.00" alpha="1" time="0.1" />
+        <color red="0.00" green="0.00" blue="0.00" alpha="1" time="0" />
+      </effector>
+    </params>
+  </meshfact>
+</library>

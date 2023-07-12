@@ -1,0 +1,52 @@
+    <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for a door that can automatically open on approach unless
+      it is locked. Unlocking requires to have an certain object in the
+      inventory. This version is for a sliding door.
+      The entity with this quest must also have some kind of trigger.
+      Parameters:
+	 - x_*: relative movement factor to close the door in each axus.
+	 - duration: duration for open/close movement
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+    <quest name="SlideDoor">
+        <default name="x_on" value="0"/>
+        <default name="x_off" value="0"/>
+        <default name="y_on" value="0"/>
+        <default name="y_off" value="0"/>
+        <default name="z_on" value="2"/>
+        <default name="z_off" value="-2"/>
+        <default name="duration" value="500"/>
+    	<state name="closed">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" />
+		<reward type="debugprint" message="Door Opens!" />
+		<reward type="sequencefinish" entity="$this" sequence="closedoor" />
+		<reward type="sequence" entity="$this" sequence="opendoor" />
+	    	<reward type="newstate" state="opened" />
+	    </trigger>
+	</state>
+    	<state name="opened">
+	    <trigger type="trigger">
+	    	<fireon entity="$this" leave="true" />
+		<reward type="debugprint" message="Door Closes!" />
+		<reward type="sequencefinish" entity="$this" sequence="opendoor" />
+		<reward type="sequence" entity="$this" sequence="closedoor" />
+	    	<reward type="newstate" state="closed" />
+	    </trigger>
+	</state>
+    	<sequence name="opendoor">
+	    <op type="transform" duration="$duration" entity="$this">
+		<v x="$x_on" y="$y_on" z="$z_on" />
+	    </op>
+	</sequence>
+    	<sequence name="closedoor">
+	    <op type="transform" duration="$duration" entity="$this">
+		<v x="$x_off" y="$y_off" z="$z_off" />
+	    </op>
+	</sequence>
+</quest>
+</addon>
+</library>
+
+

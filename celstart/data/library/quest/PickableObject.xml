@@ -1,0 +1,23 @@
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      Quest for an object that can be picked up on selection.
+      Quest variables:
+       - $monitor: the entity that will pick this entity
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<library>
+  <addon plugin="cel.addons.questdef">
+     <quest name="PickableObject">
+    	<default name="monitor" value="camera"/>
+    	<state name="onground">
+	    <trigger type="meshselect">
+	    	<fireon entity="$this" />
+		<reward type="inventory" entity="$monitor" child_entity="$this" />
+		<reward type="newstate" state="inventory" />
+	    </trigger>
+	</state>
+    	<state name="inventory">
+	</state>
+</quest>
+</addon>
+</library>
+
+

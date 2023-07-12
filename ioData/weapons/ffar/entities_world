@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<world>
+  <sector name='Scene'>
+    <addon entityname='FFAR-tpl' plugin='cel.addons.celentitytpl'>
+      <propclass name='pcmesh'>
+        <action name='LoadMesh'>
+          <par name='factoryname' string='genRocketLauncher'/>
+        </action>
+      </propclass>
+    <behaviour layer="blpython" name="ioFFAR"/>
+    </addon>
+  </sector>
+</world>

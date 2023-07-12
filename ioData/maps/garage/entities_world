@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+    <sector name="Scene">
+        <addon entityname="map" plugin="cel.addons.celentity">
+            <propclass name="pcmesh">
+                <action name="SetMesh">
+                    <par string="Terrain" name="name"/>
+                </action>
+            </propclass>
+            <propclass name="pcmechobject">
+                <action name="InitPhys">
+                    <par float="1.0" name="friction"/>
+                    <par float="99999999999999999999.99" name="mass"/>
+                    <par float="0" name="elasticity"/>
+                    <par float="1" name="density"/>
+                    <par float="0.0001" name="softness"/>
+                    <par bool="true" name="enabled" />
+                </action>
+                <action name="SetColliderMesh" />
+           <!--     <action name="AddToGroup">
+                    <par string="mapgroup" name="group" />
+                </action> -->
+                <action name="MakeStatic"><par bool="true" name="static" /></action>
+            </propclass>
+        </addon>
+    </sector>
+</world>
