@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <plugins>
+    <plugin name="null">crystalspace.mesh.loader.null</plugin>
+    <plugin name="genmesh">crystalspace.mesh.loader.genmesh</plugin>
+    <plugin name="genmeshfact">crystalspace.mesh.loader.factory.genmesh</plugin>
+  </plugins>
+  <shaders>
+      <shader><file>/shader/stat_dyn_reflect.xml</file></shader>
+  </shaders>
+  <textures>
+    <texture name='blank-reflect-mask.png'>
+      <file>/outlaws/textures/blank-reflect-mask.png</file>
+    </texture>
+    <texture name='desert-reflect.jpg'>
+      <file>/outlaws/textures/desert-reflect.jpg</file>
+    </texture>
+    <texture name="avanbody-damage.jpg">
+      <file>textures/avanbody-damage.jpg</file>
+    </texture>
+    <texture name="abumpers.jpg">
+      <file>textures/abumpers.jpg</file>
+    </texture>
+    <texture name="avanbody.jpg">
+      <file>textures/avanbody.jpg</file>
+    </texture>
+    <texture name="adetails1.jpg">
+      <file>textures/adetails1.jpg</file>
+    </texture>
+    <texture name="awindows.jpg">
+      <file>textures/awindows.jpg</file>
+    </texture>
+    <texture name="ashocks.jpg">
+      <file>textures/ashocks.jpg</file>
+    </texture>
+    <texture name="aspeakers.jpg">
+      <file>textures/aspeakers.jpg</file>
+    </texture>
+    <texture name="avanbody-t.jpg">
+      <file>textures/avanbody-t.jpg</file>
+    </texture>
+    <texture name="awindows-dmg.png">
+      <file>textures/awindows-dmg.png</file>
+    </texture>
+    <texture name="awheels.jpg">
+      <file>textures/awheels.jpg</file>
+    </texture>
+  </textures>
+  <materials>
+    <material name="bumpersabumpers.jpg">
+      <texture>abumpers.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="bodyavanbody.jpg">
+      <texture>avanbody.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="detailsadetails1.jpg">
+      <texture>adetails1.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="windowsawindows.jpg">
+      <texture>awindows.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="15 - Defaultashocks.jpg">
+      <texture>ashocks.jpg</texture>
+      <shader type="standard">stat_dyn_reflect</shader>
+      <shadervar name="tex reflection" type="texture">desert-reflect.jpg</shadervar>
+      <shadervar name="tex mask" type="texture">blank-reflect-mask.png</shadervar>
+    </material>
+    <material name="6 - Defaultaspeakers.jpg">
+      <texture>aspeakers.jpg</texture>
+    </material>
+    <material name="avanbody-t.jpg">
+      <texture>avanbody-t.jpg</texture>
+    </material>
+    <material name="awheels.jpg">
+      <texture>awheels.jpg</texture>
+    </material>
+  </materials>
+  <sounds/>
+  <settings>
+    <clearscreen>yes</clearscreen>
+    <clearzbuf>yes</clearzbuf>
+  </settings>
+  <library>factories/genateamBody-exp</library>
+  <library>factories/genateamRear</library>
+  <library>factories/genateamRight</library>
+  <library>factories/genateamFront</library>
+  <library>factories/genateamLeft</library>
+  <library>factories/genateamWheel</library>
+  <library>factories/genateamBody</library>
+  <triggers/>
+  <sector name="Scene">
+    <cullerp plugin="crystalspace.culling.frustvis"/>
+    <node name="ateam-Engine">
+      <position y="0.590786" x="-0.0120602" z="-1.09831"/>
+      <xvector y="3.25841e-07" x="1" z="8.74228e-08"/>
+      <yvector y="-4.30346e-06" x="8.74242e-08" z="-1"/>
+      <zvector y="1" x="1.65478e-07" z="-3.97762e-06"/>
+    </node>
+    <node name="ateam-Exhaust2">
+      <position y="-0.0223665" x="-0.303984" z="1.53783"/>
+      <xvector y="-5.87304e-06" x="-1" z="5.5472e-06"/>
+      <yvector y="2.33531e-05" x="5.54706e-06" z="1"/>
+      <zvector y="1" x="6.02391e-06" z="-2.32021e-05"/>
+    </node>
+    <node name="ateam-Exhaust1">
+      <position y="-0.0223666" x="0.307306" z="1.53783"/>
+      <xvector y="-5.87304e-06" x="-1" z="5.5472e-06"/>
+      <yvector y="2.33531e-05" x="5.54706e-06" z="1"/>
+      <zvector y="1" x="6.02391e-06" z="-2.32021e-05"/>
+    </node>
+    <node name="ateam-Rear1">
+      <position y="0.103024" x="-0.343169" z="1.38812"/>
+      <xvector y="-5.63462e-06" x="1" z="-5.3962e-06"/>
+      <yvector y="2.04921e-05" x="-5.39609e-06" z="-1"/>
+      <zvector y="1" x="-5.54709e-06" z="2.01027e-05"/>
+    </node>
+    <node name="ateam-Side2">
+      <position y="0.850672" x="-0.574842" z="0.753007"/>
+      <xvector y="0.07449" x="-0.997222" z="-4.60455e-06"/>
+      <yvector y="1.81448e-05" x="-3.26201e-06" z="1"/>
+      <zvector y="0.997222" x="-0.0744898" z="-1.84434e-05"/>
+    </node>
+    <node name="ateam-Side1">
+      <position y="0.850671" x="0.579885" z="0.753007"/>
+      <xvector y="-0.110003" x="-0.993931" z="3.87765e-05"/>
+      <yvector y="-8.57443e-06" x="3.99622e-05" z="1"/>
+      <zvector y="0.993931" x="0.110003" z="4.31303e-06"/>
+    </node>
+    <node name="ateam-Front1">
+      <position y="0.139667" x="0.286636" z="-1.07681"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+    <node name="ateam-Roof1">
+      <position y="1.07394" x="0.279864" z="0.085885"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+    <node name="ateam-Roof2">
+      <position y="1.07394" x="-0.399412" z="0.085885"/>
+      <xvector y="-5.59264e-06" x="-1" z="5.3962e-06"/>
+      <yvector y="-1.1011e-05" x="5.39627e-06" z="1"/>
+      <zvector y="1" x="5.57111e-06" z="1.09791e-05"/>
+    </node>
+  </sector>
+  <sequences/>
+</world>
