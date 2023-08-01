@@ -92,6 +92,6 @@ The team would like to thank: Michael Alvey, Sam Goodwin, Tyler Gowans, Ryan Hol
 
 4.2 Contact
 
-Bug-Reports be made in the issues section. If you want to see a feature, please help us by adding it!
+Bug-Reports mmust be posted in the issues section. If you want to see a feature, please help us by adding it!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
