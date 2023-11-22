@@ -1,4 +1,4 @@
-# InterstateOutlaws-v0.2
+# InterstateOutlaws v0.2
 
 ![screenshot](https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/circle_of_death.png)
 ![screenshot](https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/water_wheel.png)
