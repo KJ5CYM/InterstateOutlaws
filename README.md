@@ -1,5 +1,5 @@
 # InterstateOutlaws v0.2
-
+This project was my first foray into 3D-graphics. I may continue development at somepoint.
 ![screenshot](https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/circle_of_death.png)
 ![screenshot](https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/water_wheel.png)
 
